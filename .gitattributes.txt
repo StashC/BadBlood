@@ -1,21 +1,17 @@
 # .gitattributes for Unity Engine projects with embedded Wwise projects
 # This is a work in progress, please report any issues to Quin Henshaw
-
 # Macros
 [attr]unityyaml eol=lf linguist-generated
 [attr]lfs filter=lfs diff=lfs merge=lfs -text
-
 # Default to auto-normalized line endings.
 * text=auto
-
 # Code
 *.cs diff=csharp text
 *.cpp diff=cpp text
-
 # Unity Text
 *.meta unityyaml
-*.unity unityyaml
-*.asset unityyaml
+*.unity filter=lfs diff=lfs merge=lfs -text
+*.asset filter=lfs diff=lfs merge=lfs -text
 *.prefab unityyaml
 *.mat unityyaml
 *.anim unityyaml
@@ -40,16 +36,13 @@
 *.shader text
 *.asmdef text
 *.shadergraph text
-
 # Unity Binary
 *.cubemap lfs
 *.unitypackage lfs
-
 # Unity Binary .asset files (must use following suffixes for identification)
 Assets/**/*[Tt]errain*.asset -unityyaml lfs
 Assets/**/*[Nn]av[Mm]esh*.asset -unityyaml lfs
 Assets/**/*[Ll]ighting*.asset -unityyaml lfs
-
 # Image
 *.psd lfs
 *.jpg lfs
@@ -70,7 +63,6 @@ Assets/**/*[Ll]ighting*.asset -unityyaml lfs
 *.zpr lfs
 *.ZPR lfs
 *.ico lfs
-
 # Audio
 *.mp3 lfs
 *.caf lfs
@@ -84,7 +76,6 @@ Assets/**/*[Ll]ighting*.asset -unityyaml lfs
 *.s3m lfs
 *.xm lfs
 *.flac lfs
-
 # Video
 *.mov lfs
 *.avi lfs
@@ -92,7 +83,6 @@ Assets/**/*[Ll]ighting*.asset -unityyaml lfs
 *.mpg lfs
 *.mpeg lfs
 *.mp4 lfs
-
 # 3D
 *.fbx lfs
 *.obj lfs
@@ -108,7 +98,6 @@ Assets/**/*[Ll]ighting*.asset -unityyaml lfs
 *.lwo2 lfs
 *.abc lfs
 *.3dm lfs
-
 # Executables
 *.exe lfs
 *.dll lfs
@@ -122,7 +111,6 @@ Assets/**/*[Ll]ighting*.asset -unityyaml lfs
 *.lib lfs
 *.data lfs
 *.wasm lfs
-
 # Packaging
 *.zip lfs
 *.7z lfs
@@ -130,12 +118,10 @@ Assets/**/*[Ll]ighting*.asset -unityyaml lfs
 *.rar lfs
 *.tar lfs
 *.tgz lfs
-
 # Other
 *.ttf lfs
 *.otf lfs
 *.pdf lfs
-
 # Wwise Files
 *.bnk lfs
 *.cache lfs
@@ -146,6 +132,5 @@ Assets/**/*[Ll]ighting*.asset -unityyaml lfs
 *.chm lfs
 *.bundle lfs
 AKSoundEngine lfs
-
 # FMOD files
 *.bank lfs
