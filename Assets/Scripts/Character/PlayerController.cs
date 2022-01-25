@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Unity Events")]
     [SerializeField] private UnityEvent<Vector2> _cursorPositionEvent;
+    [SerializeField] private UnityEvent _leftClickEvent;
 
     // PLAYER INPUT CALLS ___________________________________
     private void OnMove(InputValue actionInput)
@@ -30,7 +31,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnLeftClick()
     {
-
+        _leftClickEvent.Invoke();
     }
     private void OnCursor(InputValue actionInput)
     {
