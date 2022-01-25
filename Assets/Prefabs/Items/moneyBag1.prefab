@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5079459441753359962}
   - component: {fileID: 1345060406}
   - component: {fileID: 1345060407}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: moneyBag1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -163,3 +163,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   impactParticle: {fileID: 5113622425455282268, guid: 2adc98fd3c52a92458ad4e966919b156, type: 3}
   impactDebris: {fileID: 8477250029354508468, guid: 6108f26de1c2e0b42970eb01ebbf2f9b, type: 3}
+  _explosionRadius: 3
+  _damage: 10

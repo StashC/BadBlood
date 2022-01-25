@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5113622425455282265}
   - component: {fileID: 5113622425455282270}
   - component: {fileID: 5113622425455282271}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: moneyExplode
   m_TagString: Untagged
   m_Icon: {fileID: 0}
