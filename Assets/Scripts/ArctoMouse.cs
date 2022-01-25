@@ -2,16 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(LineRenderer))]
 public class ArctoMouse : MonoBehaviour
 {
     private LineRenderer lineRend;
     private Vector2 start;
     private Vector2 mousePos;
-    private float offset;
     private float height;
     [SerializeField] private float points;
-    [SerializeField] private bool medium;
-    [SerializeField] private bool heavy;
+    private Vector2 _cursorPositon;
+
     void Awake()
     {
         lineRend = GetComponent<LineRenderer>();
@@ -26,23 +26,8 @@ public class ArctoMouse : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (medium)
-        {
-            height = 1;
-            offset = 2;
-        }
-        else if (heavy)
-        {
-            height = 2;
-            offset = 4;
-        }
-        else
-        {
-            height = 0;
-            offset = 0;
-        }
         start = transform.position;
-        mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        mousePos = Camera.main.ScreenToWorldPoint(_cursorPositon);
         lineRend.positionCount = (int) points;
         lineRend.enabled = true;
 
@@ -91,5 +76,10 @@ public class ArctoMouse : MonoBehaviour
             result += ((-parabolicT * parabolicT + 1) * height) * up.normalized;
             return result;
         }
+    }
+
+    public void SetCursorPosition(Vector2 cursorPosition)
+    {
+        _cursorPositon = cursorPosition;
     }
 }

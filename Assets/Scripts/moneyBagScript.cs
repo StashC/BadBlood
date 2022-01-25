@@ -22,7 +22,7 @@ public class moneyBagScript : MonoBehaviour
         Instantiate(impactParticle, transform.position, transform.rotation);
         //spawn 1 - 2 cement debris around impact
         for (int i = 1; i <= (int) Random.Range(1, 3); i++) {            
-            Instantiate(impactDebris, new Vector3(transform.position.x + Random.RandomRange(-1, 1), transform.position.y, transform.position.z), transform.rotation);
+            Instantiate(impactDebris, new Vector3(transform.position.x + Random.Range(-1, 1), transform.position.y, transform.position.z), transform.rotation);
                 }
         Destroy(gameObject);
 
