@@ -8,7 +8,6 @@ public abstract class Enemy : MonoBehaviour
     [Header("Component References")]
     [SerializeField] private GameObject _timerPrefab;
 
-    //[SerializeField] private basicAttack _attackScript;
 
     [Header("Customization")]
     [Tooltip("Range the entity will react to the player")]
@@ -197,8 +196,7 @@ public abstract class Enemy : MonoBehaviour
         canIdleMove = true;
         DoIdleMove();
     }
-
-   
+      
 
     private void InstantiateTimer(float duration, bool selfDestruct, UnityAction functionCall)
     {
