@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2685332000677844940}
   - component: {fileID: 8470549469199045735}
   - component: {fileID: 5479166584649074365}
+  - component: {fileID: 2366536449210771465}
   m_Layer: 0
   m_Name: PlayerProjecitle
   m_TagString: Untagged
@@ -97,3 +98,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _speed: 20
   _lifetime: 4
+  _damage: 10
+  _team: 1
+--- !u!58 &2366536449210771465
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3989288330367538542}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.49999997

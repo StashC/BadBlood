@@ -14,7 +14,7 @@ public class simpleEnemy : Enemy
     {
         base.canAttack = false;
         //code the actual attack in here, then after attack is finished call stopAttack
-        Debug.Log("enemy attacked lol");
+        //Debug.Log("enemy attacked lol");
         Shoot();
 
         base.StopAttack();

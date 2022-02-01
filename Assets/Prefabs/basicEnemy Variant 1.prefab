@@ -13,13 +13,14 @@ GameObject:
   - component: {fileID: 7345384998391763934}
   - component: {fileID: 7345384998391763935}
   - component: {fileID: 7345384998391763928}
+  - component: {fileID: 130686865}
   m_Layer: 12
   m_Name: basicEnemy Variant 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7345384998391763932
 Transform:
   m_ObjectHideFlags: 0
@@ -157,6 +158,35 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 2}
   m_EdgeRadius: 0
+--- !u!114 &130686865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7345384998391763929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b381f6fb72fd2942877c1c8715f6584, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthbar: {fileID: 0}
+  _team: 0
+  onDeathEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7345384998391763929}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &7345384999041347391
 GameObject:
   m_ObjectHideFlags: 0
@@ -300,6 +330,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _projectile: {fileID: 3217087814339321384, guid: 131a3f997d260914b8c6f7a0781aa96d, type: 3}
   _firePoint: {fileID: 7345384999041347390}
+  _team: 0
   testFire: 0
 --- !u!1 &7345384999586855164
 GameObject:

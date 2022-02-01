@@ -7,12 +7,16 @@ public class Projectile : MonoBehaviour
     private Transform _transform;
     [SerializeField] private float _speed;
     [SerializeField] private float _lifetime;
+    [SerializeField] private int _damage;
 
+    public int _team;
     private float timeLeft;
 
     // Start is called before the first frame update
     void Start()
     {
+    
+
         timeLeft = _lifetime;
         _transform = GetComponent<Transform>();
     }
@@ -24,5 +28,17 @@ public class Projectile : MonoBehaviour
         }
         _transform.Translate(Vector2.right * Time.deltaTime * _speed);
         timeLeft -= Time.deltaTime;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.TryGetComponent<healthScript>(out healthScript hs))
+        {
+            if(hs._team != _team)
+            {
+                hs.DealDamage(_damage);
+               
+            }
+        }
     }
 }

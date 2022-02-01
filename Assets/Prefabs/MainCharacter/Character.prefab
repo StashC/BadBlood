@@ -392,9 +392,10 @@ GameObject:
   - component: {fileID: 6637757438859006704}
   - component: {fileID: 6637757438859006715}
   - component: {fileID: 6637757438859006708}
+  - component: {fileID: 6637757437613343205}
   m_Layer: 0
   m_Name: Character
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -541,6 +542,36 @@ MonoBehaviour:
   _jumpForce: 350
   _batModeForce: 350
   _movementInput: {x: 0, y: 0}
+--- !u!114 &6637757437613343205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6637757438859006705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b381f6fb72fd2942877c1c8715f6584, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthbar: {fileID: 0}
+  _team: 1
+  _maxHealth: 100
+  onDeathEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6637757438859006715}
+        m_TargetAssemblyTypeName: PlayerCharacter, Assembly-CSharp
+        m_MethodName: OnDeath
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &7048993140989675020
 GameObject:
   m_ObjectHideFlags: 0
@@ -587,6 +618,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _projectile: {fileID: 3989288330367538542, guid: 8898d1d1aff5d2943ab8359ac7e6309e, type: 3}
   _firePoint: {fileID: 3925425053026839086}
+  _team: 1
   testFire: 0
 --- !u!114 &322240716
 MonoBehaviour:
