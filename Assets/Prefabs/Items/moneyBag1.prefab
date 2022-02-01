@@ -162,6 +162,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   impactParticle: {fileID: 5113622425455282268, guid: 2adc98fd3c52a92458ad4e966919b156, type: 3}
-  impactDebris: {fileID: 8477250029354508468, guid: 6108f26de1c2e0b42970eb01ebbf2f9b, type: 3}
   _explosionRadius: 3
   _damage: 10
+  _maxDamageMultiplier: 2

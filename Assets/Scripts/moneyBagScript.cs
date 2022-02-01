@@ -6,9 +6,11 @@ public class moneyBagScript : MonoBehaviour
 {
     //[Header("Componenet References")]
     [SerializeField] private GameObject impactParticle;
-    [SerializeField] private GameObject impactDebris;
+    //[SerializeField] private GameObject impactDebris;
     [SerializeField] private float _explosionRadius;
     [SerializeField] private float _damage;
+    [SerializeField] private float _maxDamageMultiplier;
+
 
     private GameObject _player;
     // Start is called before the first frame update
@@ -32,16 +34,19 @@ public class moneyBagScript : MonoBehaviour
 
         //create particle effect
         Instantiate(impactParticle, transform.position, transform.rotation);
+
+
         //spawn 1 - 2 cement debris around impact
-        for (int i = 1; i <= (int) Random.Range(1, 3); i++) {            
-            Instantiate(impactDebris, new Vector3(transform.position.x + Random.RandomRange(-1, 1), transform.position.y, transform.position.z), transform.rotation);
-            }
-        handleAttack();
+        //for (int i = 1; i <= (int) Random.Range(1, 3); i++) {            
+        //    Instantiate(impactDebris, new Vector3(transform.position.x + Random.RandomRange(-1, 1), transform.position.y, transform.position.z), transform.rotation);
+        //   }
+
+
+        Explode();
         Destroy(gameObject);        
     }
-    void handleAttack()
+    void Explode()
     {
-        Debug.Log("handle attack called");
 
         //creates a layermask which makes the raycast only hit the floor, obstacles or the player.
         int plyr = 1 << LayerMask.NameToLayer("Player");
@@ -55,13 +60,13 @@ public class moneyBagScript : MonoBehaviour
         {
             //player isnt behind cover
             //apply damage to player based on distance from explosion.
-            //bounds for dmg multiplier, [0.5*, 2.1*]
+            //bounds for dmg multiplier, [0.5*, _maxDamageMultiplier]
             //no need to calculate lower bound, as it occurs when hit.distance == _explosionRadius, this is only called if within radius. 
 
             float dmgMultiplier = _explosionRadius /(2*hit.distance);
-            if (dmgMultiplier > 2.1f)
+            if (dmgMultiplier > _maxDamageMultiplier)
             {
-                dmgMultiplier = 2.1f;
+                dmgMultiplier = _maxDamageMultiplier;
             }
             float damage = _damage * dmgMultiplier;
                 
