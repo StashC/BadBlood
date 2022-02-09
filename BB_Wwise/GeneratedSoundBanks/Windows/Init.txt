@@ -1,3 +1,11 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2520683736	Is_Gameplay_On			\Default Work Unit\Is_Gameplay_On	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Is_Gameplay_On			
+	2452206122	False	Is_Gameplay_On			
+	3053630529	True	Is_Gameplay_On			
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
 	513139656	Mountain			\Factory Acoustic Textures\Textures\Mountain	
@@ -15,11 +23,13 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	4262522749	Wood_Bright			\Factory Acoustic Textures\Textures\Wood_Bright	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	985987111	Motion Factory Bus			\Default Work Unit\Motion Factory Bus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Music	
+
+Effect plug-ins	ID	Name	Type				Notes
+	815809245	Wwise Compressor (Custom)	Wwise Compressor			
+	1675424739	Extreme_Limiting_3	Wwise Peak Limiter			
 
 Audio Devices	ID	Name	Type				Notes
-	2317455096	No_Output	No Output			
 	3859886410	System	System			
-	4230635974	Default_Motion_Device	Wwise Motion			
 

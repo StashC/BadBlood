@@ -179,11 +179,11 @@
 						</Effect>
 						<Effect Name="Extreme_Limiting_3" ID="{9967B47B-B780-4241-A389-6CCFBB4A0F27}" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
 							<PropertyList>
-								<Property Name="LookAhead" Type="Real32" Value="0.017"/>
-								<Property Name="OutputGain" Type="Real32" Value="6"/>
-								<Property Name="Ratio" Type="Real32" Value="25"/>
-								<Property Name="ReleaseTime" Type="Real32" Value="0.32"/>
-								<Property Name="Threshold" Type="Real32" Value="-35"/>
+								<Property Name="LookAhead" Type="Real32" Value="0.006"/>
+								<Property Name="OutputGain" Type="Real32" Value="3.7"/>
+								<Property Name="Ratio" Type="Real32" Value="5.4"/>
+								<Property Name="ReleaseTime" Type="Real32" Value="0.3"/>
+								<Property Name="Threshold" Type="Real32" Value="-8.1"/>
 							</PropertyList>
 						</Effect>
 						<Effect Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" ID="{2144284E-7ADD-4341-86A4-4E468BEC9A2D}" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
@@ -705,10 +705,12 @@
 						</Effect>
 						<Effect Name="Large_Church1" ID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
 							<PropertyList>
+								<Property Name="DryLevel" Type="Real32" Value="-6.3"/>
 								<Property Name="HFRatio" Type="Real32" Value="6"/>
 								<Property Name="NumberOfDelays" Type="int32" Value="12"/>
 								<Property Name="PreDelay" Type="Real32" Value="0.1"/>
-								<Property Name="WetLevel" Type="Real32" Value="-30"/>
+								<Property Name="ReverbTime" Type="Real32" Value="5.3"/>
+								<Property Name="WetLevel" Type="Real32" Value="-96"/>
 							</PropertyList>
 						</Effect>
 						<Effect Name="Medium_Room1" ID="{71B802A7-03E2-4998-B241-B2B84FE9DDFF}" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
@@ -1241,6 +1243,7 @@
 										<Property Name="DecayTime" Type="Real32" Value="1.8"/>
 										<Property Name="Density" Type="Real32" Value="70"/>
 										<Property Name="Diffusion" Type="Real32" Value="46"/>
+										<Property Name="DryLevel" Type="Real32" Value="-0.3"/>
 										<Property Name="ERLevel" Type="Real32" Value="-23"/>
 										<Property Name="Filter1Freq" Type="Real32" Value="590"/>
 										<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
@@ -1248,7 +1251,7 @@
 										<Property Name="HFDamping" Type="Real32" Value="2.7"/>
 										<Property Name="PreDelay" Type="Real32" Value="35"/>
 										<Property Name="Quality" Type="int32" Value="12"/>
-										<Property Name="ReverbLevel" Type="Real32" Value="-23"/>
+										<Property Name="ReverbLevel" Type="Real32" Value="-21"/>
 										<Property Name="RoomShape" Type="Real32" Value="55"/>
 										<Property Name="RoomSize" Type="Real32" Value="15"/>
 										<Property Name="StereoWidth" Type="Real32" Value="140"/>
@@ -1564,12 +1567,14 @@
 								</Effect>
 								<Effect Name="Bass" ID="{AB3CE4D4-B0DD-4FC2-AC1D-30EB749C5911}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
 									<PropertyList>
-										<Property Name="DelayTime" Type="Real32" Value="10"/>
-										<Property Name="FeedBackLevel" Type="Real32" Value="0.75"/>
-										<Property Name="FeedForwardLevel" Type="Real32" Value="0.5"/>
-										<Property Name="ModDepth" Type="Real32" Value="60"/>
-										<Property Name="ModFrequency" Type="Real32" Value="0.25"/>
+										<Property Name="DelayTime" Type="Real32" Value="9.7"/>
+										<Property Name="DryLevel" Type="Real32" Value="0.56"/>
+										<Property Name="FeedBackLevel" Type="Real32" Value="0.85"/>
+										<Property Name="FeedForwardLevel" Type="Real32" Value="0.4"/>
+										<Property Name="ModDepth" Type="Real32" Value="31.1"/>
+										<Property Name="ModFrequency" Type="Real32" Value="16.21"/>
 										<Property Name="ModPWM" Type="Real32" Value="0"/>
+										<Property Name="WetDryMix" Type="Real32" Value="64"/>
 									</PropertyList>
 								</Effect>
 								<Effect Name="Heavy_Metal" ID="{9104321C-9E54-4879-A29A-EF8D46BE9035}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
@@ -1588,8 +1593,8 @@
 								<Effect Name="Chorus_Like" ID="{EEE0CC86-8CA5-4DBC-A6B7-568FCB26F290}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
 									<PropertyList>
 										<Property Name="DelayTime" Type="Real32" Value="10"/>
-										<Property Name="ModDepth" Type="Real32" Value="60"/>
-										<Property Name="ModFrequency" Type="Real32" Value="0.85"/>
+										<Property Name="ModDepth" Type="Real32" Value="61.6"/>
+										<Property Name="ModFrequency" Type="Real32" Value="1.07"/>
 										<Property Name="ModPWM" Type="Real32" Value="0"/>
 									</PropertyList>
 								</Effect>
@@ -1858,12 +1863,13 @@
 					<ChildrenList>
 						<Effect Name="Say_what" ID="{E823825D-3114-4F6D-A6A4-7FB673A10A61}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
 							<PropertyList>
-								<Property Name="ModFrequency" Type="Real32" Value="1.18"/>
-								<Property Name="ModPWM" Type="Real32" Value="27"/>
+								<Property Name="ModDepth" Type="Real32" Value="95.3"/>
+								<Property Name="ModFrequency" Type="Real32" Value="1.08"/>
+								<Property Name="ModPWM" Type="Real32" Value="34"/>
 								<Property Name="ModPhaseOffset" Type="Real32" Value="-180"/>
-								<Property Name="ModPhaseSpread" Type="Real32" Value="58"/>
-								<Property Name="ModSmoothing" Type="Real32" Value="56"/>
-								<Property Name="ModWaveform" Type="int32" Value="2"/>
+								<Property Name="ModPhaseSpread" Type="Real32" Value="43"/>
+								<Property Name="ModSmoothing" Type="Real32" Value="74"/>
+								<Property Name="ModWaveform" Type="int32" Value="1"/>
 							</PropertyList>
 						</Effect>
 						<Effect Name="Rhythmic_Talk" ID="{F0F27454-4BCC-4302-A61D-C324E7187DD0}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">

@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C439CAAB-29C2-4E5C-B118-B4012BF15980}" SchemaVersion="103">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{C439CAAB-29C2-4E5C-B118-B4012BF15980}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{C439CAAB-29C2-4E5C-B118-B4012BF15980}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Is_Gameplay_On" ID="{55E1CB27-3123-4980-9AAF-4BD425935C17}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="26"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{B2988B49-E35C-4A35-951C-380FDA5391D3}"/>
+						<State Name="True" ID="{C964BDDC-1F63-4A8D-B88F-49FD5236308D}"/>
+						<State Name="False" ID="{90C5DEE8-F65D-495F-9A44-BFAED6B6A61E}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="False" ID="{90C5DEE8-F65D-495F-9A44-BFAED6B6A61E}"/>
+							<EndState Name="True" ID="{C964BDDC-1F63-4A8D-B88F-49FD5236308D}"/>
+							<Time>0</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>
