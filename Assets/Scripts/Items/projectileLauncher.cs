@@ -8,6 +8,7 @@ public class projectileLauncher : MonoBehaviour
     [Header("Componenet References")]
     [SerializeField] private GameObject _projectile;
     [SerializeField] private Transform _firePoint;
+    [SerializeField] private int _team;
 
     public bool testFire;
 
@@ -21,6 +22,9 @@ public class projectileLauncher : MonoBehaviour
     }
     public void Shoot()
     {
-        Instantiate(_projectile, _firePoint.transform.position, _firePoint.transform.rotation);
+        GameObject projectile = Instantiate(_projectile, _firePoint.transform.position, _firePoint.transform.rotation);
+        Projectile projectileScript = projectile.GetComponent<Projectile>();
+        projectileScript._team = _team;
+
     }
 }

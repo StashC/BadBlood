@@ -57,4 +57,9 @@ public class PlayerCharacter : MonoBehaviour
         timer.CountdownDoneEvent.AddListener(functionCall);
         timer.StartCountdown(duration, selfdestruct);
     }
+
+    public void OnDeath()
+    {
+        Debug.Log("Player died");
+    }
 }

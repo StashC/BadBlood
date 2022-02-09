@@ -8,7 +8,6 @@ public abstract class Enemy : MonoBehaviour
     [Header("Component References")]
     [SerializeField] private GameObject _timerPrefab;
 
-    //[SerializeField] private basicAttack _attackScript;
 
     [Header("Customization")]
     [Tooltip("Range the entity will react to the player")]
@@ -76,7 +75,7 @@ public abstract class Enemy : MonoBehaviour
     protected void StopAttack()
     {
         UpdateState();
-        Debug.Log("I stopped attacking");
+        //Debug.Log("I stopped attacking");
         InstantiateTimer(_attackCoolDown, true, RefreshAttack);
     }
 
@@ -163,7 +162,7 @@ public abstract class Enemy : MonoBehaviour
         //Every x seconds, move either left or right for y seconds  If fleeing do nothing
         if (currState == State.Idle && canIdleMove)
         {
-            Debug.Log("Start idle move");
+            //Debug.Log("Start idle move");
             currSpeed = _idleSpeed;
             if (Random.Range(0, 2) % 2 == 1)
             {
@@ -186,7 +185,7 @@ public abstract class Enemy : MonoBehaviour
     {
         if (currState == State.Idle)
         {
-            Debug.Log("Stopped idle moving");
+            //Debug.Log("Stopped idle moving");
             currSpeed = 0; //stop moving
             InstantiateTimer(60 / _idleRate, true, resetIdleMove); //move again after correct delay
         }
@@ -197,8 +196,7 @@ public abstract class Enemy : MonoBehaviour
         canIdleMove = true;
         DoIdleMove();
     }
-
-   
+      
 
     private void InstantiateTimer(float duration, bool selfDestruct, UnityAction functionCall)
     {
