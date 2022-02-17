@@ -162,7 +162,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6637757437727769263}
   - component: {fileID: 6637757437727769262}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: BatMode
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -289,7 +289,7 @@ GameObject:
   - component: {fileID: 6637757438728095073}
   - component: {fileID: 6637757438728095079}
   - component: {fileID: 6637757438728095072}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -393,7 +393,7 @@ GameObject:
   - component: {fileID: 6637757438859006715}
   - component: {fileID: 6637757438859006708}
   - component: {fileID: 6637757437613343205}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Character
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -537,10 +537,10 @@ MonoBehaviour:
   _rigidBody: {fileID: 0}
   _groundCheck: {fileID: 0}
   _batMode: {fileID: 0}
-  _maxSpeed: 4
+  _maxSpeed: 5
   _acceleration: 10
-  _jumpForce: 350
-  _batModeForce: 350
+  _jumpForce: 500
+  _batModeForce: 500
   _movementInput: {x: 0, y: 0}
 --- !u!114 &6637757437613343205
 MonoBehaviour:
@@ -633,6 +633,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  offset: 0
 --- !u!1001 &6437493378030704706
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -687,6 +688,10 @@ PrefabInstance:
     - target: {fileID: 8088982049106427304, guid: 91a7af89665183549ae832c2024853b8, type: 3}
       propertyPath: m_Name
       value: Bats Particle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8088982049106427304, guid: 91a7af89665183549ae832c2024853b8, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8088982049106427304, guid: 91a7af89665183549ae832c2024853b8, type: 3}
       propertyPath: m_IsActive
