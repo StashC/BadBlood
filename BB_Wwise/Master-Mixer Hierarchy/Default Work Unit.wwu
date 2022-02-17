@@ -8,13 +8,28 @@
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{E7CDA719-DB0B-419C-BA22-92E9D517421F}" WorkUnitID="{AA04D7D1-31C7-4DE1-A072-1A759CEC9E1E}"/>
 						</Reference>
+						<Reference Name="Effect0">
+							<Custom>
+								<Effect Name="Wwise Compressor (Custom)" ID="{067CE513-1796-4318-BB30-1BADE74BA19A}" ShortID="815809245" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+									<PropertyList>
+										<Property Name="AttackTime" Type="Real32" Value="0"/>
+										<Property Name="Ratio" Type="Real32" Value="32.2"/>
+										<Property Name="ReleaseTime" Type="Real32" Value="0"/>
+										<Property Name="Threshold" Type="Real32" Value="-24.8"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
+						</Reference>
 					</ReferenceList>
 					<ObjectLists/>
 				</Bus>
-				<Bus Name="Motion Factory Bus" ID="{2AF9B9C6-6EF1-46E9-B5F2-E30C9E602C74}">
+				<Bus Name="Music" ID="{5BB1B623-E127-4E5C-A17A-DEB9F66419BA}">
 					<ReferenceList>
 						<Reference Name="AudioDevice">
-							<ObjectRef Name="Default_Motion_Device" ID="{9E60D290-A8A0-4821-B45D-69AD12E8F914}" WorkUnitID="{AA04D7D1-31C7-4DE1-A072-1A759CEC9E1E}"/>
+							<ObjectRef Name="System" ID="{E7CDA719-DB0B-419C-BA22-92E9D517421F}" WorkUnitID="{AA04D7D1-31C7-4DE1-A072-1A759CEC9E1E}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+							<ObjectRef Name="Extreme_Limiting_3" ID="{9967B47B-B780-4241-A389-6CCFBB4A0F27}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 						</Reference>
 					</ReferenceList>
 					<ObjectLists/>
