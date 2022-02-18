@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 7345384998391763929}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.48, y: -0.35, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7345384999200260655}
   m_Father: {fileID: 0}
@@ -75,9 +75,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -9095717837082945937, guid: bd3cb4af8406d4436a2ae8c2aafe1f8d, type: 3}
-  m_Color: {r: 0.6037736, g: 0.106767386, b: 0.088287644, a: 1}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 3d1d60fb233379840b4d024e11e01b84, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -149,7 +149,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 2}
+    oldSize: {x: 2, y: 2}
     newSize: {x: 1, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -172,6 +172,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthbar: {fileID: 0}
   _team: 0
+  _maxHealth: 50
   onDeathEvent:
     m_PersistentCalls:
       m_Calls:
@@ -257,8 +258,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7345384999200260648}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.86, y: -0.01, z: 0}
-  m_LocalScale: {x: 1.06, y: 0.42480007, z: 1}
+  m_LocalPosition: {x: 0.215, y: 0.463, z: 0}
+  m_LocalScale: {x: 0.40658417, y: 0.16294056, z: 0.38357}
   m_Children:
   - {fileID: 7345384999586855155}
   - {fileID: 7345384999041347390}
@@ -304,7 +305,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
