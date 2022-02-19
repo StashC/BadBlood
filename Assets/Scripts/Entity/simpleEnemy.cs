@@ -25,4 +25,9 @@ public class simpleEnemy : Enemy
         weapon.Shoot();
     }
 
+    private void Die()
+    {
+        Destroy(gameObject);
+    }
+
 }
