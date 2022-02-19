@@ -43,7 +43,7 @@ public class basicBrute : bruteEnemy
         base.StopAttack();
     }
 
-    private void Die()
+    public void Die()
     {
         Destroy(gameObject);
     }

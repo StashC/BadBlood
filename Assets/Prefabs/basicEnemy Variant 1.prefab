@@ -101,7 +101,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _timerPrefab: {fileID: 4511182641823426351, guid: 8fe6f2f2c42a05b488ec7e10ea1fb8ba, type: 3}
   _activationRange: 15
-  _stopSeekingDistance: 20
   _attackingRange: 10
   _attackCoolDown: 1
   _idleSpeed: 2
@@ -176,10 +175,10 @@ MonoBehaviour:
   onDeathEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7345384998391763929}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 7345384998391763934}
+        m_TargetAssemblyTypeName: garlicGunner, Assembly-CSharp
+        m_MethodName: Die
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

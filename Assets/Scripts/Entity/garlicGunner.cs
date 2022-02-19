@@ -24,7 +24,7 @@ public class garlicGunner : rangedEnemy
         weapon.Shoot();
     }
 
-    private void Die()
+    public void Die()
     {
         Destroy(gameObject);
     }

@@ -115,7 +115,8 @@ public abstract class bruteEnemy : MonoBehaviour
             return;
         }
         //if we are further than activation range (outside of attacking and seeking), idle.
-        if (canIdleMove) currState = State.Idle; DoIdleMove();
+        currState = State.Idle; 
+        if(canIdleMove) DoIdleMove();
 
     }
 
