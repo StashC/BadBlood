@@ -13,6 +13,14 @@
 							<ObjectRef Name="Music_Stop" ID="{D3726060-58C1-4976-A05D-E076DAB07FBC}" WorkUnitID="{605644BB-B8F3-42C7-8E9A-78B8DA1F9344}"/>
 							<Position X="1" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="SFX_P_Glide" ID="{9F4B3A5C-5CC7-4057-8B78-A8A5996F8408}" WorkUnitID="{911AFAE7-196B-4034-AB80-F3187D4A8F1D}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SFX_P_Attack" ID="{DBA5F956-39CC-461A-BDD7-2CE44846CE89}" WorkUnitID="{911AFAE7-196B-4034-AB80-F3187D4A8F1D}"/>
+							<Position X="3" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
@@ -65,7 +73,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="True" ID="{C964BDDC-1F63-4A8D-B88F-49FD5236308D}"/>
+						<CurrentStateRef Name="False" ID="{90C5DEE8-F65D-495F-9A44-BFAED6B6A61E}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

@@ -1,0 +1,952 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FDDC3DFD-116E-4E7F-8BA1-28C88CB18162}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Player" ID="{FDDC3DFD-116E-4E7F-8BA1-28C88CB18162}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Player" ID="{17D86B64-FF3E-4C2C-819C-801308B37B27}" ShortID="256257562">
+					<PropertyList>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="Player_Attack" ID="{CB41CD9C-553A-4E5E-AD05-3FD087C52304}" ShortID="408526085">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Player_Attack" ID="{BDF979D3-51BD-49DB-A0B3-3313EF85E7FA}" ShortID="735387754">
+									<PropertyList>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="SFX_Player_Attack_Whoosh" ID="{DE550F30-AB49-4E06-B04B-C430AADFDEDD}" ShortID="913879273">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{0CB34B67-4A3E-41A6-92FA-C1B09032B181}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="6"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-150</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{5050CAD0-9169-4B9F-BB2B-46C62113F5CF}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="150"/>
+																	<Property Name="Min" Type="Real64" Value="-150"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_P_Attack_Whoosh_cm-01" ID="{A888CC5E-661E-4492-BBA7-B7E3DAA9792B}" ShortID="272953808">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_P_Attack_Whoosh_cm-01" ID="{293310B8-7C79-4603-8FC4-234CD5B28CA9}">
+															<PropertyList>
+																<Property Name="LoopEnd" Type="Real64" Value="0.0755712735166425"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PlayerSFX\Player_Attack_Whoosh\SFX_P_Attack_Whoosh.cm-01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="550656693"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_P_Attack_Whoosh_cm-01" ID="{293310B8-7C79-4603-8FC4-234CD5B28CA9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_P_Attack_Whoosh_cm-03" ID="{B1F5A78D-9FBF-4B50-9CC4-294C957467B8}" ShortID="100043401">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_P_Attack_Whoosh_cm-03" ID="{2811B643-7042-4214-B896-2D710872E6D5}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0104292390255668"/>
+																<Property Name="LoopEnd" Type="Real64" Value="0.0616916003376749"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.00760097081524361"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PlayerSFX\Player_Attack_Whoosh\SFX_P_Attack_Whoosh.cm-03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="216772978"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_P_Attack_Whoosh_cm-03" ID="{2811B643-7042-4214-B896-2D710872E6D5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_P_Attack_Whoosh_cm-10" ID="{EFD7CDDC-65FE-43BF-B39A-064B39D871D7}" ShortID="651337093">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_P_Attack_Whoosh_cm-10" ID="{16738D49-0AA8-4130-8A0B-F760CE079B81}">
+															<PropertyList>
+																<Property Name="LoopEnd" Type="Real64" Value="0.0668965569223348"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PlayerSFX\Player_Attack_Whoosh\SFX_P_Attack_Whoosh.cm-10.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="542175701"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_P_Attack_Whoosh_cm-10" ID="{16738D49-0AA8-4130-8A0B-F760CE079B81}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_P_Attack_Whoosh_cm-07" ID="{35A4172B-279D-45E6-BB55-6CA4E246B7CD}" ShortID="299545859">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_P_Attack_Whoosh_cm-07" ID="{714782DF-2741-48F7-85C2-386202D6902B}">
+															<PropertyList>
+																<Property Name="LoopEnd" Type="Real64" Value="0.0732905209840811"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PlayerSFX\Player_Attack_Whoosh\SFX_P_Attack_Whoosh.cm-07.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="438941341"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_P_Attack_Whoosh_cm-07" ID="{714782DF-2741-48F7-85C2-386202D6902B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_P_Attack_Whoosh_cm-09" ID="{124E0982-D2D3-40D3-8AB9-C547F2E05FC6}" ShortID="481331869">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_P_Attack_Whoosh_cm-09" ID="{4C91A879-1DCF-4C81-81C2-5BA637ACED5C}">
+															<PropertyList>
+																<Property Name="LoopEnd" Type="Real64" Value="0.0663634527255186"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PlayerSFX\Player_Attack_Whoosh\SFX_P_Attack_Whoosh.cm-09.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="350697357"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_P_Attack_Whoosh_cm-09" ID="{4C91A879-1DCF-4C81-81C2-5BA637ACED5C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_P_Attack_Whoosh_cm-05" ID="{6B7F6C7F-7595-4386-8986-FC9AB8B1784D}" ShortID="703302678">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_P_Attack_Whoosh_cm-05" ID="{F42AA62D-6BD4-475D-B788-4D9A3ED10782}">
+															<PropertyList>
+																<Property Name="LoopEnd" Type="Real64" Value="0.0873235347322721"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PlayerSFX\Player_Attack_Whoosh\SFX_P_Attack_Whoosh.cm-05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="954892180"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_P_Attack_Whoosh_cm-05" ID="{F42AA62D-6BD4-475D-B788-4D9A3ED10782}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="SFX_Player_Attack_Cloth" ID="{85CBBB5B-44E2-4095-B079-246EB1A28AAC}" ShortID="962056532">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{5FF4B431-147E-42F4-BF0A-065B254EBA2F}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="16"/>
+																	<Property Name="Min" Type="Real64" Value="-37"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>27</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{481B2A31-31EE-4026-8C45-60AD5CA14A87}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{B27ED1B5-AAD5-47B8-A63A-9344FFC795C4}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="150"/>
+																	<Property Name="Min" Type="Real64" Value="-150"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-19</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_P_Attack_Cloth_03" ID="{C4E6941B-5F4C-4C32-AD15-ED9F5AE2F987}" ShortID="1005536948">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_P_Attack_Cloth_03" ID="{0CDDB936-084E-4104-B66D-5C61D6D049A0}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0825875542691751"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0394167872648336"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PlayerSFX\Player_Attack_Cloth\SFX_P_Attack_Cloth_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="175291472"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_P_Attack_Cloth_03" ID="{0CDDB936-084E-4104-B66D-5C61D6D049A0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_P_Attack_Cloth_02" ID="{1CE44F61-02B2-4E2C-A989-3793E1F43FD8}" ShortID="943335120">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_P_Attack_Cloth_02" ID="{3FA60B04-424F-4CD6-B117-4CD0AE9B6C23}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.126703871201158"/>
+																<Property Name="LoopBegin" Type="Real64" Value="0.073451519536903"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0596793596237337"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PlayerSFX\Player_Attack_Cloth\SFX_P_Attack_Cloth_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="261846002"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_P_Attack_Cloth_02" ID="{3FA60B04-424F-4CD6-B117-4CD0AE9B6C23}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_P_Attack_Cloth_01" ID="{2F70236C-62C0-44C6-9FBB-3503C1536DCB}" ShortID="369660323">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_P_Attack_Cloth_01" ID="{3F485200-8D35-4770-BD63-23B48111352F}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0707766521948866"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0272995658465991"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PlayerSFX\Player_Attack_Cloth\SFX_P_Attack_Cloth_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="19540392"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_P_Attack_Cloth_01" ID="{3F485200-8D35-4770-BD63-23B48111352F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_P_Attack_Cloth_06" ID="{49C71837-C87B-4DB3-937B-9FFD0CA11C6B}" ShortID="27012405">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_P_Attack_Cloth_06" ID="{77A98AE8-5B96-42BF-8B7C-1265D9B5C592}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0549927641099855"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.065123010130246"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PlayerSFX\Player_Attack_Cloth\SFX_P_Attack_Cloth_06.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="730676470"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_P_Attack_Cloth_06" ID="{77A98AE8-5B96-42BF-8B7C-1265D9B5C592}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_P_Attack_Cloth_04" ID="{AE0F0F36-FDA7-4570-8D0A-9C180F4ABA4A}" ShortID="295372126">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_P_Attack_Cloth_04" ID="{A4F40FAA-A5E0-4617-9647-919A6E73072D}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0526792088760251"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0813092136999517"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PlayerSFX\Player_Attack_Cloth\SFX_P_Attack_Cloth_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="587871892"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_P_Attack_Cloth_04" ID="{A4F40FAA-A5E0-4617-9647-919A6E73072D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_P_Attack_Cloth_05" ID="{87175158-7A3D-41F0-A743-EC70F793531F}" ShortID="418993311">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_P_Attack_Cloth_05" ID="{1B5D8DED-C60A-49ED-B757-D1788D79321E}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0773019778099374"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.115319343945972"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PlayerSFX\Player_Attack_Cloth\SFX_P_Attack_Cloth_05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="812702004"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_P_Attack_Cloth_05" ID="{1B5D8DED-C60A-49ED-B757-D1788D79321E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="New Sound SFX" ID="{4D64BBC4-724B-4895-8252-B3071C7CFEAD}" ShortID="645676067">
+													<PropertyList>
+														<Property Name="Weight" Type="Real64">
+															<ValueList>
+																<Value>71</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+														</Reference>
+													</ReferenceList>
+													<ObjectLists/>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+									<Playlist>
+										<ItemRef Name="SFX_Player_Attack_Whoosh" ID="{DE550F30-AB49-4E06-B04B-C430AADFDEDD}"/>
+										<ItemRef Name="SFX_Player_Attack_Cloth" ID="{85CBBB5B-44E2-4095-B079-246EB1A28AAC}"/>
+									</Playlist>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<ObjectLists/>
+						</ActorMixer>
+						<ActorMixer Name="Player_Jump" ID="{3273C8FC-680F-49D8-8751-13A932F45010}" ShortID="929881374">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="SFX_P_Glide" ID="{A9FD0251-796D-49EA-8CDE-87644D388BDC}" ShortID="114268381">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-30</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_P_Glide1" ID="{06B26FA1-786A-4C8F-9A66-4BFB8428FB23}" ShortID="694287687">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_P_Glide1" ID="{45759437-F56E-4E21-8071-CEE4D99FCCA7}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerSFX\Player_Glide\SFX_P_Glide1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="629603720"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_P_Glide1" ID="{45759437-F56E-4E21-8071-CEE4D99FCCA7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<ObjectLists/>
+						</ActorMixer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+				<Folder Name="source" ID="{E59B38D6-C148-420D-8D47-C9349F697824}" ShortID="150422854">
+					<PropertyList>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ChildrenList>
+						<Folder Name="PlayerSFX" ID="{3A90B0A2-196D-4BFA-A0AA-FFA3432F1C0F}" ShortID="376038481">
+							<ChildrenList>
+								<RandomSequenceContainer Name="Player_Attack_Cloth" ID="{41866EA3-EAE6-47BE-8712-E3F1BB1DDFCB}" ShortID="72929030">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_P_Attack_Cloth_03" ID="{F66E928B-88F9-4DBA-A6CD-9AA6E9207D95}" ShortID="346559450">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_P_Attack_Cloth_03" ID="{0781D903-A477-4454-979D-AE1AF0C9C81E}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerSFX\Player_Attack_Cloth\SFX_P_Attack_Cloth_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="348723041"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_P_Attack_Cloth_03" ID="{0781D903-A477-4454-979D-AE1AF0C9C81E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_P_Attack_Cloth_02" ID="{860BA93A-4078-4C17-BF08-5175EEB39844}" ShortID="480917217">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_P_Attack_Cloth_02" ID="{635B382F-ACD8-4EB5-8196-BF07D42F4CF1}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerSFX\Player_Attack_Cloth\SFX_P_Attack_Cloth_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="143125226"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_P_Attack_Cloth_02" ID="{635B382F-ACD8-4EB5-8196-BF07D42F4CF1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_P_Attack_Cloth_01" ID="{BA09D011-C09F-407C-89AA-65603C44DE25}" ShortID="521010964">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_P_Attack_Cloth_01" ID="{1C12931B-5093-42B4-9941-22E4D19A73B8}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerSFX\Player_Attack_Cloth\SFX_P_Attack_Cloth_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="128340917"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_P_Attack_Cloth_01" ID="{1C12931B-5093-42B4-9941-22E4D19A73B8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_P_Attack_Cloth_06" ID="{8F811689-9270-47C2-963C-E00626D5EBB8}" ShortID="394960030">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_P_Attack_Cloth_06" ID="{9F760BDC-F34B-430B-9053-5A7DF3F937CF}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerSFX\Player_Attack_Cloth\SFX_P_Attack_Cloth_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="17953028"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_P_Attack_Cloth_06" ID="{9F760BDC-F34B-430B-9053-5A7DF3F937CF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_P_Attack_Cloth_04" ID="{F1A63359-7D6A-49F5-BE4C-3DB0C1904A17}" ShortID="1054200053">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_P_Attack_Cloth_04" ID="{2DD3780C-6524-4CD6-8726-2CFE9CDD4193}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerSFX\Player_Attack_Cloth\SFX_P_Attack_Cloth_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="958140077"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_P_Attack_Cloth_04" ID="{2DD3780C-6524-4CD6-8726-2CFE9CDD4193}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_P_Attack_Cloth_05" ID="{F42AACC1-08B0-4CC8-AC5C-F06EE484A57F}" ShortID="355619224">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_P_Attack_Cloth_05" ID="{4E070585-39D5-4216-A4C0-5898BB1A7792}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerSFX\Player_Attack_Cloth\SFX_P_Attack_Cloth_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="773928496"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_P_Attack_Cloth_05" ID="{4E070585-39D5-4216-A4C0-5898BB1A7792}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Player_Attack_Whoosh" ID="{3039F52B-D5A3-4139-A02A-268AEF2A7DED}" ShortID="39730822">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_P_Attack_Whoosh_cm-01" ID="{2FDB551D-3C54-465D-993C-42180EFED920}" ShortID="234180101">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_P_Attack_Whoosh_cm-01" ID="{00F0B376-9424-4DD7-BFC8-35373E9E7CE3}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerSFX\Player_Attack_Whoosh\SFX_P_Attack_Whoosh.cm-01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="550656693"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_P_Attack_Whoosh_cm-01" ID="{00F0B376-9424-4DD7-BFC8-35373E9E7CE3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_P_Attack_Whoosh_cm-03" ID="{7DFCEDAD-90E1-4B39-BBAF-2137E1E0A77C}" ShortID="118685322">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_P_Attack_Whoosh_cm-03" ID="{13882BB5-CD20-4B87-BB0B-D77F95DA1121}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerSFX\Player_Attack_Whoosh\SFX_P_Attack_Whoosh.cm-03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1029486957"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_P_Attack_Whoosh_cm-03" ID="{13882BB5-CD20-4B87-BB0B-D77F95DA1121}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_P_Attack_Whoosh_cm-05" ID="{39154B68-0DFF-4CE1-A2D9-7F838853E6D6}" ShortID="463856412">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_P_Attack_Whoosh_cm-05" ID="{A164F32C-B6DC-4C96-A4CC-89187B9319C5}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerSFX\Player_Attack_Whoosh\SFX_P_Attack_Whoosh.cm-05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="954892180"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_P_Attack_Whoosh_cm-05" ID="{A164F32C-B6DC-4C96-A4CC-89187B9319C5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_P_Attack_Whoosh_cm-07" ID="{19BF4865-1447-4A54-A4FC-47610ACF9724}" ShortID="49042910">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_P_Attack_Whoosh_cm-07" ID="{7898F459-8D29-4205-BBF5-1174355944BF}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerSFX\Player_Attack_Whoosh\SFX_P_Attack_Whoosh.cm-07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="438941341"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_P_Attack_Whoosh_cm-07" ID="{7898F459-8D29-4205-BBF5-1174355944BF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_P_Attack_Whoosh_cm-09" ID="{60B9864A-8E0A-49C0-8955-DA3744388B98}" ShortID="484249241">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_P_Attack_Whoosh_cm-09" ID="{FDE8DA01-D078-417B-934B-9E966AB51213}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerSFX\Player_Attack_Whoosh\SFX_P_Attack_Whoosh.cm-09.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="350697357"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_P_Attack_Whoosh_cm-09" ID="{FDE8DA01-D078-417B-934B-9E966AB51213}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_P_Attack_Whoosh_cm-10" ID="{6F780B41-B372-40F1-8DAE-07B6E3FC26A8}" ShortID="771368086">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_P_Attack_Whoosh_cm-10" ID="{CC4D7C0D-D387-4284-8B63-CFBCEB63D328}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerSFX\Player_Attack_Whoosh\SFX_P_Attack_Whoosh.cm-10.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="542175701"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_P_Attack_Whoosh_cm-10" ID="{CC4D7C0D-D387-4284-8B63-CFBCEB63D328}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Player_Glide" ID="{3A164A0E-C437-4F1C-A725-7AA72CA1E0FD}" ShortID="790492287">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_P_Glide" ID="{27823CC4-E383-476E-97BD-A8CF4F2F27F6}" ShortID="871573811">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_P_Glide" ID="{AA9D6ED9-2467-4842-9ECD-EB82E04DFBD8}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerSFX\Player_Glide\SFX_P_Glide.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1028266794"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_P_Glide" ID="{AA9D6ED9-2467-4842-9ECD-EB82E04DFBD8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_P_Glide1" ID="{C55EF74B-C405-4625-B709-D3AED8A88881}" ShortID="85632049">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_P_Glide1" ID="{DFACA59D-581F-46D7-8F4F-BB5E562FAE67}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerSFX\Player_Glide\SFX_P_Glide1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="629603720"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_P_Glide1" ID="{DFACA59D-581F-46D7-8F4F-BB5E562FAE67}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

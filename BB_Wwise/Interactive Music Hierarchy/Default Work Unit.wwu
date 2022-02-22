@@ -5618,6 +5618,7 @@
 				<MusicSwitchContainer Name="MUS" ID="{68CA273E-3B96-4FEE-AE0F-9FA94A1811A4}" ShortID="509885719">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="Tempo" Type="Real64" Value="86.81"/>
 					</PropertyList>
@@ -6164,6 +6165,16 @@
 												<Property Name="MusicTrackType" Type="int16" Value="1"/>
 												<Property Name="OverrideEffect" Type="bool" Value="True"/>
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="RenderEffect0" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="RenderEffect1" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>6</Value>
@@ -6675,6 +6686,16 @@
 												<Property Name="MusicTrackType" Type="int16" Value="1"/>
 												<Property Name="OverrideEffect" Type="bool" Value="True"/>
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="RenderEffect0" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="RenderEffect1" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>6</Value>
@@ -10135,15 +10156,25 @@
 								</MusicSegment>
 								<MusicSegment Name="ST_IntroGP" ID="{09949D91-CC8D-4027-8DEB-3D81E0753182}" ShortID="144950861">
 									<PropertyList>
-										<Property Name="BypassEffect2" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
 										<Property Name="Color" Type="int16" Value="19"/>
 										<Property Name="EndPosition" Type="Real64" Value="9568.89552781691"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="RenderEffect0" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="RenderEffect1" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="RenderEffect2" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Tempo" Type="Real64" Value="86.81"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -10196,7 +10227,7 @@
 													<Language>SFX</Language>
 													<AudioFile>MUS\STs\MUS_Stinger_Swell.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="300459676"/>
+														<MediaID ID="791020545"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -11000,6 +11031,16 @@
 										<MusicTrack Name="ORgan Verb" ID="{C75E1BB1-34AC-4BC1-AE74-510C4CB51500}" ShortID="991248051">
 											<PropertyList>
 												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+												<Property Name="RenderEffect0" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="RenderEffect1" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>11</Value>
@@ -11029,7 +11070,7 @@
 													<Language>SFX</Language>
 													<AudioFile>MUS\L1\MUS_L1_G1.cm-05G1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="460316041"/>
+														<MediaID ID="476104927"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -13907,15 +13948,25 @@
 								</MusicSegment>
 								<MusicSegment Name="ST_L1L2" ID="{834594F6-D1C0-44FF-A400-34AC122EC02C}" ShortID="302151240">
 									<PropertyList>
-										<Property Name="BypassEffect2" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
 										<Property Name="Color" Type="int16" Value="19"/>
 										<Property Name="EndPosition" Type="Real64" Value="9568.89552781691"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="RenderEffect0" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="RenderEffect1" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="RenderEffect2" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Tempo" Type="Real64" Value="86.81"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -13977,7 +14028,7 @@
 													<Language>SFX</Language>
 													<AudioFile>MUS\STs\MUS_Stinger_Swell.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="300459676"/>
+														<MediaID ID="565887152"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -16496,6 +16547,21 @@
 										<MusicTrack Name="MUS_L4A_G3_LOOP" ID="{A09B33F1-859F-4376-AD7C-AD9DB55027DB}" ShortID="60092591">
 											<PropertyList>
 												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+												<Property Name="RenderEffect0" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="RenderEffect1" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="RenderEffect2" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-3</Value>
@@ -16524,7 +16590,7 @@
 													<Language>SFX</Language>
 													<AudioFile>MUS\L4\MUS_L4A_G3_LOOP.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="270741695"/>
+														<MediaID ID="1021742625"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
