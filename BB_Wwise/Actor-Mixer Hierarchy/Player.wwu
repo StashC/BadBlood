@@ -491,7 +491,15 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<SourcePlugin Name="Wwise Silence" ID="{3BA9CE10-9475-4B74-A490-3E455F883405}" ShortID="127900461" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+															<Language>SFX</Language>
+														</SourcePlugin>
+													</ChildrenList>
 													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Wwise Silence" ID="{3BA9CE10-9475-4B74-A490-3E455F883405}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 											<ObjectLists/>

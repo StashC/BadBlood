@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PluginInfo Project="BB_Wwise" Platform="Mac" BasePlatform="Mac">
 	<Plugins>
+		<Plugin Name="Wwise Silence" ID="6619138" DLL="AkSilenceGenerator" StaticLib="AkSilenceSource"/>
 		<Plugin Name="Wwise Compressor" ID="7077891" DLL="AkCompressor" StaticLib="AkCompressorFX"/>
 		<Plugin Name="Wwise Peak Limiter" ID="7208963" DLL="AkPeakLimiter" StaticLib="AkPeakLimiterFX"/>
 		<Plugin Name="System" ID="11403271"/>

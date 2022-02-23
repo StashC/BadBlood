@@ -11,6 +11,14 @@
 
 namespace AK
 {
+    namespace EVENTS
+    {
+        static const AkUniqueID MUSIC_PLAY = 202194903U;
+        static const AkUniqueID MUSIC_STOP = 3227181061U;
+        static const AkUniqueID SFX_P_ATTACK = 3989905542U;
+        static const AkUniqueID SFX_P_GLIDE = 964174141U;
+    } // namespace EVENTS
+
     namespace STATES
     {
         namespace IS_GAMEPLAY_ON

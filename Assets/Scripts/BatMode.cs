@@ -18,6 +18,7 @@ public class BatMode : MonoBehaviour
     [Header("Unity Events")]
     [SerializeField] private UnityEvent _batModeStart;
     [SerializeField] private UnityEvent _batModeEnd;
+    public AK.Wwise.Event SFX_P_Glide;
 
 
     public void ActivateBatMode()
@@ -35,12 +36,14 @@ public class BatMode : MonoBehaviour
     }
 
     private void EnterBatMode()
+    
     {
         Debug.Log("ENTER BAT MODE");
         _abilityAvailable = false;
         _batModeStart.Invoke();
         InstantiateTimer(_abilityDuration, true, ExitBatMode);
         InstantiateTimer(_abilityCooldown, true, ResetBatMode);
+        SFX_P_Glide.Post(gameObject);
     }
 
     private void ExitBatMode()
@@ -62,6 +65,8 @@ public class BatMode : MonoBehaviour
         timer.CountdownDoneEvent.AddListener(functionCall);
         timer.StartCountdown(duration, selfdestruct);
     }
+
+    
 
     
 }
