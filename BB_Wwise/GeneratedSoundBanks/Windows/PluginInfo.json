@@ -1,0 +1,29 @@
+{
+ "PluginInfo": {
+  "Project": "BB_Wwise",
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "Plugins": [
+   {
+    "Name": "Wwise Compressor",
+    "ID": "7077891",
+    "DLL": "AkCompressor",
+    "StaticLib": "AkCompressorFX"
+   },
+   {
+    "Name": "Wwise Peak Limiter",
+    "ID": "7208963",
+    "DLL": "AkPeakLimiter",
+    "StaticLib": "AkPeakLimiterFX"
+   },
+   {
+    "Name": "System",
+    "ID": "11403271"
+   },
+   {
+    "Name": "No Output",
+    "ID": "11862023"
+   }
+  ]
+ }
+}
