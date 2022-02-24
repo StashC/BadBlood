@@ -53,10 +53,6 @@
 			<ShortName>MUS\Int\MUS_Intro_StingersA-03.wav</ShortName>
 			<Path>SFX/MUS/Int/MUS_Intro_StingersA-03_D79FB2B7.wem</Path>
 		</File>
-		<File Id="182712367" Language="SFX">
-			<ShortName>MUS\Int\MUS_Intro_StingersA-08.wav</ShortName>
-			<Path>SFX/MUS/Int/MUS_Intro_StingersA-08_D79FB2B7.wem</Path>
-		</File>
 		<File Id="183620529" Language="SFX">
 			<ShortName>MUS\L3\MUS_L3_Drums.wav</ShortName>
 			<Path>SFX/MUS/L3/MUS_L3_Drums_D79FB2B7.wem</Path>
@@ -64,10 +60,6 @@
 		<File Id="197848812" Language="SFX">
 			<ShortName>MUS\L3\MUS_L3_Fill2.wav</ShortName>
 			<Path>SFX/MUS/L3/MUS_L3_Fill2_D79FB2B7.wem</Path>
-		</File>
-		<File Id="216946014" Language="SFX">
-			<ShortName>MUS\Int\MUS_Intro_StingersA-05.wav</ShortName>
-			<Path>SFX/MUS/Int/MUS_Intro_StingersA-05_D79FB2B7.wem</Path>
 		</File>
 		<File Id="242217905" Language="SFX">
 			<ShortName>MUS\L4\MUS_L4A_G1_LOOP.wav</ShortName>
@@ -129,10 +121,6 @@
 			<ShortName>MUS\Int\MUS_Intro_StingersC-10.wav</ShortName>
 			<Path>SFX/MUS/Int/MUS_Intro_StingersC-10_D79FB2B7.wem</Path>
 		</File>
-		<File Id="565887152" Language="SFX">
-			<ShortName>MUS\STs\MUS_Stinger_Swell.wav</ShortName>
-			<Path>SFX/MUS/STs/MUS_Stinger_Swell_6BB009E2.wem</Path>
-		</File>
 		<File Id="568997536" Language="SFX">
 			<ShortName>MUS\Int\MUS_Intro_StingersB-11.wav</ShortName>
 			<Path>SFX/MUS/Int/MUS_Intro_StingersB-11_D79FB2B7.wem</Path>
@@ -173,17 +161,9 @@
 			<ShortName>MUS\L2\MUS_L2_Guitar.wav</ShortName>
 			<Path>SFX/MUS/L2/MUS_L2_Guitar_D79FB2B7.wem</Path>
 		</File>
-		<File Id="781943167" Language="SFX">
-			<ShortName>MUS\Int\MUS_Intro_StingersC-09.wav</ShortName>
-			<Path>SFX/MUS/Int/MUS_Intro_StingersC-09_D79FB2B7.wem</Path>
-		</File>
 		<File Id="789717312" Language="SFX">
 			<ShortName>MUS\L3\MUS_L3_G1.wav</ShortName>
 			<Path>SFX/MUS/L3/MUS_L3_G1_D79FB2B7.wem</Path>
-		</File>
-		<File Id="791020545" Language="SFX">
-			<ShortName>MUS\STs\MUS_Stinger_Swell.wav</ShortName>
-			<Path>SFX/MUS/STs/MUS_Stinger_Swell_492B4AC8.wem</Path>
 		</File>
 		<File Id="796924544" Language="SFX">
 			<ShortName>MUS\L1\MUS_L1_G2_LOOP.wav</ShortName>
@@ -256,12 +236,12 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2368150509">
+		<SoundBank Id="1355168291" Language="SFX" Hash="62324315">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3088904365" Language="SFX" Hash="4190120565">
+		<SoundBank Id="3088904365" Language="SFX" Hash="2954550331">
 			<ObjectPath>\SoundBanks\Default Work Unit\WW_Soundback_BB</ObjectPath>
 			<ShortName>WW_Soundback_BB</ShortName>
 			<Path>WW_Soundback_BB.bnk</Path>
@@ -312,10 +292,6 @@
 							<ShortName>MUS\Int\MUS_Intro_StingersA-03.wav</ShortName>
 							<Path>SFX/MUS/Int/MUS_Intro_StingersA-03_D79FB2B7.wem</Path>
 						</File>
-						<File Id="182712367" Language="SFX">
-							<ShortName>MUS\Int\MUS_Intro_StingersA-08.wav</ShortName>
-							<Path>SFX/MUS/Int/MUS_Intro_StingersA-08_D79FB2B7.wem</Path>
-						</File>
 						<File Id="183620529" Language="SFX">
 							<ShortName>MUS\L3\MUS_L3_Drums.wav</ShortName>
 							<Path>SFX/MUS/L3/MUS_L3_Drums_D79FB2B7.wem</Path>
@@ -323,10 +299,6 @@
 						<File Id="197848812" Language="SFX">
 							<ShortName>MUS\L3\MUS_L3_Fill2.wav</ShortName>
 							<Path>SFX/MUS/L3/MUS_L3_Fill2_D79FB2B7.wem</Path>
-						</File>
-						<File Id="216946014" Language="SFX">
-							<ShortName>MUS\Int\MUS_Intro_StingersA-05.wav</ShortName>
-							<Path>SFX/MUS/Int/MUS_Intro_StingersA-05_D79FB2B7.wem</Path>
 						</File>
 						<File Id="242217905" Language="SFX">
 							<ShortName>MUS\L4\MUS_L4A_G1_LOOP.wav</ShortName>
@@ -388,10 +360,6 @@
 							<ShortName>MUS\Int\MUS_Intro_StingersC-10.wav</ShortName>
 							<Path>SFX/MUS/Int/MUS_Intro_StingersC-10_D79FB2B7.wem</Path>
 						</File>
-						<File Id="565887152" Language="SFX">
-							<ShortName>MUS\STs\MUS_Stinger_Swell.wav</ShortName>
-							<Path>SFX/MUS/STs/MUS_Stinger_Swell_6BB009E2.wem</Path>
-						</File>
 						<File Id="568997536" Language="SFX">
 							<ShortName>MUS\Int\MUS_Intro_StingersB-11.wav</ShortName>
 							<Path>SFX/MUS/Int/MUS_Intro_StingersB-11_D79FB2B7.wem</Path>
@@ -432,17 +400,9 @@
 							<ShortName>MUS\L2\MUS_L2_Guitar.wav</ShortName>
 							<Path>SFX/MUS/L2/MUS_L2_Guitar_D79FB2B7.wem</Path>
 						</File>
-						<File Id="781943167" Language="SFX">
-							<ShortName>MUS\Int\MUS_Intro_StingersC-09.wav</ShortName>
-							<Path>SFX/MUS/Int/MUS_Intro_StingersC-09_D79FB2B7.wem</Path>
-						</File>
 						<File Id="789717312" Language="SFX">
 							<ShortName>MUS\L3\MUS_L3_G1.wav</ShortName>
 							<Path>SFX/MUS/L3/MUS_L3_G1_D79FB2B7.wem</Path>
-						</File>
-						<File Id="791020545" Language="SFX">
-							<ShortName>MUS\STs\MUS_Stinger_Swell.wav</ShortName>
-							<Path>SFX/MUS/STs/MUS_Stinger_Swell_492B4AC8.wem</Path>
 						</File>
 						<File Id="796924544" Language="SFX">
 							<ShortName>MUS\L1\MUS_L1_G2_LOOP.wav</ShortName>
@@ -521,21 +481,18 @@
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{90C5DEE8-F65D-495F-9A44-BFAED6B6A61E}">
+						<SwitchContainer SwitchValue="{B2988B49-E35C-4A35-951C-380FDA5391D3}">
 							<Media>
 								<File Id="22673577"/>
 								<File Id="94179057"/>
 								<File Id="155567002"/>
 								<File Id="166904772"/>
-								<File Id="182712367"/>
-								<File Id="216946014"/>
 								<File Id="409944387"/>
 								<File Id="410124088"/>
 								<File Id="421760723"/>
 								<File Id="483620085"/>
 								<File Id="568997536"/>
 								<File Id="684096853"/>
-								<File Id="781943167"/>
 								<File Id="835601413"/>
 								<File Id="867842996"/>
 								<File Id="887626790"/>
@@ -566,7 +523,6 @@
 								<File Id="460316041"/>
 								<File Id="473022820"/>
 								<File Id="476104927"/>
-								<File Id="565887152"/>
 								<File Id="569263550"/>
 								<File Id="636624426"/>
 								<File Id="645708023"/>
@@ -576,7 +532,6 @@
 								<File Id="728293870"/>
 								<File Id="747492836"/>
 								<File Id="789717312"/>
-								<File Id="791020545"/>
 								<File Id="796924544"/>
 								<File Id="836716787"/>
 								<File Id="841185806"/>
@@ -588,6 +543,26 @@
 								<File Id="1001287853"/>
 								<File Id="1020855890"/>
 								<File Id="1021742625"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{90C5DEE8-F65D-495F-9A44-BFAED6B6A61E}">
+							<Media>
+								<File Id="22673577"/>
+								<File Id="94179057"/>
+								<File Id="155567002"/>
+								<File Id="166904772"/>
+								<File Id="409944387"/>
+								<File Id="410124088"/>
+								<File Id="421760723"/>
+								<File Id="483620085"/>
+								<File Id="568997536"/>
+								<File Id="684096853"/>
+								<File Id="835601413"/>
+								<File Id="867842996"/>
+								<File Id="887626790"/>
+								<File Id="923032601"/>
+								<File Id="1037528241"/>
+								<File Id="1051350117"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>

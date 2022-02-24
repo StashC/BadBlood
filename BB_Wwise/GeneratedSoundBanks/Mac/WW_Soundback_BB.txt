@@ -13,7 +13,6 @@ State	ID	Name	State Group			Notes
 	3053630529	True	Is_Gameplay_On			
 
 Modulator LFO	ID	Name			Wwise Object Path	Notes
-	316360460	Modulator LFO (Custom)				
 	713181913	Modulator LFO (Custom)				
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
@@ -36,7 +35,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	954892180	SFX_P_Attack_Whoosh_cm-05	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\PlayerSFX\Player_Attack_Whoosh\SFX_P_Attack_Whoosh.cm-05_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player_Attack\Player_Attack\SFX_Player_Attack_Whoosh\SFX_P_Attack_Whoosh_cm-05		23756
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
-	22673577	MUS_Intro_SynthLOOP-05	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\Int\MUS_Intro_SynthLOOP-05_D79FB2B7.wem	22673577.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_SynthLOOP-05	
+	22673577	MUS_Intro_SynthLOOP	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\Int\MUS_Intro_SynthLOOP-05_D79FB2B7.wem	22673577.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_SynthLOOP	
 	34855606	MUS_L4B_G4_LOOP	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\L4\MUS_L4B_G4_LOOP_D79FB2B7.wem	34855606.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L4_LOOP_B\MUS_L4B_G4_LOOP	
 	37682505	MUS_L1_PianoLow	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\L1\MUS_L1_G3_LOOP_D79FB2B7.wem	37682505.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L1_LOOP_B\MUS_L1_PianoLow	
 	94179057	MUS_Intro_Organs	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\Int\MUS_Intro_StingersA-07_D79FB2B7.wem	94179057.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Organs	
@@ -47,27 +46,24 @@ Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	
 	155567002	MUS_Intro_Organs	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\Int\MUS_Intro_StingersC-02_D79FB2B7.wem	155567002.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Organs	
 	158883551	MUS_L2_Drums_LOOP	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\L2\MUS_L2_Drums_LOOP_D79FB2B7.wem	158883551.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L2_LOOP_A\MUS_L2_Drums_LOOP	
 	166904772	MUS_Intro_Organs	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\Int\MUS_Intro_StingersA-03_D79FB2B7.wem	166904772.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Organs	
-	182712367	MUS_Intro_Organs	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\Int\MUS_Intro_StingersA-08_D79FB2B7.wem	182712367.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Organs	
 	183620529	MUS_L3_Drums	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\L3\MUS_L3_Drums_D79FB2B7.wem	183620529.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L3_LOOP\MUS_L3_Drums	
 	197848812	MUS_L3_Fill	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\L3\MUS_L3_Fill2_D79FB2B7.wem	197848812.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L3_LOOP\MUS_L3_Fill	
-	216946014	MUS_Intro_Organs	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\Int\MUS_Intro_StingersA-05_D79FB2B7.wem	216946014.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Organs	
 	242217905	MUS_L4A_G1_LOOP	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\L4\MUS_L4A_G1_LOOP_D79FB2B7.wem	242217905.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L4_LOOP_A\MUS_L4A_G1_LOOP	
 	251483576	MUS_L3_G3	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\L3\MUS_L3_G3_D79FB2B7.wem	251483576.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L3_LOOP\MUS_L3_G3	
 	270741695	MUS_L4A_G3_LOOP	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\L4\MUS_L4A_G3_LOOP_D79FB2B7.wem	270741695.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L4_LOOP_A\MUS_L4A_G3_LOOP	
 	299856838	MUS_L4B_Drums_LOOP	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\L4\MUS_L4B_Drums_LOOP_D79FB2B7.wem	299856838.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L4_LOOP_B\MUS_L4B_Drums_LOOP	
-	300459676	MUS_Stinger_Swell	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\STs\MUS_Stinger_Swell_D79FB2B7.wem	300459676.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L1_Trans\MUS_Stinger_Swell	
+	300459676	MUS_Stinger_Swell	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\STs\MUS_Stinger_Swell_D79FB2B7.wem	300459676.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\ST_IntroGP\MUS_Stinger_Swell	
 	324026438	MUS_L1_DrumsA	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\L1\MUS_L1_Drums.cm1-03Drums_LOOP_D79FB2B7.wem	324026438.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L1_LOOP_A\MUS_L1_DrumsA	
 	325377571	MUS_L3_BassStinger	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\STs\MUS_L3_BassStinger_D79FB2B7.wem	325377571.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\ST_BassStinger\MUS_L3_BassStinger	
 	345651688	MUS_L2_G1_LOOP	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\L2\MUS_L2_G1_LOOP_D79FB2B7.wem	345651688.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L2_LOOP_A\MUS_L2_G1_LOOP	
-	409944387	MUS_Intro_StingersB-06	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\Int\MUS_Intro_StingersB-06_D79FB2B7.wem	409944387.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_Stingers\MUS_Intro_StingersB-06	
-	410124088	MUS_Intro_StingersB-04	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\Int\MUS_Intro_StingersB-04_D79FB2B7.wem	410124088.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_Stingers\MUS_Intro_StingersB-04	
+	409944387	MUS_Intro_Bells	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\Int\MUS_Intro_StingersB-06_D79FB2B7.wem	409944387.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Bells	
+	410124088	MUS_Intro_Bells	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\Int\MUS_Intro_StingersB-04_D79FB2B7.wem	410124088.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Bells	
 	421760723	MUS_Intro_Organs	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\Int\MUS_Intro_StingersC-07_D79FB2B7.wem	421760723.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Organs	
 	460316041	MUS_L1_G1_cm-05G1	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\L1\MUS_L1_G1.cm-05G1_D79FB2B7.wem	460316041.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L1_Trans\MUS_L1_G1_cm-05G1	
 	473022820	MUS_L3_Fill	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\L3\MUS_L3_Fill_D79FB2B7.wem	473022820.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L3_LOOP\MUS_L3_Fill	
 	476104927	ORgan Verb	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\L1\MUS_L1_G1.cm-05G1_A142916C.wem	476104927.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L1_Trans\ORgan Verb	
 	483620085	MUS_Intro_Organs	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\Int\MUS_Intro_StingersC-10_D79FB2B7.wem	483620085.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Organs	
-	565887152	MUS_Stinger_Swell	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\STs\MUS_Stinger_Swell_6BB009E2.wem	565887152.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\ST_L1L2\MUS_Stinger_Swell	
-	568997536	MUS_Intro_StingersB-11	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\Int\MUS_Intro_StingersB-11_D79FB2B7.wem	568997536.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_Stingers\MUS_Intro_StingersB-11	
+	568997536	MUS_Intro_Bells	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\Int\MUS_Intro_StingersB-11_D79FB2B7.wem	568997536.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Bells	
 	569263550	MUS_L4B_G1_LOOP	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\L4\MUS_L4B_G1_LOOP_D79FB2B7.wem	569263550.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L4_LOOP_B\MUS_L4B_G1_LOOP	
 	636624426	MUS_L2_G2_LOOP	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\L2\MUS_L2_G2_LOOP_D79FB2B7.wem	636624426.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L2_LOOP_A\MUS_L2_G2_LOOP	
 	645708023	MUS_L1_G3_cm-05G3	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\L1\MUS_L1_G3.cm-05G3_D79FB2B7.wem	645708023.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L1_Trans\MUS_L1_G3_cm-05G3	
@@ -77,16 +73,14 @@ Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	
 	687263280	MUS_L1_Drums_cm1-05Drums	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\L1\MUS_L1_Drums.cm1-05Drums_D79FB2B7.wem	687263280.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L1_Trans\MUS_L1_Drums_cm1-05Drums	
 	728293870	MUS_L4A_Drums_LOOP	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\L4\MUS_L4A_Drums_LOOP_D79FB2B7.wem	728293870.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L4_LOOP_A\MUS_L4A_Drums_LOOP	
 	747492836	MUS_L2_Guitar	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\L2\MUS_L2_Guitar_D79FB2B7.wem	747492836.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L2_LOOP_C_Guitar\MUS_L2_Guitar	
-	781943167	MUS_Intro_Organs	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\Int\MUS_Intro_StingersC-09_D79FB2B7.wem	781943167.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Organs	
 	789717312	MUS_L3_G1	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\L3\MUS_L3_G1_D79FB2B7.wem	789717312.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L3_LOOP\MUS_L3_G1	
-	791020545	MUS_Stinger_Swell	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\STs\MUS_Stinger_Swell_492B4AC8.wem	791020545.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\ST_IntroGP\MUS_Stinger_Swell	
 	796924544	MUS_L1_G2_LOOP	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\L1\MUS_L1_G2_LOOP_D79FB2B7.wem	796924544.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L1_LOOP_A\MUS_L1_G2_LOOP	
 	835601413	MUS_Intro_Organs	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\Int\MUS_Intro_StingersC-04_D79FB2B7.wem	835601413.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Organs	
 	836716787	MUS_L1_G2_cm-05G2	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\L1\MUS_L1_G2.cm-05G2_D79FB2B7.wem	836716787.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L1_Trans\MUS_L1_G2_cm-05G2	
 	841185806	MUS_L2__LOOP	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\L2\MUS_L2__LOOP_D79FB2B7.wem	841185806.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L2_LOOP_D_PiGuit\MUS_L2__LOOP	
 	867842996	MUS_Intro_Organs	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\Int\MUS_Intro_StingersC-05_D79FB2B7.wem	867842996.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Organs	
 	871967303	MUS_L2_G4_LOOP	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\L2\MUS_L2_G4_LOOP_D79FB2B7.wem	871967303.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L2_LOOP_A\MUS_L2_G4_LOOP	
-	887626790	MUS_Intro_StingersB-10	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\Int\MUS_Intro_StingersB-10_D79FB2B7.wem	887626790.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_Stingers\MUS_Intro_StingersB-10	
+	887626790	MUS_Intro_Bells	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\Int\MUS_Intro_StingersB-10_D79FB2B7.wem	887626790.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Bells	
 	902111646	MUS_L1_PianoHigh	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\L1\MUS_L1_G4_LOOP_D79FB2B7.wem	902111646.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L1_LOOP_C\MUS_L1_PianoHigh	
 	923032601	MUS_Intro_SynthIntro	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\Int\MUS_Intro_SynthIntro_D79FB2B7.wem	923032601.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthIntro\MUS_Intro_SynthIntro	
 	962662061	MUS_L4A_SynthLead	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\L4\MUS_L4A_SynthLead_D79FB2B7.wem	962662061.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L4_LOOP_A2\MUS_L4A_SynthLead	
@@ -95,6 +89,6 @@ Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	
 	1001287853	MUS_L4A_BassLegato	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\L4\MUS_L4A_BassStec_D79FB2B7.wem	1001287853.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L4_LOOP_A\MUS_L4A_BassLegato	
 	1020855890	Leads	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\L1\MUS_L1_Lead2_D79FB2B7.wem	1020855890.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L1_LOOP_D_Leads\Leads	
 	1021742625	MUS_L4A_G3_LOOP	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\L4\MUS_L4A_G3_LOOP_73B2B761.wem	1021742625.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L4_LOOP_A2\MUS_L4A_G3_LOOP	
-	1037528241	MUS_Intro_StingersB-12	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\Int\MUS_Intro_StingersB-12_D79FB2B7.wem	1037528241.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_Stingers\MUS_Intro_StingersB-12	
-	1051350117	MUS_Intro_StingersB-02	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\Int\MUS_Intro_StingersB-02_D79FB2B7.wem	1051350117.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_Stingers\MUS_Intro_StingersB-02	
+	1037528241	MUS_Intro_Bells	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\Int\MUS_Intro_StingersB-12_D79FB2B7.wem	1037528241.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Bells	
+	1051350117	MUS_Intro_Bells	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Mac\SFX\MUS\Int\MUS_Intro_StingersB-02_D79FB2B7.wem	1051350117.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Bells	
 
