@@ -12,6 +12,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{2441BEC0-8CE5-4CD0-AB9A-0DDB310C8F9E}" ShortID="243857603">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="False" ID="{90C5DEE8-F65D-495F-9A44-BFAED6B6A61E}" WorkUnitID="{C439CAAB-29C2-4E5C-B118-B4012BF15980}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Music_Stop" ID="{D3726060-58C1-4976-A05D-E076DAB07FBC}">

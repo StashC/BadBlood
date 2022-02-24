@@ -24,7 +24,7 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="False" ID="{90C5DEE8-F65D-495F-9A44-BFAED6B6A61E}"/>
+						<CurrentStateRef Name="None" ID="{B2988B49-E35C-4A35-951C-380FDA5391D3}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
