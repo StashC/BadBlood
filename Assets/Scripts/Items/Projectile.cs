@@ -8,6 +8,8 @@ public class Projectile : MonoBehaviour
     [SerializeField] private float _speed;
     [SerializeField] private float _lifetime;
     [SerializeField] private int _damage;
+    [SerializeField] private bool _spawnBloodOnHit = false;
+    [SerializeField] private GameObject _bloodSplatter;
 
     public int _team;
     private float timeLeft;
@@ -37,7 +39,13 @@ public class Projectile : MonoBehaviour
             if(hs._team != _team)
             {
                 hs.DealDamage(_damage);
-               
+
+                if(_spawnBloodOnHit && _bloodSplatter != null)
+                {
+                    Instantiate(_bloodSplatter, transform.position, Quaternion.identity);
+                }
+
+                Destroy(this.gameObject);
             }
         }
     }
