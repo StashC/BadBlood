@@ -101,7 +101,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _timerPrefab: {fileID: 4511182641823426351, guid: 8fe6f2f2c42a05b488ec7e10ea1fb8ba, type: 3}
   _activationRange: 15
-  _stopSeekingDistance: 20
   _attackingRange: 10
   _attackCoolDown: 1
   _idleSpeed: 2
@@ -176,10 +175,10 @@ MonoBehaviour:
   onDeathEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7345384998391763929}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 7345384998391763934}
+        m_TargetAssemblyTypeName: garlicGunner, Assembly-CSharp
+        m_MethodName: Die
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -197,7 +196,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7345384999041347390}
-  - component: {fileID: 7345384999041347389}
+  - component: {fileID: 3942581607556662094}
   m_Layer: 0
   m_Name: firepoint
   m_TagString: Untagged
@@ -219,7 +218,7 @@ Transform:
   m_Father: {fileID: 7345384999200260655}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7345384999041347389
+--- !u!114 &3942581607556662094
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -259,7 +258,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7345384999200260648}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.86, y: -0.01, z: 0}
+  m_LocalPosition: {x: 0.992, y: 0.068, z: 0}
   m_LocalScale: {x: 1.06, y: 0.42480007, z: 1}
   m_Children:
   - {fileID: 7345384999586855155}

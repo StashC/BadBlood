@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class simpleEnemy : Enemy
+public class garlicGunner : rangedEnemy
 {
     [SerializeField] private projectileLauncher weapon;
 
@@ -17,15 +17,14 @@ public class simpleEnemy : Enemy
         //Debug.Log("enemy attacked lol");
         Shoot();
 
-        base.StopAttack();
-        
+        base.StopAttack();        
     }   
 
     private void Shoot() {
         weapon.Shoot();
     }
 
-    private void Die()
+    public void Die()
     {
         Destroy(gameObject);
     }
