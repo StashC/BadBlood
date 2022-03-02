@@ -99,6 +99,8 @@ MonoBehaviour:
   _speed: 20
   _lifetime: 4
   _damage: 10
+  _spawnBloodOnHit: 1
+  _bloodSplatter: {fileID: 9150887201423885373, guid: 1299feb01fb3a724b9d2d5e540a7b8ae, type: 3}
   _team: 1
 --- !u!58 &2366536449210771465
 CircleCollider2D:

@@ -3,16 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public abstract class Enemy : MonoBehaviour
+public abstract class rangedEnemy : MonoBehaviour
 {
     [Header("Component References")]
     [SerializeField] private GameObject _timerPrefab;
 
-
     [Header("Customization")]
     [Tooltip("Range the entity will react to the player")]
     [SerializeField] private float _activationRange = 4;
-    [SerializeField] private float _stopSeekingDistance;
     [SerializeField] private float _attackingRange;
     [SerializeField] private float _attackCoolDown;
     [SerializeField] private float _idleSpeed;
@@ -38,6 +36,8 @@ public abstract class Enemy : MonoBehaviour
     [SerializeField] private State currState;
     private bool canIdleMove;
     protected bool canAttack;
+    int LOSCounter = 0;
+
 
     public abstract void Attack();
 
@@ -67,11 +67,6 @@ public abstract class Enemy : MonoBehaviour
         }
     }
 
-    private void DoAttack()
-    {
-        Attack();
-    }
-
     protected void StopAttack()
     {
         UpdateState();
@@ -86,51 +81,46 @@ public abstract class Enemy : MonoBehaviour
 
     void UpdateState()
     {
-        RaycastHit2D hit = Physics2D.Linecast(transform.position, _player.transform.position, ~(1 << LayerMask.NameToLayer("NPCs"))); //creates layermask which ignores NPCs layer, enemies can see through enemies.
-        // !!! probably only update state if not attacking, will matter after attacks are implemented
-
+        //creates layermask which ignores NPCs layer, enemies can see through enemies.
+        RaycastHit2D hit = Physics2D.Linecast(transform.position, _player.transform.position, ~(1 << LayerMask.NameToLayer("NPCs"))); 
+        //if player is not in LOS
         if (!hit.collider.gameObject.CompareTag("Player"))
         {
-            //we have lost line of sight, in future, count how many updateStates have been out of LOS in a row, after x many, reset coounter and go to idle,
-            // or seek to last known player location then idle
-            //for now just idle
-            currState = State.Idle;
-            DoIdleMove();
-        }
-        else
-        {
-            if (hit.distance <= _attackingRange) //if  in attacking range
-            {
-                if (canAttack)
-                {
-                    currState = State.Attacking;
-                    DoAttack();
-                } else //might want to make an abstract method to do something different for when enemy is in range but can not attack (different actions for different types).  For now, just face the player.
-                {
-                    currState = State.Attacking;
-                    if (_player.transform.position.x > transform.position.x) //player to the right, face right
-                    {
-                        transform.localScale = new Vector3(_xScale, transform.localScale.y, transform.localScale.z);
-                    }
-                    else //player to the left, face left
-                    {
-                        transform.localScale = new Vector3(_xScale * -1, transform.localScale.y, transform.localScale.z);
-                    }
-                }
-            }
-            //out of attack range, in seeking range
-            if (hit.distance <= _activationRange && hit.distance > _attackingRange) //player is in activation range, start/keep seeking
-            {
-                currState = State.Seeking;
-                DoSeeking();
-            }
-            if (hit.distance >= _stopSeekingDistance && currState == State.Seeking) //too far from player, stop seeking & idle
+            LOSCounter++;
+            //if out of line of sight for more than x playerScan(), idle.  
+            if (LOSCounter > 4)
             {
                 currState = State.Idle;
-                canIdleMove = true;
                 DoIdleMove();
             }
+            return;
         }
+        LOSCounter = 0;
+
+        //If we have line of sight.
+        //If in range && can attack, attack.  If can't attack, do nothing.  Always face player.
+        if(hit.distance <= _attackingRange)
+        {
+            FacePlayer();
+            if (canAttack)
+            {
+                currState = State.Attacking;
+                Attack();
+            }
+            return;
+        }
+
+        //we are within activationRange
+        if(hit.distance <= _activationRange)
+        {
+            currState = State.Seeking;
+            FacePlayer();
+            DoSeeking();
+            return;
+        }
+
+        //if we are further than activation range (outside of attacking and seeking), idle.
+        if (canIdleMove) currState = State.Idle; DoIdleMove();
     }
 
     private void playerScan()
@@ -139,6 +129,18 @@ public abstract class Enemy : MonoBehaviour
         InstantiateTimer(60 / _playerScanRate, true, playerScan);
     }
 
+    void FacePlayer()
+    {
+        if (_player.transform.position.x > transform.position.x) //player to the right, face right
+        {
+            transform.localScale = new Vector3(_xScale, transform.localScale.y, transform.localScale.z);
+        }
+        else //player to the left, face left
+        {
+            transform.localScale = new Vector3(_xScale * -1, transform.localScale.y, transform.localScale.z);
+        }
+
+    }
     void DoSeeking()
     {
         if (currState == State.Seeking)

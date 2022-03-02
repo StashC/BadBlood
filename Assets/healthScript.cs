@@ -17,22 +17,27 @@ public class healthScript : MonoBehaviour
         currentHealth = _maxHealth;
         if (healthbar != null) healthbar.SetMaxHealth(_maxHealth);
     }
-
-    void ChangeHealth(int hp)
+    private void Update()
     {
-        currentHealth -= hp;
-        healthbar.SetHealth(currentHealth);
+        if (healthbar != null)
+        {
+            healthbar.SetHealth(currentHealth);
+        }
     }
 
     public void DealDamage(int damage)
     {
         currentHealth -= damage;
-        if (healthbar != null)
-        {
-            healthbar.SetHealth(currentHealth);
-        }
+
         if (currentHealth <= 0) onDeathEvent.Invoke();
         Debug.LogError("My health is: " + currentHealth);
 
+    }
+
+    public void Heal(int healAmount)
+    {
+        Debug.Log("healing for " + healAmount);
+        currentHealth += healAmount;
+        if (currentHealth > _maxHealth) currentHealth = _maxHealth;
     }
 }
