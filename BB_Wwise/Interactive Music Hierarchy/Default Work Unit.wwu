@@ -5618,8 +5618,15 @@
 				<MusicSwitchContainer Name="MUS" ID="{68CA273E-3B96-4FEE-AE0F-9FA94A1811A4}" ShortID="509885719">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="Tempo" Type="Real64" Value="86.81"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -5652,6 +5659,11 @@
 								<MusicSegment Name="MUS_Intro_Stingers" ID="{1EA51E22-FBF6-4FD8-8604-9CA24F3732B3}" ShortID="45467432">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="11749.8125"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -5663,6 +5675,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<MusicTrack Name="MUS_Intro_StingersB-02" ID="{5C0C7693-0B1C-4F78-ADAF-EF52F6A9A6B0}" ShortID="136625587">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -5716,6 +5735,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_Intro_StingersB-04" ID="{E3C1AB22-36ED-43DE-B77C-2869DC7DCBA2}" ShortID="991646971">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -5769,6 +5795,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_Intro_StingersB-06" ID="{A5140088-1D3E-4768-B7EA-EDDBFDDED214}" ShortID="368293207">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -5822,6 +5855,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_Intro_StingersB-10" ID="{3C0AF842-9B4D-4350-B617-898143DFE4A8}" ShortID="876699958">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -5875,6 +5915,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_Intro_StingersB-11" ID="{97C35C51-8384-4417-AD57-72DCB2CA7FC2}" ShortID="634017272">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -5928,6 +5975,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_Intro_StingersB-12" ID="{87D767F3-FE80-41A8-BB65-24B388F99D0E}" ShortID="965625518">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -6014,7 +6068,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="MUS_Intro_SynthLOOP-05" ID="{9FF36F69-4FF9-4A6E-8A92-EE2CB838CD55}" ShortID="470482055">
+										<MusicTrack Name="MUS_Intro_SynthLOOP" ID="{9FF36F69-4FF9-4A6E-8A92-EE2CB838CD55}" ShortID="470482055">
 											<PropertyList>
 												<Property Name="IsStreamingEnabled" Type="bool">
 													<ValueList>
@@ -6132,6 +6186,7 @@
 											<PropertyList>
 												<Property Name="3DPosition" Type="int16" Value="1"/>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 												<Property Name="Highpass" Type="int16">
 													<ModifierList>
 														<ModifierInfo>
@@ -6163,10 +6218,19 @@
 												</Property>
 												<Property Name="MusicTrackType" Type="int16" Value="1"/>
 												<Property Name="OverrideEffect" Type="bool" Value="True"/>
-												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="RenderEffect0" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="RenderEffect1" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>6</Value>
+														<Value>-1</Value>
 													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
@@ -6397,8 +6461,8 @@
 																				<MusicClip Name="MUS_Intro_StingersB-11" ID="{62543444-7B71-4358-8DAF-602FD6C04B13}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="5922.54166666667"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="299.301771336532"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="498.836285560883"/>
 																						<Property Name="PlayAt" Type="Real64" Value="35467.2599033789"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="MUS_Intro_StingersB-11" ID="{D7434036-8231-4973-B1D1-309FAEE49F71}"/>
@@ -6409,13 +6473,72 @@
 																			<Local>
 																				<MusicClip Name="MUS_Intro_StingersB-12" ID="{0D132294-9C5C-4ABD-BBC6-18988B412464}">
 																					<PropertyList>
-																						<Property Name="BeginTrimOffset" Type="Real64" Value="1.38777878078145E-14"/>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="-49.8836285560885"/>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="7948.375"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="947.788942565679"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="598.603542673061"/>
 																						<Property Name="PlayAt" Type="Real64" Value="4988.36285560884"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="MUS_Intro_StingersB-12" ID="{92DF958C-C789-4357-AE8F-068CD2C50D79}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{EAD53A9D-2D2A-4660-8293-5A3459CED4F3}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>-0.04988</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>7.948375</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{B840B614-61C0-4B21-88DF-AD0CB9287E5A}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>-0.04988</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>7.948375</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{0E9F908F-F282-4A13-91D6-8EEA8E90B40C}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>-0.04988</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>7.948375</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -6424,7 +6547,7 @@
 																				<MusicClip Name="MUS_Intro_StingersB-02" ID="{F296CC11-B704-44D0-9E04-3D3B7242CDB7}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="6911.64583333333"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="848.021685453504"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																						<Property Name="PlayAt" Type="Real64" Value="25041.5815351564"/>
 																					</PropertyList>
@@ -6437,8 +6560,8 @@
 																				<MusicClip Name="MUS_Intro_StingersB-06" ID="{3ACA60A1-1AD5-4C4F-8289-F61EF37C457B}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="7257.22916666667"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="498.836285560885"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="299.301771336531"/>
 																						<Property Name="PlayAt" Type="Real64" Value="14466.2522812656"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="MUS_Intro_StingersB-06" ID="{ABFF3166-B0E1-45EC-8CF0-0357162A382A}"/>
@@ -6460,8 +6583,8 @@
 																				<MusicClip Name="MUS_Intro_StingersB-04" ID="{CC2584FF-9981-4F70-8F94-E327B74AA085}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="7602.8125"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="448.952657004798"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="798.138056897413"/>
 																						<Property Name="PlayAt" Type="Real64" Value="35018.3072463741"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="MUS_Intro_StingersB-04" ID="{16BD42AD-640B-4380-8051-0276E8D8593C}"/>
@@ -6473,7 +6596,7 @@
 																				<MusicClip Name="MUS_Intro_StingersB-02" ID="{8F32FFC3-29DD-4C82-9A28-D958E9DE6909}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="6911.64583333333"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="648.48717122915"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																						<Property Name="PlayAt" Type="Real64" Value="5287.66462694537"/>
 																					</PropertyList>
@@ -6486,8 +6609,8 @@
 																				<MusicClip Name="MUS_Intro_StingersB-12" ID="{8F5F04E5-F3DE-463A-98A3-D988526261B1}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="7948.375"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="299.301771336531"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="1446.62522812656"/>
 																						<Property Name="PlayAt" Type="Real64" Value="25241.1160493807"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="MUS_Intro_StingersB-12" ID="{92DF958C-C789-4357-AE8F-068CD2C50D79}"/>
@@ -6499,8 +6622,8 @@
 																				<MusicClip Name="MUS_Intro_StingersB-04" ID="{CE1A1D23-EF82-406F-ABA0-6E8097DD5578}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="7602.8125"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="548.719914116973"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="648.48717122915"/>
 																						<Property Name="PlayAt" Type="Real64" Value="14516.1359098217"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="MUS_Intro_StingersB-04" ID="{16BD42AD-640B-4380-8051-0276E8D8593C}"/>
@@ -6522,8 +6645,8 @@
 																				<MusicClip Name="MUS_Intro_StingersB-10" ID="{491E7197-5BC5-43F4-BD99-0D76BB7D197C}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="5529.33333333333"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="349.185399892618"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="748.254428341326"/>
 																						<Property Name="PlayAt" Type="Real64" Value="34968.423617818"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="MUS_Intro_StingersB-10" ID="{0488E8CE-EF80-4D2D-B4CA-083AF77E71A7}"/>
@@ -6535,7 +6658,7 @@
 																				<MusicClip Name="MUS_Intro_StingersB-06" ID="{EA4395C5-15A9-4331-B02B-569E093381E6}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="7257.22916666667"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="997.67257112177"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																						<Property Name="PlayAt" Type="Real64" Value="5187.8973698332"/>
 																					</PropertyList>
@@ -6548,8 +6671,8 @@
 																				<MusicClip Name="MUS_Intro_StingersB-04" ID="{FF27A039-35CA-498D-9CDE-9B09A50F6E6F}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="7602.8125"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="299.301771336531"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="548.719914116973"/>
 																						<Property Name="PlayAt" Type="Real64" Value="25091.4651637125"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="MUS_Intro_StingersB-04" ID="{16BD42AD-640B-4380-8051-0276E8D8593C}"/>
@@ -6561,8 +6684,8 @@
 																				<MusicClip Name="MUS_Intro_StingersB-12" ID="{137D843E-6E06-4D07-A9A7-A65EF362576B}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="7948.375"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="748.254428341326"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="748.254428341326"/>
 																						<Property Name="PlayAt" Type="Real64" Value="14017.2996242608"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="MUS_Intro_StingersB-12" ID="{92DF958C-C789-4357-AE8F-068CD2C50D79}"/>
@@ -6584,8 +6707,8 @@
 																				<MusicClip Name="MUS_Intro_StingersB-02" ID="{EBE4A353-CAED-4EC9-8D14-0F0FFF5224D1}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="6911.64583333333"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="1745.9269994631"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="349.18539989262"/>
 																						<Property Name="PlayAt" Type="Real64" Value="34918.5399892619"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="MUS_Intro_StingersB-02" ID="{30602963-8E8F-464F-AF8C-1999266E9E5C}"/>
@@ -6597,8 +6720,8 @@
 																				<MusicClip Name="MUS_Intro_StingersB-04" ID="{E14C5916-4358-4846-A8A1-31C2DEF060AF}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="7602.8125"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="498.836285560885"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="498.836285560884"/>
 																						<Property Name="PlayAt" Type="Real64" Value="5038.24648416493"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="MUS_Intro_StingersB-04" ID="{16BD42AD-640B-4380-8051-0276E8D8593C}"/>
@@ -6610,8 +6733,8 @@
 																				<MusicClip Name="MUS_Intro_StingersB-06" ID="{EFBF240F-0ACC-4B42-AA7B-407714FCA7A5}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="7257.22916666667"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="448.952657004797"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="548.719914116973"/>
 																						<Property Name="PlayAt" Type="Real64" Value="25091.4651637125"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="MUS_Intro_StingersB-06" ID="{ABFF3166-B0E1-45EC-8CF0-0357162A382A}"/>
@@ -6623,8 +6746,8 @@
 																				<MusicClip Name="MUS_Intro_StingersB-02" ID="{F3110837-F1BC-4804-87EB-7C5ECFC34E30}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="6911.64583333333"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="498.836285560885"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="798.138056897415"/>
 																						<Property Name="PlayAt" Type="Real64" Value="14117.066881373"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="MUS_Intro_StingersB-02" ID="{30602963-8E8F-464F-AF8C-1999266E9E5C}"/>
@@ -6643,6 +6766,7 @@
 											<PropertyList>
 												<Property Name="3DPosition" Type="int16" Value="1"/>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 												<Property Name="Highpass" Type="int16">
 													<ModifierList>
 														<ModifierInfo>
@@ -6673,11 +6797,21 @@
 													</ModifierList>
 												</Property>
 												<Property Name="MusicTrackType" Type="int16" Value="1"/>
-												<Property Name="OverrideEffect" Type="bool" Value="True"/>
-												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="RenderEffect0" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="RenderEffect1" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="2"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>6</Value>
+														<Value>-2</Value>
 													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
@@ -6776,32 +6910,11 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="MUS_Intro_StingersC-09" ID="{AE1EA904-D0E4-400A-BEAA-B20633F60E73}">
-													<Language>SFX</Language>
-													<AudioFile>MUS\Int\MUS_Intro_StingersC-09.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="781943167"/>
-													</MediaIDList>
-												</AudioFileSource>
 												<AudioFileSource Name="MUS_Intro_StingersA-01" ID="{53E3F4D5-2841-4AEC-A8A0-543434114CA9}">
 													<Language>SFX</Language>
 													<AudioFile>MUS\Int\MUS_Intro_StingersA-01.wav</AudioFile>
 													<MediaIDList>
 														<MediaID ID="684096853"/>
-													</MediaIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="MUS_Intro_StingersA-05" ID="{72F0C67C-8BE7-498E-A61E-B28E49C15C84}">
-													<Language>SFX</Language>
-													<AudioFile>MUS\Int\MUS_Intro_StingersA-05.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="216946014"/>
-													</MediaIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="MUS_Intro_StingersA-08" ID="{01C7868C-BD59-4058-99C3-1C527EB734FD}">
-													<Language>SFX</Language>
-													<AudioFile>MUS\Int\MUS_Intro_StingersA-08.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="182712367"/>
 													</MediaIDList>
 												</AudioFileSource>
 												<AudioFileSource Name="MUS_Intro_StingersC-10" ID="{E153734E-AB8F-4F13-8A64-869892F0B73C}">
@@ -6857,8 +6970,8 @@
 											<PositioningInfo>
 												<Panner Name="" ID="{79C0549C-0C2D-42CF-8CB5-A80F7CD96ED4}">
 													<PropertyList>
-														<Property Name="PanX" Type="Real64" Value="5.90405904059043"/>
-														<Property Name="PanY" Type="Real64" Value="-50.996015936255"/>
+														<Property Name="PanX" Type="Real64" Value="-0.0365350188155281"/>
+														<Property Name="PanY" Type="Real64" Value="80.6168872895514"/>
 													</PropertyList>
 												</Panner>
 												<Position Name="" ID="{F42D7186-7986-4510-AD17-370899ECD3E9}">
@@ -6937,83 +7050,10 @@
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="MUS_Intro_StingersC-09" ID="{C0FB5A30-298D-4100-845E-A80986D2E1CA}">
-																					<PropertyList>
-																						<Property Name="BeginTrimOffset" Type="Real64" Value="1895.57788513136"/>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="10713.0416666667"/>
-																						<Property Name="FadeInDuration" Type="Real64" Value="1047.55619967786"/>
-																						<Property Name="FadeOutDuration" Type="Real64" Value="1446.62522812656"/>
-																						<Property Name="PlayAt" Type="Real64" Value="-1895.57788513136"/>
-																					</PropertyList>
-																					<AudioSourceRef Name="MUS_Intro_StingersC-09" ID="{AE1EA904-D0E4-400A-BEAA-B20633F60E73}"/>
-																					<PropertyCurveList>
-																						<PropertyCurve PropertyName="Highpass">
-																							<Curve Name="" ID="{6089AD99-8ECC-41B0-B981-379913385DC3}">
-																								<PropertyList>
-																									<Property Name="Flags" Type="int32" Value="1"/>
-																								</PropertyList>
-																								<PointList>
-																									<Point>
-																										<XPos>1.89558</XPos>
-																										<YPos>0</YPos>
-																										<Flags>5</Flags>
-																									</Point>
-																									<Point>
-																										<XPos>10.7130416666667</XPos>
-																										<YPos>0</YPos>
-																										<Flags>37</Flags>
-																									</Point>
-																								</PointList>
-																							</Curve>
-																						</PropertyCurve>
-																						<PropertyCurve PropertyName="Lowpass">
-																							<Curve Name="" ID="{62FEBA34-9315-47B1-83C8-7B90724FB40A}">
-																								<PropertyList>
-																									<Property Name="Flags" Type="int32" Value="1"/>
-																								</PropertyList>
-																								<PointList>
-																									<Point>
-																										<XPos>1.89558</XPos>
-																										<YPos>0</YPos>
-																										<Flags>5</Flags>
-																									</Point>
-																									<Point>
-																										<XPos>10.7130416666667</XPos>
-																										<YPos>0</YPos>
-																										<Flags>37</Flags>
-																									</Point>
-																								</PointList>
-																							</Curve>
-																						</PropertyCurve>
-																						<PropertyCurve PropertyName="Volume">
-																							<Curve Name="" ID="{E1205E6C-31B4-4D83-8442-0C9F135B97AF}">
-																								<PropertyList>
-																									<Property Name="Flags" Type="int32" Value="3"/>
-																								</PropertyList>
-																								<PointList>
-																									<Point>
-																										<XPos>1.89558</XPos>
-																										<YPos>0</YPos>
-																										<Flags>5</Flags>
-																									</Point>
-																									<Point>
-																										<XPos>10.7130416666667</XPos>
-																										<YPos>0</YPos>
-																										<Flags>37</Flags>
-																									</Point>
-																								</PointList>
-																							</Curve>
-																						</PropertyCurve>
-																					</PropertyCurveList>
-																				</MusicClip>
-																			</Local>
-																		</Reference>
-																		<Reference>
-																			<Local>
 																				<MusicClip Name="MUS_Intro_StingersC-10" ID="{1EBBD596-C02E-4FF5-B0A0-0682EFDF3ECB}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="9163.06794820194"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="1296.9743424583"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																						<Property Name="PlayAt" Type="Real64" Value="10226.1438539981"/>
 																					</PropertyList>
@@ -7085,7 +7125,7 @@
 																				<MusicClip Name="MUS_Intro_StingersC-04" ID="{938E5F1C-6B70-4AC6-871A-DA81018F99C9}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="8924.43517176606"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="1197.20708534612"/>
 																						<Property Name="FadeOutDuration" Type="Real64" Value="698.370799785238"/>
 																						<Property Name="PlayAt" Type="Real64" Value="20502.1713365523"/>
 																					</PropertyList>
@@ -7177,22 +7217,10 @@
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="MUS_Intro_StingersA-01" ID="{4A41DC35-EE7F-422F-8EDC-B7AA5BF53B87}">
-																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="8464.125"/>
-																						<Property Name="FadeInDuration" Type="Real64" Value="648.48717122915"/>
-																						<Property Name="FadeOutDuration" Type="Real64" Value="1097.43982823395"/>
-																					</PropertyList>
-																					<AudioSourceRef Name="MUS_Intro_StingersA-01" ID="{53E3F4D5-2841-4AEC-A8A0-543434114CA9}"/>
-																				</MusicClip>
-																			</Local>
-																		</Reference>
-																		<Reference>
-																			<Local>
 																				<MusicClip Name="MUS_Intro_StingersC-05" ID="{F3DE3BC8-ED37-4566-B4D2-A727876F5005}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="8740.83333333333"/>
-																						<Property Name="FadeInDuration" Type="Real64" Value="498.836285560885"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="1496.50885668265"/>
 																						<Property Name="FadeOutDuration" Type="Real64" Value="698.370799785238"/>
 																						<Property Name="PlayAt" Type="Real64" Value="9827.07482554942"/>
 																					</PropertyList>
@@ -7204,9 +7232,9 @@
 																			<Local>
 																				<MusicClip Name="MUS_Intro_StingersA-03" ID="{EB523AC8-CC2A-4B82-B6AA-55D3A57FE488}">
 																					<PropertyList>
-																						<Property Name="BeginTrimOffset" Type="Real64" Value="1.56319401867222E-13"/>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="-99.767257112177"/>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="6566.0625"/>
-																						<Property Name="FadeInDuration" Type="Real64" Value="399.069028448707"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="947.788942565679"/>
 																						<Property Name="FadeOutDuration" Type="Real64" Value="748.254428341327"/>
 																						<Property Name="PlayAt" Type="Real64" Value="21001.0076221132"/>
 																					</PropertyList>
@@ -7219,7 +7247,7 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>0</XPos>
+																										<XPos>-0.09977</XPos>
 																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
@@ -7238,7 +7266,7 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>0</XPos>
+																										<XPos>-0.09977</XPos>
 																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
@@ -7257,7 +7285,7 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>0</XPos>
+																										<XPos>-0.09977</XPos>
 																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
@@ -7298,83 +7326,10 @@
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="MUS_Intro_StingersA-05" ID="{6B3158A4-0B1E-40D1-91B5-692C83254BB8}">
-																					<PropertyList>
-																						<Property Name="BeginTrimOffset" Type="Real64" Value="1097.43982823395"/>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="9865.0199812132"/>
-																						<Property Name="FadeInDuration" Type="Real64" Value="1247.09071390221"/>
-																						<Property Name="FadeOutDuration" Type="Real64" Value="1047.55619967786"/>
-																						<Property Name="PlayAt" Type="Real64" Value="-1097.43982823395"/>
-																					</PropertyList>
-																					<AudioSourceRef Name="MUS_Intro_StingersA-05" ID="{72F0C67C-8BE7-498E-A61E-B28E49C15C84}"/>
-																					<PropertyCurveList>
-																						<PropertyCurve PropertyName="Highpass">
-																							<Curve Name="" ID="{93CCFB77-17BB-48C3-BAE3-480DD7F1F4D5}">
-																								<PropertyList>
-																									<Property Name="Flags" Type="int32" Value="1"/>
-																								</PropertyList>
-																								<PointList>
-																									<Point>
-																										<XPos>1.09744</XPos>
-																										<YPos>0</YPos>
-																										<Flags>5</Flags>
-																									</Point>
-																									<Point>
-																										<XPos>9.86502</XPos>
-																										<YPos>0</YPos>
-																										<Flags>37</Flags>
-																									</Point>
-																								</PointList>
-																							</Curve>
-																						</PropertyCurve>
-																						<PropertyCurve PropertyName="Lowpass">
-																							<Curve Name="" ID="{046655D4-617B-41C8-960E-DE498E34AF5F}">
-																								<PropertyList>
-																									<Property Name="Flags" Type="int32" Value="1"/>
-																								</PropertyList>
-																								<PointList>
-																									<Point>
-																										<XPos>1.09744</XPos>
-																										<YPos>0</YPos>
-																										<Flags>5</Flags>
-																									</Point>
-																									<Point>
-																										<XPos>9.86502</XPos>
-																										<YPos>0</YPos>
-																										<Flags>37</Flags>
-																									</Point>
-																								</PointList>
-																							</Curve>
-																						</PropertyCurve>
-																						<PropertyCurve PropertyName="Volume">
-																							<Curve Name="" ID="{795264CD-8545-41F3-A282-4B63202656B5}">
-																								<PropertyList>
-																									<Property Name="Flags" Type="int32" Value="3"/>
-																								</PropertyList>
-																								<PointList>
-																									<Point>
-																										<XPos>1.09744</XPos>
-																										<YPos>0</YPos>
-																										<Flags>5</Flags>
-																									</Point>
-																									<Point>
-																										<XPos>9.86502</XPos>
-																										<YPos>0</YPos>
-																										<Flags>37</Flags>
-																									</Point>
-																								</PointList>
-																							</Curve>
-																						</PropertyCurve>
-																					</PropertyCurveList>
-																				</MusicClip>
-																			</Local>
-																		</Reference>
-																		<Reference>
-																			<Local>
 																				<MusicClip Name="MUS_Intro_StingersC-02" ID="{4708EC93-2ABF-4DDE-8D23-49059D89E4F7}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="9228.66433843276"/>
-																						<Property Name="FadeInDuration" Type="Real64" Value="598.603542673061"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="1546.39248523874"/>
 																						<Property Name="FadeOutDuration" Type="Real64" Value="548.719914116973"/>
 																						<Property Name="PlayAt" Type="Real64" Value="9827.07482554942"/>
 																					</PropertyList>
@@ -7447,7 +7402,7 @@
 																					<PropertyList>
 																						<Property Name="BeginTrimOffset" Type="Real64" Value="897.905314009592"/>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="8586.07680488462"/>
-																						<Property Name="FadeInDuration" Type="Real64" Value="997.67257112177"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="1247.09071390221"/>
 																						<Property Name="FadeOutDuration" Type="Real64" Value="848.021685453503"/>
 																						<Property Name="PlayAt" Type="Real64" Value="19803.8005367671"/>
 																					</PropertyList>
@@ -7598,83 +7553,10 @@
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="MUS_Intro_StingersA-08" ID="{AA09A6A3-5C6E-4F30-AF90-143976FDA9EA}">
-																					<PropertyList>
-																						<Property Name="BeginTrimOffset" Type="Real64" Value="1247.09071390221"/>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="9954.00187198082"/>
-																						<Property Name="FadeInDuration" Type="Real64" Value="997.672571121769"/>
-																						<Property Name="FadeOutDuration" Type="Real64" Value="1047.55619967786"/>
-																						<Property Name="PlayAt" Type="Real64" Value="-1247.09071390221"/>
-																					</PropertyList>
-																					<AudioSourceRef Name="MUS_Intro_StingersA-08" ID="{01C7868C-BD59-4058-99C3-1C527EB734FD}"/>
-																					<PropertyCurveList>
-																						<PropertyCurve PropertyName="Highpass">
-																							<Curve Name="" ID="{30310BCE-CD8C-49EF-A0B5-22DE817FD60A}">
-																								<PropertyList>
-																									<Property Name="Flags" Type="int32" Value="1"/>
-																								</PropertyList>
-																								<PointList>
-																									<Point>
-																										<XPos>1.24709</XPos>
-																										<YPos>0</YPos>
-																										<Flags>5</Flags>
-																									</Point>
-																									<Point>
-																										<XPos>9.954</XPos>
-																										<YPos>0</YPos>
-																										<Flags>37</Flags>
-																									</Point>
-																								</PointList>
-																							</Curve>
-																						</PropertyCurve>
-																						<PropertyCurve PropertyName="Lowpass">
-																							<Curve Name="" ID="{9560E6CC-FD97-45F9-8F69-2F6578D81BFA}">
-																								<PropertyList>
-																									<Property Name="Flags" Type="int32" Value="1"/>
-																								</PropertyList>
-																								<PointList>
-																									<Point>
-																										<XPos>1.24709</XPos>
-																										<YPos>0</YPos>
-																										<Flags>5</Flags>
-																									</Point>
-																									<Point>
-																										<XPos>9.954</XPos>
-																										<YPos>0</YPos>
-																										<Flags>37</Flags>
-																									</Point>
-																								</PointList>
-																							</Curve>
-																						</PropertyCurve>
-																						<PropertyCurve PropertyName="Volume">
-																							<Curve Name="" ID="{2328CFCB-664F-4B2F-BF89-B854F82FB5CA}">
-																								<PropertyList>
-																									<Property Name="Flags" Type="int32" Value="3"/>
-																								</PropertyList>
-																								<PointList>
-																									<Point>
-																										<XPos>1.24709</XPos>
-																										<YPos>0</YPos>
-																										<Flags>5</Flags>
-																									</Point>
-																									<Point>
-																										<XPos>9.954</XPos>
-																										<YPos>0</YPos>
-																										<Flags>37</Flags>
-																									</Point>
-																								</PointList>
-																							</Curve>
-																						</PropertyCurve>
-																					</PropertyCurveList>
-																				</MusicClip>
-																			</Local>
-																		</Reference>
-																		<Reference>
-																			<Local>
 																				<MusicClip Name="MUS_Intro_StingersA-07" ID="{C99FA1D1-9301-4C4A-89E5-6456BCF4DBCB}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="10367.4791666667"/>
-																						<Property Name="FadeInDuration" Type="Real64" Value="498.836285560885"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="1097.43982823395"/>
 																						<Property Name="FadeOutDuration" Type="Real64" Value="1047.55619967786"/>
 																						<Property Name="PlayAt" Type="Real64" Value="9876.95845410551"/>
 																					</PropertyList>
@@ -7687,7 +7569,7 @@
 																				<MusicClip Name="MUS_Intro_StingersC-05" ID="{F398C960-9B94-4228-B4C7-FFDBC504F506}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="8740.83333333333"/>
-																						<Property Name="FadeInDuration" Type="Real64" Value="648.48717122915"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="1097.43982823395"/>
 																						<Property Name="FadeOutDuration" Type="Real64" Value="1596.27611379483"/>
 																						<Property Name="PlayAt" Type="Real64" Value="20402.4040794402"/>
 																					</PropertyList>
@@ -7700,7 +7582,7 @@
 																				<MusicClip Name="MUS_Intro_StingersC-04" ID="{BAB5A4B0-28E2-46F7-B962-D4198A508935}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="8924.43517176606"/>
-																						<Property Name="FadeInDuration" Type="Real64" Value="648.48717122915"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="997.672571121769"/>
 																						<Property Name="FadeOutDuration" Type="Real64" Value="698.370799785238"/>
 																						<Property Name="PlayAt" Type="Real64" Value="30379.1297906578"/>
 																					</PropertyList>
@@ -7862,9 +7744,9 @@
 																			<Local>
 																				<MusicClip Name="MUS_Intro_SynthIntro" ID="{535FF029-7F6D-4973-B88F-9B5FC53D4F88}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="8500.00000000001"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="8347.09773875471"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutDuration" Type="Real64" Value="37.9453391528186"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="414.74019722157"/>
 																						<Property Name="FadeOutShape" Type="int16" Value="2"/>
 																						<Property Name="PlayAt" Type="Real64" Value="786.35448640435"/>
 																					</PropertyList>
@@ -7882,7 +7764,7 @@
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
-																										<XPos>8.5</XPos>
+																										<XPos>8.3471</XPos>
 																										<YPos>0</YPos>
 																										<Flags>37</Flags>
 																									</Point>
@@ -7901,7 +7783,7 @@
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
-																										<XPos>8.5</XPos>
+																										<XPos>8.3471</XPos>
 																										<YPos>0</YPos>
 																										<Flags>37</Flags>
 																									</Point>
@@ -7920,7 +7802,7 @@
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
-																										<XPos>8.5</XPos>
+																										<XPos>8.3471</XPos>
 																										<YPos>0</YPos>
 																										<Flags>37</Flags>
 																									</Point>
@@ -7989,6 +7871,7 @@
 												<Property Name="DestinationContextType" Type="int16" Value="2"/>
 												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
 												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
 												<Property Name="SourceContextType" Type="int16" Value="2"/>
 											</PropertyList>
 											<ReferenceList>
@@ -8045,6 +7928,13 @@
 							</Playlist>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="MUS_Gameplay" ID="{DC14BDBE-849D-4090-8C50-AF17BCA1B051}" ShortID="214832945">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -8069,6 +7959,11 @@
 									<ChildrenList>
 										<MusicTrack Name="MUS_L1_DrumsA" ID="{BA9028F7-B30B-4569-BBFD-B38517AB85A4}" ShortID="742181395">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-4</Value>
@@ -8205,6 +8100,11 @@
 										</MusicTrack>
 										<MusicTrack Name="MUS_L1_G1_LOOP" ID="{BAA7A076-8E01-4D84-AB01-99014CA38874}" ShortID="222073454">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>12</Value>
@@ -8324,6 +8224,11 @@
 										</MusicTrack>
 										<MusicTrack Name="MUS_L1_G2_LOOP" ID="{8BC3BBF8-5036-4EA6-BCB9-B14D86A64A02}" ShortID="301193021">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>6</Value>
@@ -8444,6 +8349,11 @@
 										</MusicTrack>
 										<MusicTrack Name="MUS_L1_DrumsB" ID="{350C6E49-CAD7-48AF-9C10-6648C33D7E39}" ShortID="1050183488">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-4</Value>
@@ -8566,6 +8476,11 @@
 										</MusicTrack>
 										<MusicTrack Name="Kick" ID="{7FAE5862-77B7-4CC7-AEBB-09DDD4CED0A3}" ShortID="25355793">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-4</Value>
@@ -8696,6 +8611,11 @@
 										</MusicTrack>
 										<MusicTrack Name="MUS_L1_Horns" ID="{E97C8CA5-DEAC-4407-B112-3CF8A609256C}" ShortID="458256387">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="MusicTrackType" Type="int16" Value="2"/>
 											</PropertyList>
 											<ReferenceList>
@@ -8853,6 +8773,11 @@
 									<ChildrenList>
 										<MusicTrack Name="MUS_L1_DrumsA" ID="{EF13527B-F90D-46B4-AE12-90A9940E457B}" ShortID="743260543">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-4</Value>
@@ -8974,6 +8899,11 @@
 										</MusicTrack>
 										<MusicTrack Name="MUS_L1_G1_LOOP" ID="{E725237D-AF50-4D86-B424-2FC43BA5526C}" ShortID="233848957">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>12</Value>
@@ -9034,6 +8964,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L1_G2_LOOP" ID="{71D3319D-4B87-469A-8E9A-6A1829BC19E4}" ShortID="108727185">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -9089,6 +9026,11 @@
 										</MusicTrack>
 										<MusicTrack Name="MUS_L1_DrumsB" ID="{8D528027-98AD-4C6F-ABF2-2AEDC7E7C7F1}" ShortID="493858212">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-4</Value>
@@ -9210,6 +9152,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L1_PianoLow" ID="{B66BA32C-9016-44D4-AD6A-07DB1F243191}" ShortID="801914631">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -9507,6 +9456,11 @@
 									<ChildrenList>
 										<MusicTrack Name="MUS_L1_DrumsA" ID="{5BAD88E1-9AE9-491A-8E7C-9D3AAEA33DAA}" ShortID="789841823">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-4</Value>
@@ -9628,6 +9582,11 @@
 										</MusicTrack>
 										<MusicTrack Name="MUS_L1_G1_LOOP" ID="{449A4107-AA68-43B5-B377-627BE589F2E1}" ShortID="49440206">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>12</Value>
@@ -9688,6 +9647,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L1_G2_LOOP" ID="{7AE6746E-2A53-4FA0-8659-BF92166C2327}" ShortID="445287734">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -9743,6 +9709,11 @@
 										</MusicTrack>
 										<MusicTrack Name="MUS_L1_DrumsB" ID="{1FB3721F-D198-4ACB-A75D-ADDD31422021}" ShortID="557577801">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-4</Value>
@@ -9864,6 +9835,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L1_PianoHigh" ID="{DA353D9F-029D-4ED6-B856-D25767CC60DE}" ShortID="173958768">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -10135,19 +10113,28 @@
 								</MusicSegment>
 								<MusicSegment Name="ST_IntroGP" ID="{09949D91-CC8D-4027-8DEB-3D81E0753182}" ShortID="144950861">
 									<PropertyList>
-										<Property Name="BypassEffect2" Type="bool">
+										<Property Name="Color" Type="int16" Value="19"/>
+										<Property Name="EndPosition" Type="Real64" Value="9568.89552781691"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="RenderEffect0" Type="bool">
 											<ValueList>
 												<Value>True</Value>
 											</ValueList>
 										</Property>
-										<Property Name="Color" Type="int16" Value="19"/>
-										<Property Name="EndPosition" Type="Real64" Value="9568.89552781691"/>
-										<Property Name="OverrideColor" Type="bool" Value="True"/>
-										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="RenderEffect1" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="RenderEffect2" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Tempo" Type="Real64" Value="86.81"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>7</Value>
+												<Value>6</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -10186,6 +10173,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<MusicTrack Name="MUS_Stinger_Swell" ID="{12900ACF-0E1F-45BB-AE4F-753C704F09A7}" ShortID="115759081">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
@@ -10347,6 +10341,11 @@
 									<ChildrenList>
 										<MusicTrack Name="MUS_L1_Drums_cm1-05Drums" ID="{3CC39C28-84F0-4074-8429-637FC8E968EA}" ShortID="967675516">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-4</Value>
@@ -10469,6 +10468,11 @@
 										</MusicTrack>
 										<MusicTrack Name="MUS_L1_G1_cm-05G1" ID="{4D0949C4-FAFC-4CB0-85C2-52B85A9098D8}" ShortID="165733874">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>12</Value>
@@ -10590,6 +10594,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L1_G2_cm-05G2" ID="{5309C129-F75F-4855-82E8-2F1ACE7FCE8A}" ShortID="878726670">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -10714,6 +10725,11 @@
 										</MusicTrack>
 										<MusicTrack Name="MUS_L1_G3_cm-05G3" ID="{C146B877-AE5D-4777-852E-B13C8C2E28F2}" ShortID="383772781">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-6</Value>
@@ -10869,6 +10885,11 @@
 										</MusicTrack>
 										<MusicTrack Name="MUS_Stinger_Swell" ID="{033FFB72-BCE8-4CB6-8A45-ED1DE3DA26B7}" ShortID="40298549">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>3</Value>
@@ -10999,7 +11020,22 @@
 										</MusicTrack>
 										<MusicTrack Name="ORgan Verb" ID="{C75E1BB1-34AC-4BC1-AE74-510C4CB51500}" ShortID="991248051">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+												<Property Name="RenderEffect0" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="RenderEffect1" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>11</Value>
@@ -11029,7 +11065,7 @@
 													<Language>SFX</Language>
 													<AudioFile>MUS\L1\MUS_L1_G1.cm-05G1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="460316041"/>
+														<MediaID ID="476104927"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -11180,6 +11216,11 @@
 									<ChildrenList>
 										<MusicTrack Name="MUS_L1_DrumsA" ID="{65D7B070-09B5-4D31-90A7-963CCE67C009}" ShortID="805889972">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-4</Value>
@@ -11301,6 +11342,11 @@
 										</MusicTrack>
 										<MusicTrack Name="MUS_L1_G1_LOOP" ID="{D69D9F45-5928-4BA7-9605-DC003F0D5BFD}" ShortID="51082586">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>12</Value>
@@ -11422,6 +11468,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L1_G2_LOOP" ID="{8B0DAEF8-7BE3-4559-B0AB-D45CD5B0C4F0}" ShortID="121138882">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -11536,6 +11589,11 @@
 										</MusicTrack>
 										<MusicTrack Name="MUS_L1_DrumsB" ID="{38610693-9105-475B-8856-033C35FF1488}" ShortID="833220800">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-4</Value>
@@ -11658,6 +11716,11 @@
 										</MusicTrack>
 										<MusicTrack Name="Leads" ID="{C22C222E-D109-4620-91CF-A6C24E5951ED}" ShortID="555902026">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="MusicTrackType" Type="int16" Value="2"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -11908,6 +11971,11 @@
 									<ChildrenList>
 										<MusicTrack Name="MUS_L2_Drums_LOOP" ID="{4D6660B3-A668-44A9-BACE-46CDDA5EAE44}" ShortID="871431526">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-4</Value>
@@ -12027,6 +12095,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L2_G1_LOOP" ID="{2B8F3B81-803D-4B0B-86CD-A366FF0837A3}" ShortID="808968264">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -12081,6 +12156,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L2_G2_LOOP" ID="{CD9797D1-475E-4A90-8922-8DEE1FDE7627}" ShortID="228154303">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -12135,6 +12217,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L2_G4_LOOP" ID="{3110F2EC-5340-4445-A766-4FC720C5E1A0}" ShortID="148075707">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -12249,6 +12338,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="New Music Track" ID="{D09FACE7-3B10-4857-B102-9BC770C411DF}" ShortID="853358978">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
@@ -12402,6 +12498,11 @@
 									<ChildrenList>
 										<MusicTrack Name="MUS_L2_Drums_LOOP" ID="{AD8D32A5-A1E7-40E7-B91D-99DFC82133A8}" ShortID="25043754">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-4</Value>
@@ -12462,6 +12563,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L2_G1_LOOP" ID="{11B652DB-9921-4A0B-983B-3F68291D9FAD}" ShortID="871817765">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -12516,6 +12624,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L2_G2_LOOP" ID="{FC1E3577-FA8C-4875-850E-DB6B8DE08A87}" ShortID="491836721">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -12570,6 +12685,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L2_G4_LOOP" ID="{3DA0F1DA-2597-4ED7-8429-E095B544AF57}" ShortID="59349124">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -12684,6 +12806,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L2_Guitar" ID="{30F61AEB-B450-4D8D-AF5B-831CC4FDAFF8}" ShortID="28166073">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -12738,6 +12867,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="New Music Track" ID="{52F7C27D-9F66-4E23-AC11-50E5F6C60AAF}" ShortID="305299046">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
@@ -12891,6 +13027,11 @@
 									<ChildrenList>
 										<MusicTrack Name="MUS_L2_Drums_LOOP" ID="{3377FE7C-30AE-408A-97AE-585D810CF656}" ShortID="939669036">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-4</Value>
@@ -12951,6 +13092,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L2_G1_LOOP" ID="{579A70E9-CF13-4BD9-87E8-418936722276}" ShortID="873120035">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -13005,6 +13153,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L2_G2_LOOP" ID="{F2905C4F-1BA8-4725-949A-3D1C9952F7D4}" ShortID="394279071">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -13059,6 +13214,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L2_G4_LOOP" ID="{11D2797A-ADEC-4D41-81D3-5301D572DB45}" ShortID="788921830">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -13173,6 +13335,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L2_Guitar" ID="{4831D44E-1E61-4C10-8B49-92D128BC912B}" ShortID="409993940">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -13227,6 +13396,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L2__LOOP" ID="{8D3B0418-6872-478B-9D5A-F2617D47574B}" ShortID="1001786729">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -13281,6 +13457,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="New Music Track" ID="{DF917E6F-FE0A-44A5-A40D-BA595086189D}" ShortID="628351238">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
@@ -13434,6 +13617,11 @@
 									<ChildrenList>
 										<MusicTrack Name="MUS_L2_Drums_LOOP" ID="{72A7EC1A-ED90-4330-B620-7DCEA8D619A3}" ShortID="743833993">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-4</Value>
@@ -13494,6 +13682,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L2_G1_LOOP" ID="{2158ABD0-7CBD-4637-9C64-394F280B99C3}" ShortID="373817817">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -13548,6 +13743,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L2_G2_LOOP" ID="{ADC5F1C6-2C78-440D-AB12-1278124501E1}" ShortID="224149767">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -13602,6 +13804,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L2_G4_LOOP" ID="{4631EF57-DD23-4078-94D9-BB3393ABEC1A}" ShortID="707144734">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -13716,6 +13925,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L2__LOOP" ID="{9D0BD696-89D7-422F-B722-B707E32ABEF8}" ShortID="139173470">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -13770,6 +13986,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="New Music Track" ID="{E87CDB11-B628-47B2-9B18-DE0F0A18BF2B}" ShortID="914329409">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
@@ -13907,15 +14130,24 @@
 								</MusicSegment>
 								<MusicSegment Name="ST_L1L2" ID="{834594F6-D1C0-44FF-A400-34AC122EC02C}" ShortID="302151240">
 									<PropertyList>
-										<Property Name="BypassEffect2" Type="bool">
+										<Property Name="Color" Type="int16" Value="19"/>
+										<Property Name="EndPosition" Type="Real64" Value="9568.89552781691"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="RenderEffect0" Type="bool">
 											<ValueList>
 												<Value>True</Value>
 											</ValueList>
 										</Property>
-										<Property Name="Color" Type="int16" Value="19"/>
-										<Property Name="EndPosition" Type="Real64" Value="9568.89552781691"/>
-										<Property Name="OverrideColor" Type="bool" Value="True"/>
-										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="RenderEffect1" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="RenderEffect2" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Tempo" Type="Real64" Value="86.81"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -13958,6 +14190,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<MusicTrack Name="MUS_Stinger_Swell" ID="{B8F1BA86-633A-484E-AC1F-9A7AECAE49BB}" ShortID="839002730">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Effect0">
 													<Custom>
@@ -14120,6 +14359,11 @@
 									<ChildrenList>
 										<MusicTrack Name="MUS_L3_Drums" ID="{51C74781-0145-4738-8C85-67B51B6ABF36}" ShortID="384121994">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-4</Value>
@@ -14241,6 +14485,11 @@
 										</MusicTrack>
 										<MusicTrack Name="MUS_L3_Fill" ID="{15EA94D9-8D25-451A-8C6F-7B86D22A4F77}" ShortID="926021946">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="MusicTrackType" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
@@ -14327,6 +14576,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L3_G1" ID="{1CF9CE99-02CD-4FA3-AE25-0CDC6155BE42}" ShortID="135769187">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -14381,6 +14637,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L3_G2" ID="{314648BE-96F9-4F8C-9E26-15BD74C1541D}" ShortID="942612895">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -14435,6 +14698,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L3_G3" ID="{D1538288-9DA4-41DF-BA90-D144921FC888}" ShortID="185933391">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -14548,6 +14818,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L3_G4" ID="{58D67BC1-CDF2-48E0-8EC5-9A33164FC72B}" ShortID="36961841">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -14602,6 +14879,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="New Music Track" ID="{6ECC817C-9B66-41F5-9D3B-96F11C9106FF}" ShortID="345768725">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
@@ -14714,6 +14998,11 @@
 										</MusicTrack>
 										<MusicTrack Name="MUS_Stinger_Swell" ID="{64EB5DB9-FEE7-418B-B78B-172D4E01D391}" ShortID="823631037">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>5</Value>
@@ -14905,6 +15194,11 @@
 									<ChildrenList>
 										<MusicTrack Name="MUS_L3_BassStinger" ID="{539C0597-13DE-4E5D-ABB4-9B6A174C2207}" ShortID="453864619">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>6</Value>
@@ -14998,6 +15292,11 @@
 									<ChildrenList>
 										<MusicTrack Name="MUS_L4A_Drums_LOOP" ID="{9BA555A5-7256-4845-BCF0-8BDB024C0A80}" ShortID="711267191">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-4</Value>
@@ -15118,6 +15417,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L4A_G1_LOOP" ID="{5676866F-B9B7-445B-BADB-CA365AC34795}" ShortID="33809475">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -15172,6 +15478,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L4A_G2_LOOP" ID="{38BD2D64-BFC7-441B-B682-33863C1A3C61}" ShortID="875926381">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -15226,6 +15539,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L4A_G3_LOOP" ID="{40B71EBF-68A9-4CC7-8431-22CA6DFB5CCC}" ShortID="281999419">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -15281,6 +15601,11 @@
 										</MusicTrack>
 										<MusicTrack Name="MUS_L4A_BassLegato" ID="{E65AB6BE-65CF-4DB8-86A3-B0FBACC2DD0C}" ShortID="659632873">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="MusicTrackType" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -15342,6 +15667,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="Kick Drum" ID="{28D9D526-A052-409F-AFE0-79A8DB7F4C72}" ShortID="729958656">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CF6FEA25-46C4-4659-A84F-177C7E5D738A}"/>
@@ -15495,6 +15827,11 @@
 									<ChildrenList>
 										<MusicTrack Name="MUS_L4B_Drums_LOOP" ID="{CE6E02A6-C72A-4696-BB2A-34B2CFE10165}" ShortID="922054523">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-4</Value>
@@ -15615,6 +15952,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L4B_G1_LOOP" ID="{2FD7281C-5C71-4CE0-86B9-8543E8C431A6}" ShortID="319604943">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -15728,6 +16072,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L4B_G2_LOOP" ID="{C3CBD96D-6029-4111-96C4-8F80B868AE8B}" ShortID="150898466">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -15782,6 +16133,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L4B_G3_LOOP" ID="{8B7F5D7D-561D-4A5C-9CD3-5D2CF3D50D6D}" ShortID="533208215">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -15836,6 +16194,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L4B_G4_LOOP" ID="{713F1B96-C43F-4FC7-8280-7A7EBAE6E82D}" ShortID="382199427">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -15890,6 +16255,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="Kick Drum_01" ID="{11AE468B-DC87-4A77-B37D-EC691F0F5726}" ShortID="507526980">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -16015,6 +16387,11 @@
 										</MusicTrack>
 										<MusicTrack Name="MUS_Stinger_Swell" ID="{82A3F1EF-1504-4017-9FC9-240CC93C3531}" ShortID="298649360">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>3</Value>
@@ -16208,6 +16585,11 @@
 									<ChildrenList>
 										<MusicTrack Name="MUS_L4A_Drums_LOOP" ID="{8A39D76C-9EB0-4AF9-B710-74F332DC96C1}" ShortID="931653898">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-4</Value>
@@ -16327,6 +16709,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L4A_G2_LOOP" ID="{FACA3359-C6EA-4B07-90F9-78F819A5AFB5}" ShortID="668279819">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -16380,6 +16769,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="Kick Drum_01" ID="{85F0CE8D-1C49-4592-93BE-CFD657250FDB}" ShortID="896388001">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -16495,7 +16891,27 @@
 										</MusicTrack>
 										<MusicTrack Name="MUS_L4A_G3_LOOP" ID="{A09B33F1-859F-4376-AD7C-AD9DB55027DB}" ShortID="60092591">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+												<Property Name="RenderEffect0" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="RenderEffect1" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="RenderEffect2" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-3</Value>
@@ -16524,7 +16940,7 @@
 													<Language>SFX</Language>
 													<AudioFile>MUS\L4\MUS_L4A_G3_LOOP.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="270741695"/>
+														<MediaID ID="1021742625"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -16565,6 +16981,11 @@
 										</MusicTrack>
 										<MusicTrack Name="MUS_L4A_SynthLead" ID="{27ECE5CE-CA75-4D59-B72E-6EF16ED0EF2F}" ShortID="19860826">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="MusicTrackType" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -16625,6 +17046,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_Stinger_Swell" ID="{DD785CC3-0957-4E92-AD3A-CA363F6661A8}" ShortID="825174935">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -16803,6 +17231,11 @@
 									<ChildrenList>
 										<MusicTrack Name="MUS_L4B_Drums_LOOP" ID="{112F8E41-194E-4B66-A540-C8CA6C106276}" ShortID="355264557">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-4</Value>
@@ -16939,6 +17372,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L4B_G1_LOOP" ID="{A71793E8-EE30-452E-BE3E-EFAF3FB19045}" ShortID="366431678">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -16993,6 +17433,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MUS_L4B_G4_LOOP" ID="{B37CCCF2-5203-4759-A2E8-5C99E6EB948B}" ShortID="926182170">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -17047,6 +17494,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="Kick Drum_02" ID="{E04566E8-3C27-4873-B896-613639AA3703}" ShortID="67889379">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAA4DB0F-E658-433B-987B-C7797D28FF2F}"/>
@@ -17177,6 +17631,11 @@
 										</MusicTrack>
 										<MusicTrack Name="MUS_Stinger_Swell" ID="{EEA85CDD-EF29-4E43-8840-70D49FA21EB4}" ShortID="505787198">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>3</Value>
@@ -17721,6 +18180,23 @@
 							</Playlist>
 						</MusicPlaylistContainer>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Is_Gameplay_On" ID="{55E1CB27-3123-4980-9AAF-4BD425935C17}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="False" ID="{90C5DEE8-F65D-495F-9A44-BFAED6B6A61E}"/>
+								<CustomState Name="" ID="{27552A97-93B3-41A3-A4A0-6E9DCE0A8B76}" ShortID="37391510"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="True" ID="{C964BDDC-1F63-4A8D-B88F-49FD5236308D}"/>
+								<CustomState Name="" ID="{7F4B94AC-ACF6-487D-8E2E-6694A4392BA1}" ShortID="984156158"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{1122A875-942E-4613-8DEF-BB5BADF3EDF6}">
 							<PropertyList>
@@ -17736,6 +18212,7 @@
 								<MusicTransition Name="Transition" ID="{ED37A4D6-A2A1-446D-9AAC-431EAB51D866}">
 									<PropertyList>
 										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
 										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
 										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
 										<Property Name="SourceContextType" Type="int16" Value="2"/>
@@ -17775,7 +18252,7 @@
 					<EntryList>
 						<Entry>
 							<Path>
-								<PathElementRef Name="False" ID="{90C5DEE8-F65D-495F-9A44-BFAED6B6A61E}"/>
+								<PathElementRef Name="None" ID="{B2988B49-E35C-4A35-951C-380FDA5391D3}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="MUS_Intro1" ID="{5B767507-5F59-468E-99AA-939D4C1CEE31}" WorkUnitID="{3F373DB5-7C0C-4EE5-88A7-9BFE0E4EEBFA}" Platform="Linked"/>
@@ -17787,6 +18264,14 @@
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="MUS_Gameplay" ID="{DC14BDBE-849D-4090-8C50-AF17BCA1B051}" WorkUnitID="{3F373DB5-7C0C-4EE5-88A7-9BFE0E4EEBFA}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="False" ID="{90C5DEE8-F65D-495F-9A44-BFAED6B6A61E}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="MUS_Intro1" ID="{5B767507-5F59-468E-99AA-939D4C1CEE31}" WorkUnitID="{3F373DB5-7C0C-4EE5-88A7-9BFE0E4EEBFA}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>

@@ -1,0 +1,765 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "/Users/Gui/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Projects/UBC Game Dev/GIT/BB_Wwise/",
+   "SourceFilesRoot": "/Users/Gui/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Projects/UBC Game Dev/GIT/BB_Wwise/.cache/Mac/",
+   "SoundBanksRoot": "/Users/Gui/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Projects/UBC Game Dev/GIT/BB_Wwise/GeneratedSoundBanks/Mac/",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "/Users/Gui/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Projects/UBC Game Dev/GIT/BB_Wwise/GeneratedSoundBanks/Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3088904365",
+    "Language": "SFX",
+    "Hash": "1197268412",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\WW_Soundback_BB",
+    "ShortName": "WW_Soundback_BB",
+    "Path": "3088904365.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "202194903",
+      "Name": "Music_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Music_Play",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "22673577",
+        "Language": "SFX",
+        "ShortName": "MUS\\Int\\MUS_Intro_SynthLOOP-05.wav",
+        "Path": "SFX/MUS/Int/MUS_Intro_SynthLOOP-05_D79FB2B7.wem"
+       },
+       {
+        "Id": "94179057",
+        "Language": "SFX",
+        "ShortName": "MUS\\Int\\MUS_Intro_StingersA-07.wav",
+        "Path": "SFX/MUS/Int/MUS_Intro_StingersA-07_D79FB2B7.wem"
+       },
+       {
+        "Id": "155567002",
+        "Language": "SFX",
+        "ShortName": "MUS\\Int\\MUS_Intro_StingersC-02.wav",
+        "Path": "SFX/MUS/Int/MUS_Intro_StingersC-02_D79FB2B7.wem"
+       },
+       {
+        "Id": "166904772",
+        "Language": "SFX",
+        "ShortName": "MUS\\Int\\MUS_Intro_StingersA-03.wav",
+        "Path": "SFX/MUS/Int/MUS_Intro_StingersA-03_D79FB2B7.wem"
+       },
+       {
+        "Id": "182712367",
+        "Language": "SFX",
+        "ShortName": "MUS\\Int\\MUS_Intro_StingersA-08.wav",
+        "Path": "SFX/MUS/Int/MUS_Intro_StingersA-08_D79FB2B7.wem"
+       },
+       {
+        "Id": "216946014",
+        "Language": "SFX",
+        "ShortName": "MUS\\Int\\MUS_Intro_StingersA-05.wav",
+        "Path": "SFX/MUS/Int/MUS_Intro_StingersA-05_D79FB2B7.wem"
+       },
+       {
+        "Id": "409944387",
+        "Language": "SFX",
+        "ShortName": "MUS\\Int\\MUS_Intro_StingersB-06.wav",
+        "Path": "SFX/MUS/Int/MUS_Intro_StingersB-06_D79FB2B7.wem"
+       },
+       {
+        "Id": "410124088",
+        "Language": "SFX",
+        "ShortName": "MUS\\Int\\MUS_Intro_StingersB-04.wav",
+        "Path": "SFX/MUS/Int/MUS_Intro_StingersB-04_D79FB2B7.wem"
+       },
+       {
+        "Id": "421760723",
+        "Language": "SFX",
+        "ShortName": "MUS\\Int\\MUS_Intro_StingersC-07.wav",
+        "Path": "SFX/MUS/Int/MUS_Intro_StingersC-07_D79FB2B7.wem"
+       },
+       {
+        "Id": "483620085",
+        "Language": "SFX",
+        "ShortName": "MUS\\Int\\MUS_Intro_StingersC-10.wav",
+        "Path": "SFX/MUS/Int/MUS_Intro_StingersC-10_D79FB2B7.wem"
+       },
+       {
+        "Id": "568997536",
+        "Language": "SFX",
+        "ShortName": "MUS\\Int\\MUS_Intro_StingersB-11.wav",
+        "Path": "SFX/MUS/Int/MUS_Intro_StingersB-11_D79FB2B7.wem"
+       },
+       {
+        "Id": "684096853",
+        "Language": "SFX",
+        "ShortName": "MUS\\Int\\MUS_Intro_StingersA-01.wav",
+        "Path": "SFX/MUS/Int/MUS_Intro_StingersA-01_D79FB2B7.wem"
+       },
+       {
+        "Id": "781943167",
+        "Language": "SFX",
+        "ShortName": "MUS\\Int\\MUS_Intro_StingersC-09.wav",
+        "Path": "SFX/MUS/Int/MUS_Intro_StingersC-09_D79FB2B7.wem"
+       },
+       {
+        "Id": "835601413",
+        "Language": "SFX",
+        "ShortName": "MUS\\Int\\MUS_Intro_StingersC-04.wav",
+        "Path": "SFX/MUS/Int/MUS_Intro_StingersC-04_D79FB2B7.wem"
+       },
+       {
+        "Id": "867842996",
+        "Language": "SFX",
+        "ShortName": "MUS\\Int\\MUS_Intro_StingersC-05.wav",
+        "Path": "SFX/MUS/Int/MUS_Intro_StingersC-05_D79FB2B7.wem"
+       },
+       {
+        "Id": "887626790",
+        "Language": "SFX",
+        "ShortName": "MUS\\Int\\MUS_Intro_StingersB-10.wav",
+        "Path": "SFX/MUS/Int/MUS_Intro_StingersB-10_D79FB2B7.wem"
+       },
+       {
+        "Id": "923032601",
+        "Language": "SFX",
+        "ShortName": "MUS\\Int\\MUS_Intro_SynthIntro.wav",
+        "Path": "SFX/MUS/Int/MUS_Intro_SynthIntro_D79FB2B7.wem"
+       },
+       {
+        "Id": "1037528241",
+        "Language": "SFX",
+        "ShortName": "MUS\\Int\\MUS_Intro_StingersB-12.wav",
+        "Path": "SFX/MUS/Int/MUS_Intro_StingersB-12_D79FB2B7.wem"
+       },
+       {
+        "Id": "1051350117",
+        "Language": "SFX",
+        "ShortName": "MUS\\Int\\MUS_Intro_StingersB-02.wav",
+        "Path": "SFX/MUS/Int/MUS_Intro_StingersB-02_D79FB2B7.wem"
+       }
+      ],
+      "IncludedMemoryFiles": [
+       {
+        "Id": "34855606",
+        "Language": "SFX",
+        "ShortName": "MUS\\L4\\MUS_L4B_G4_LOOP.wav",
+        "Path": "SFX/MUS/L4/MUS_L4B_G4_LOOP_D79FB2B7.wem"
+       },
+       {
+        "Id": "37682505",
+        "Language": "SFX",
+        "ShortName": "MUS\\L1\\MUS_L1_G3_LOOP.wav",
+        "Path": "SFX/MUS/L1/MUS_L1_G3_LOOP_D79FB2B7.wem"
+       },
+       {
+        "Id": "102554903",
+        "Language": "SFX",
+        "ShortName": "MUS\\L4\\MUS_L4B_G2_LOOP.wav",
+        "Path": "SFX/MUS/L4/MUS_L4B_G2_LOOP_D79FB2B7.wem"
+       },
+       {
+        "Id": "122837807",
+        "Language": "SFX",
+        "ShortName": "MUS\\L1\\MUS_L1_G1_LOOP.wav",
+        "Path": "SFX/MUS/L1/MUS_L1_G1_LOOP_D79FB2B7.wem"
+       },
+       {
+        "Id": "122841113",
+        "Language": "SFX",
+        "ShortName": "MUS\\L3\\MUS_L3_G2.wav",
+        "Path": "SFX/MUS/L3/MUS_L3_G2_D79FB2B7.wem"
+       },
+       {
+        "Id": "139120101",
+        "Language": "SFX",
+        "ShortName": "MUS\\L1\\MUS_L1_Horns.wav",
+        "Path": "SFX/MUS/L1/MUS_L1_Horns_D79FB2B7.wem"
+       },
+       {
+        "Id": "158883551",
+        "Language": "SFX",
+        "ShortName": "MUS\\L2\\MUS_L2_Drums_LOOP.wav",
+        "Path": "SFX/MUS/L2/MUS_L2_Drums_LOOP_D79FB2B7.wem"
+       },
+       {
+        "Id": "183620529",
+        "Language": "SFX",
+        "ShortName": "MUS\\L3\\MUS_L3_Drums.wav",
+        "Path": "SFX/MUS/L3/MUS_L3_Drums_D79FB2B7.wem"
+       },
+       {
+        "Id": "197848812",
+        "Language": "SFX",
+        "ShortName": "MUS\\L3\\MUS_L3_Fill2.wav",
+        "Path": "SFX/MUS/L3/MUS_L3_Fill2_D79FB2B7.wem"
+       },
+       {
+        "Id": "242217905",
+        "Language": "SFX",
+        "ShortName": "MUS\\L4\\MUS_L4A_G1_LOOP.wav",
+        "Path": "SFX/MUS/L4/MUS_L4A_G1_LOOP_D79FB2B7.wem"
+       },
+       {
+        "Id": "251483576",
+        "Language": "SFX",
+        "ShortName": "MUS\\L3\\MUS_L3_G3.wav",
+        "Path": "SFX/MUS/L3/MUS_L3_G3_D79FB2B7.wem"
+       },
+       {
+        "Id": "270741695",
+        "Language": "SFX",
+        "ShortName": "MUS\\L4\\MUS_L4A_G3_LOOP.wav",
+        "Path": "SFX/MUS/L4/MUS_L4A_G3_LOOP_D79FB2B7.wem"
+       },
+       {
+        "Id": "299856838",
+        "Language": "SFX",
+        "ShortName": "MUS\\L4\\MUS_L4B_Drums_LOOP.wav",
+        "Path": "SFX/MUS/L4/MUS_L4B_Drums_LOOP_D79FB2B7.wem"
+       },
+       {
+        "Id": "300459676",
+        "Language": "SFX",
+        "ShortName": "MUS\\STs\\MUS_Stinger_Swell.wav",
+        "Path": "SFX/MUS/STs/MUS_Stinger_Swell_D79FB2B7.wem"
+       },
+       {
+        "Id": "324026438",
+        "Language": "SFX",
+        "ShortName": "MUS\\L1\\MUS_L1_Drums.cm1-03Drums_LOOP.wav",
+        "Path": "SFX/MUS/L1/MUS_L1_Drums.cm1-03Drums_LOOP_D79FB2B7.wem"
+       },
+       {
+        "Id": "325377571",
+        "Language": "SFX",
+        "ShortName": "MUS\\STs\\MUS_L3_BassStinger.wav",
+        "Path": "SFX/MUS/STs/MUS_L3_BassStinger_D79FB2B7.wem"
+       },
+       {
+        "Id": "345651688",
+        "Language": "SFX",
+        "ShortName": "MUS\\L2\\MUS_L2_G1_LOOP.wav",
+        "Path": "SFX/MUS/L2/MUS_L2_G1_LOOP_D79FB2B7.wem"
+       },
+       {
+        "Id": "409944387",
+        "Language": "SFX",
+        "ShortName": "MUS\\Int\\MUS_Intro_StingersB-06.wav",
+        "Path": "SFX/MUS/Int/MUS_Intro_StingersB-06_D79FB2B7.wem"
+       },
+       {
+        "Id": "410124088",
+        "Language": "SFX",
+        "ShortName": "MUS\\Int\\MUS_Intro_StingersB-04.wav",
+        "Path": "SFX/MUS/Int/MUS_Intro_StingersB-04_D79FB2B7.wem"
+       },
+       {
+        "Id": "460316041",
+        "Language": "SFX",
+        "ShortName": "MUS\\L1\\MUS_L1_G1.cm-05G1.wav",
+        "Path": "SFX/MUS/L1/MUS_L1_G1.cm-05G1_D79FB2B7.wem"
+       },
+       {
+        "Id": "473022820",
+        "Language": "SFX",
+        "ShortName": "MUS\\L3\\MUS_L3_Fill.wav",
+        "Path": "SFX/MUS/L3/MUS_L3_Fill_D79FB2B7.wem"
+       },
+       {
+        "Id": "476104927",
+        "Language": "SFX",
+        "ShortName": "MUS\\L1\\MUS_L1_G1.cm-05G1.wav",
+        "Path": "SFX/MUS/L1/MUS_L1_G1.cm-05G1_A142916C.wem"
+       },
+       {
+        "Id": "565887152",
+        "Language": "SFX",
+        "ShortName": "MUS\\STs\\MUS_Stinger_Swell.wav",
+        "Path": "SFX/MUS/STs/MUS_Stinger_Swell_6BB009E2.wem"
+       },
+       {
+        "Id": "568997536",
+        "Language": "SFX",
+        "ShortName": "MUS\\Int\\MUS_Intro_StingersB-11.wav",
+        "Path": "SFX/MUS/Int/MUS_Intro_StingersB-11_D79FB2B7.wem"
+       },
+       {
+        "Id": "569263550",
+        "Language": "SFX",
+        "ShortName": "MUS\\L4\\MUS_L4B_G1_LOOP.wav",
+        "Path": "SFX/MUS/L4/MUS_L4B_G1_LOOP_D79FB2B7.wem"
+       },
+       {
+        "Id": "636624426",
+        "Language": "SFX",
+        "ShortName": "MUS\\L2\\MUS_L2_G2_LOOP.wav",
+        "Path": "SFX/MUS/L2/MUS_L2_G2_LOOP_D79FB2B7.wem"
+       },
+       {
+        "Id": "645708023",
+        "Language": "SFX",
+        "ShortName": "MUS\\L1\\MUS_L1_G3.cm-05G3.wav",
+        "Path": "SFX/MUS/L1/MUS_L1_G3.cm-05G3_D79FB2B7.wem"
+       },
+       {
+        "Id": "657717614",
+        "Language": "SFX",
+        "ShortName": "MUS\\L4\\MUS_L4B_G3_LOOP.wav",
+        "Path": "SFX/MUS/L4/MUS_L4B_G3_LOOP_D79FB2B7.wem"
+       },
+       {
+        "Id": "682391455",
+        "Language": "SFX",
+        "ShortName": "MUS\\L1\\MUS_L1_LEad1.wav",
+        "Path": "SFX/MUS/L1/MUS_L1_LEad1_D79FB2B7.wem"
+       },
+       {
+        "Id": "687263280",
+        "Language": "SFX",
+        "ShortName": "MUS\\L1\\MUS_L1_Drums.cm1-05Drums.wav",
+        "Path": "SFX/MUS/L1/MUS_L1_Drums.cm1-05Drums_D79FB2B7.wem"
+       },
+       {
+        "Id": "728293870",
+        "Language": "SFX",
+        "ShortName": "MUS\\L4\\MUS_L4A_Drums_LOOP.wav",
+        "Path": "SFX/MUS/L4/MUS_L4A_Drums_LOOP_D79FB2B7.wem"
+       },
+       {
+        "Id": "747492836",
+        "Language": "SFX",
+        "ShortName": "MUS\\L2\\MUS_L2_Guitar.wav",
+        "Path": "SFX/MUS/L2/MUS_L2_Guitar_D79FB2B7.wem"
+       },
+       {
+        "Id": "789717312",
+        "Language": "SFX",
+        "ShortName": "MUS\\L3\\MUS_L3_G1.wav",
+        "Path": "SFX/MUS/L3/MUS_L3_G1_D79FB2B7.wem"
+       },
+       {
+        "Id": "791020545",
+        "Language": "SFX",
+        "ShortName": "MUS\\STs\\MUS_Stinger_Swell.wav",
+        "Path": "SFX/MUS/STs/MUS_Stinger_Swell_492B4AC8.wem"
+       },
+       {
+        "Id": "796924544",
+        "Language": "SFX",
+        "ShortName": "MUS\\L1\\MUS_L1_G2_LOOP.wav",
+        "Path": "SFX/MUS/L1/MUS_L1_G2_LOOP_D79FB2B7.wem"
+       },
+       {
+        "Id": "836716787",
+        "Language": "SFX",
+        "ShortName": "MUS\\L1\\MUS_L1_G2.cm-05G2.wav",
+        "Path": "SFX/MUS/L1/MUS_L1_G2.cm-05G2_D79FB2B7.wem"
+       },
+       {
+        "Id": "841185806",
+        "Language": "SFX",
+        "ShortName": "MUS\\L2\\MUS_L2__LOOP.wav",
+        "Path": "SFX/MUS/L2/MUS_L2__LOOP_D79FB2B7.wem"
+       },
+       {
+        "Id": "871967303",
+        "Language": "SFX",
+        "ShortName": "MUS\\L2\\MUS_L2_G4_LOOP.wav",
+        "Path": "SFX/MUS/L2/MUS_L2_G4_LOOP_D79FB2B7.wem"
+       },
+       {
+        "Id": "887626790",
+        "Language": "SFX",
+        "ShortName": "MUS\\Int\\MUS_Intro_StingersB-10.wav",
+        "Path": "SFX/MUS/Int/MUS_Intro_StingersB-10_D79FB2B7.wem"
+       },
+       {
+        "Id": "902111646",
+        "Language": "SFX",
+        "ShortName": "MUS\\L1\\MUS_L1_G4_LOOP.wav",
+        "Path": "SFX/MUS/L1/MUS_L1_G4_LOOP_D79FB2B7.wem"
+       },
+       {
+        "Id": "923032601",
+        "Language": "SFX",
+        "ShortName": "MUS\\Int\\MUS_Intro_SynthIntro.wav",
+        "Path": "SFX/MUS/Int/MUS_Intro_SynthIntro_D79FB2B7.wem",
+        "PrefetchSize": "17880"
+       },
+       {
+        "Id": "962662061",
+        "Language": "SFX",
+        "ShortName": "MUS\\L4\\MUS_L4A_SynthLead.wav",
+        "Path": "SFX/MUS/L4/MUS_L4A_SynthLead_D79FB2B7.wem"
+       },
+       {
+        "Id": "976635606",
+        "Language": "SFX",
+        "ShortName": "MUS\\L4\\MUS_L4A_G2_LOOP.wav",
+        "Path": "SFX/MUS/L4/MUS_L4A_G2_LOOP_D79FB2B7.wem"
+       },
+       {
+        "Id": "992293287",
+        "Language": "SFX",
+        "ShortName": "MUS\\L3\\MUS_L3_G4.wav",
+        "Path": "SFX/MUS/L3/MUS_L3_G4_D79FB2B7.wem"
+       },
+       {
+        "Id": "1001287853",
+        "Language": "SFX",
+        "ShortName": "MUS\\L4\\MUS_L4A_BassStec.wav",
+        "Path": "SFX/MUS/L4/MUS_L4A_BassStec_D79FB2B7.wem"
+       },
+       {
+        "Id": "1020855890",
+        "Language": "SFX",
+        "ShortName": "MUS\\L1\\MUS_L1_Lead2.wav",
+        "Path": "SFX/MUS/L1/MUS_L1_Lead2_D79FB2B7.wem"
+       },
+       {
+        "Id": "1021742625",
+        "Language": "SFX",
+        "ShortName": "MUS\\L4\\MUS_L4A_G3_LOOP.wav",
+        "Path": "SFX/MUS/L4/MUS_L4A_G3_LOOP_73B2B761.wem"
+       },
+       {
+        "Id": "1037528241",
+        "Language": "SFX",
+        "ShortName": "MUS\\Int\\MUS_Intro_StingersB-12.wav",
+        "Path": "SFX/MUS/Int/MUS_Intro_StingersB-12_D79FB2B7.wem"
+       },
+       {
+        "Id": "1051350117",
+        "Language": "SFX",
+        "ShortName": "MUS\\Int\\MUS_Intro_StingersB-02.wav",
+        "Path": "SFX/MUS/Int/MUS_Intro_StingersB-02_D79FB2B7.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{90C5DEE8-F65D-495F-9A44-BFAED6B6A61E}",
+        "Media": [
+         {
+          "Id": "22673577"
+         },
+         {
+          "Id": "94179057"
+         },
+         {
+          "Id": "155567002"
+         },
+         {
+          "Id": "166904772"
+         },
+         {
+          "Id": "182712367"
+         },
+         {
+          "Id": "216946014"
+         },
+         {
+          "Id": "409944387"
+         },
+         {
+          "Id": "410124088"
+         },
+         {
+          "Id": "421760723"
+         },
+         {
+          "Id": "483620085"
+         },
+         {
+          "Id": "568997536"
+         },
+         {
+          "Id": "684096853"
+         },
+         {
+          "Id": "781943167"
+         },
+         {
+          "Id": "835601413"
+         },
+         {
+          "Id": "867842996"
+         },
+         {
+          "Id": "887626790"
+         },
+         {
+          "Id": "923032601"
+         },
+         {
+          "Id": "1037528241"
+         },
+         {
+          "Id": "1051350117"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{C964BDDC-1F63-4A8D-B88F-49FD5236308D}",
+        "Media": [
+         {
+          "Id": "34855606"
+         },
+         {
+          "Id": "37682505"
+         },
+         {
+          "Id": "102554903"
+         },
+         {
+          "Id": "122837807"
+         },
+         {
+          "Id": "122841113"
+         },
+         {
+          "Id": "139120101"
+         },
+         {
+          "Id": "158883551"
+         },
+         {
+          "Id": "183620529"
+         },
+         {
+          "Id": "197848812"
+         },
+         {
+          "Id": "242217905"
+         },
+         {
+          "Id": "251483576"
+         },
+         {
+          "Id": "270741695"
+         },
+         {
+          "Id": "299856838"
+         },
+         {
+          "Id": "300459676"
+         },
+         {
+          "Id": "324026438"
+         },
+         {
+          "Id": "325377571"
+         },
+         {
+          "Id": "345651688"
+         },
+         {
+          "Id": "460316041"
+         },
+         {
+          "Id": "473022820"
+         },
+         {
+          "Id": "476104927"
+         },
+         {
+          "Id": "565887152"
+         },
+         {
+          "Id": "569263550"
+         },
+         {
+          "Id": "636624426"
+         },
+         {
+          "Id": "645708023"
+         },
+         {
+          "Id": "657717614"
+         },
+         {
+          "Id": "682391455"
+         },
+         {
+          "Id": "687263280"
+         },
+         {
+          "Id": "728293870"
+         },
+         {
+          "Id": "747492836"
+         },
+         {
+          "Id": "789717312"
+         },
+         {
+          "Id": "791020545"
+         },
+         {
+          "Id": "796924544"
+         },
+         {
+          "Id": "836716787"
+         },
+         {
+          "Id": "841185806"
+         },
+         {
+          "Id": "871967303"
+         },
+         {
+          "Id": "902111646"
+         },
+         {
+          "Id": "962662061"
+         },
+         {
+          "Id": "976635606"
+         },
+         {
+          "Id": "992293287"
+         },
+         {
+          "Id": "1001287853"
+         },
+         {
+          "Id": "1020855890"
+         },
+         {
+          "Id": "1021742625"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "3227181061",
+      "Name": "Music_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Music_Stop"
+     },
+     {
+      "Id": "3989905542",
+      "Name": "SFX_P_Attack",
+      "ObjectPath": "\\Events\\Player_Events\\SFX_P_Attack",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "19540392",
+        "Language": "SFX",
+        "ShortName": "PlayerSFX\\Player_Attack_Cloth\\SFX_P_Attack_Cloth_01.wav",
+        "Path": "SFX/PlayerSFX/Player_Attack_Cloth/SFX_P_Attack_Cloth_01_9557A22B.wem"
+       },
+       {
+        "Id": "175291472",
+        "Language": "SFX",
+        "ShortName": "PlayerSFX\\Player_Attack_Cloth\\SFX_P_Attack_Cloth_03.wav",
+        "Path": "SFX/PlayerSFX/Player_Attack_Cloth/SFX_P_Attack_Cloth_03_9C8B34C8.wem"
+       },
+       {
+        "Id": "216772978",
+        "Language": "SFX",
+        "ShortName": "PlayerSFX\\Player_Attack_Whoosh\\SFX_P_Attack_Whoosh.cm-03.wav",
+        "Path": "SFX/PlayerSFX/Player_Attack_Whoosh/SFX_P_Attack_Whoosh.cm-03_B8637BD2.wem"
+       },
+       {
+        "Id": "261846002",
+        "Language": "SFX",
+        "ShortName": "PlayerSFX\\Player_Attack_Cloth\\SFX_P_Attack_Cloth_02.wav",
+        "Path": "SFX/PlayerSFX/Player_Attack_Cloth/SFX_P_Attack_Cloth_02_CDE114C5.wem"
+       },
+       {
+        "Id": "350697357",
+        "Language": "SFX",
+        "ShortName": "PlayerSFX\\Player_Attack_Whoosh\\SFX_P_Attack_Whoosh.cm-09.wav",
+        "Path": "SFX/PlayerSFX/Player_Attack_Whoosh/SFX_P_Attack_Whoosh.cm-09_10C4C929.wem"
+       },
+       {
+        "Id": "438941341",
+        "Language": "SFX",
+        "ShortName": "PlayerSFX\\Player_Attack_Whoosh\\SFX_P_Attack_Whoosh.cm-07.wav",
+        "Path": "SFX/PlayerSFX/Player_Attack_Whoosh/SFX_P_Attack_Whoosh.cm-07_10C4C929.wem"
+       },
+       {
+        "Id": "542175701",
+        "Language": "SFX",
+        "ShortName": "PlayerSFX\\Player_Attack_Whoosh\\SFX_P_Attack_Whoosh.cm-10.wav",
+        "Path": "SFX/PlayerSFX/Player_Attack_Whoosh/SFX_P_Attack_Whoosh.cm-10_10C4C929.wem"
+       },
+       {
+        "Id": "550656693",
+        "Language": "SFX",
+        "ShortName": "PlayerSFX\\Player_Attack_Whoosh\\SFX_P_Attack_Whoosh.cm-01.wav",
+        "Path": "SFX/PlayerSFX/Player_Attack_Whoosh/SFX_P_Attack_Whoosh.cm-01_10C4C929.wem"
+       },
+       {
+        "Id": "587871892",
+        "Language": "SFX",
+        "ShortName": "PlayerSFX\\Player_Attack_Cloth\\SFX_P_Attack_Cloth_04.wav",
+        "Path": "SFX/PlayerSFX/Player_Attack_Cloth/SFX_P_Attack_Cloth_04_A14D83EB.wem"
+       },
+       {
+        "Id": "730676470",
+        "Language": "SFX",
+        "ShortName": "PlayerSFX\\Player_Attack_Cloth\\SFX_P_Attack_Cloth_06.wav",
+        "Path": "SFX/PlayerSFX/Player_Attack_Cloth/SFX_P_Attack_Cloth_06_075672C2.wem"
+       },
+       {
+        "Id": "812702004",
+        "Language": "SFX",
+        "ShortName": "PlayerSFX\\Player_Attack_Cloth\\SFX_P_Attack_Cloth_05.wav",
+        "Path": "SFX/PlayerSFX/Player_Attack_Cloth/SFX_P_Attack_Cloth_05_5C76B6C5.wem"
+       },
+       {
+        "Id": "954892180",
+        "Language": "SFX",
+        "ShortName": "PlayerSFX\\Player_Attack_Whoosh\\SFX_P_Attack_Whoosh.cm-05.wav",
+        "Path": "SFX/PlayerSFX/Player_Attack_Whoosh/SFX_P_Attack_Whoosh.cm-05_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "964174141",
+      "Name": "SFX_P_Glide",
+      "ObjectPath": "\\Events\\Player_Events\\SFX_P_Glide",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "629603720",
+        "Language": "SFX",
+        "ShortName": "PlayerSFX\\Player_Glide\\SFX_P_Glide1.wav",
+        "Path": "SFX/PlayerSFX/Player_Glide/SFX_P_Glide1_10C4C929.wem"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2520683736",
+      "Name": "Is_Gameplay_On",
+      "ObjectPath": "\\States\\Default Work Unit\\Is_Gameplay_On",
+      "GUID": "{55E1CB27-3123-4980-9AAF-4BD425935C17}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Is_Gameplay_On\\None",
+        "GUID": "{B2988B49-E35C-4A35-951C-380FDA5391D3}"
+       },
+       {
+        "Id": "3053630529",
+        "Name": "True",
+        "ObjectPath": "\\States\\Default Work Unit\\Is_Gameplay_On\\True",
+        "GUID": "{C964BDDC-1F63-4A8D-B88F-49FD5236308D}"
+       },
+       {
+        "Id": "2452206122",
+        "Name": "False",
+        "ObjectPath": "\\States\\Default Work Unit\\Is_Gameplay_On\\False",
+        "GUID": "{90C5DEE8-F65D-495F-9A44-BFAED6B6A61E}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

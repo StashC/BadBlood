@@ -11,6 +11,14 @@
 
 namespace AK
 {
+    namespace EVENTS
+    {
+        static const AkUniqueID MUSIC_PLAY = 202194903U;
+        static const AkUniqueID MUSIC_STOP = 3227181061U;
+        static const AkUniqueID SFX_P_ATTACK = 3989905542U;
+        static const AkUniqueID SFX_P_GLIDE = 964174141U;
+    } // namespace EVENTS
+
     namespace STATES
     {
         namespace IS_GAMEPLAY_ON
@@ -26,22 +34,6 @@ namespace AK
         } // namespace IS_GAMEPLAY_ON
 
     } // namespace STATES
-
-    namespace GAME_PARAMETERS
-    {
-        static const AkUniqueID PLAYBACK_RATE = 1524500807U;
-        static const AkUniqueID RPM = 796049864U;
-        static const AkUniqueID SS_AIR_FEAR = 1351367891U;
-        static const AkUniqueID SS_AIR_FREEFALL = 3002758120U;
-        static const AkUniqueID SS_AIR_FURY = 1029930033U;
-        static const AkUniqueID SS_AIR_MONTH = 2648548617U;
-        static const AkUniqueID SS_AIR_PRESENCE = 3847924954U;
-        static const AkUniqueID SS_AIR_RPM = 822163944U;
-        static const AkUniqueID SS_AIR_SIZE = 3074696722U;
-        static const AkUniqueID SS_AIR_STORM = 3715662592U;
-        static const AkUniqueID SS_AIR_TIMEOFDAY = 3203397129U;
-        static const AkUniqueID SS_AIR_TURBULENCE = 4160247818U;
-    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {

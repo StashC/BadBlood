@@ -17,7 +17,7 @@
 						<Transition>
 							<StartState Name="False" ID="{90C5DEE8-F65D-495F-9A44-BFAED6B6A61E}"/>
 							<EndState Name="True" ID="{C964BDDC-1F63-4A8D-B88F-49FD5236308D}"/>
-							<Time>0</Time>
+							<Time>0.5</Time>
 							<IsShared>false</IsShared>
 						</Transition>
 					</TransitionList>

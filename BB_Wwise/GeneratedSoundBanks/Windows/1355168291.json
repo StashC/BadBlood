@@ -1,0 +1,25 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "/Users/Gui/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Projects/UBC Game Dev/GIT/BB_Wwise/",
+   "SourceFilesRoot": "/Users/Gui/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Projects/UBC Game Dev/GIT/BB_Wwise/.cache/Windows/",
+   "SoundBanksRoot": "/Users/Gui/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Projects/UBC Game Dev/GIT/BB_Wwise/GeneratedSoundBanks/Windows/",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "/Users/Gui/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Projects/UBC Game Dev/GIT/BB_Wwise/GeneratedSoundBanks/Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Language": "SFX",
+    "Hash": "2174212928",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "1355168291.bnk"
+   }
+  ]
+ }
+}
