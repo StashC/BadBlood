@@ -241,7 +241,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3088904365" Language="SFX" Hash="2954550331">
+		<SoundBank Id="3088904365" Language="SFX" Hash="2379793130">
 			<ObjectPath>\SoundBanks\Default Work Unit\WW_Soundback_BB</ObjectPath>
 			<ShortName>WW_Soundback_BB</ShortName>
 			<Path>WW_Soundback_BB.bnk</Path>
@@ -566,6 +566,9 @@
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry Id="2452206122" Name="False" ObjectPath="\States\Default Work Unit\Is_Gameplay_On\False"/>
+					</ActionSetState>
 				</Event>
 				<Event Id="3227181061" Name="Music_Stop" ObjectPath="\Events\Music\Music_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3989905542" Name="SFX_P_Attack" ObjectPath="\Events\Player_Events\SFX_P_Attack" DurationType="OneShot" DurationMin="0.417337" DurationMax="1.247570">
@@ -630,6 +633,9 @@
 				</Event>
 			</IncludedEvents>
 			<StateGroups>
+				<StateGroup Id="2452206122" Name="False" ObjectPath="\States\Default Work Unit\Is_Gameplay_On\False" GUID="{90C5DEE8-F65D-495F-9A44-BFAED6B6A61E}">
+					<States/>
+				</StateGroup>
 				<StateGroup Id="2520683736" Name="Is_Gameplay_On" ObjectPath="\States\Default Work Unit\Is_Gameplay_On" GUID="{55E1CB27-3123-4980-9AAF-4BD425935C17}">
 					<States>
 						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Is_Gameplay_On\None" GUID="{B2988B49-E35C-4A35-951C-380FDA5391D3}"/>
