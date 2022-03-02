@@ -9,6 +9,7 @@ public class PlayerCharacter : MonoBehaviour
     [SerializeField] private CharacterMovement _characterMovement;
     [SerializeField] private projectileLauncher _projectileLauncher;
     [SerializeField] private GameObject _timerPrefab;
+    public AK.Wwise.Event SFX_P_Attack;
 
     [Header("Customization")]
     [SerializeField] private float _shootingCooldown = 1.5f;
@@ -40,10 +41,12 @@ public class PlayerCharacter : MonoBehaviour
         _canFire = false;
 
         InstantiateTimer(_shootingCooldown, true, ResetCanFire);
+        SFX_P_Attack.Post(gameObject);
     }
     public void ResetCanFire()
     {
         _canFire = true;
+        
     }
 
     //HEALING ____________________________________________________
