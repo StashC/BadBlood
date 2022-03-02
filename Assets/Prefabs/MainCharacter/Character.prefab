@@ -278,6 +278,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  SFX_P_Glide:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &6637757438728095074
 GameObject:
   m_ObjectHideFlags: 0
@@ -393,6 +397,7 @@ GameObject:
   - component: {fileID: 6637757438859006715}
   - component: {fileID: 6637757438859006708}
   - component: {fileID: 6637757437613343205}
+  - component: {fileID: -4158180158923316699}
   m_Layer: 10
   m_Name: Character
   m_TagString: Player
@@ -572,6 +577,25 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!95 &-4158180158923316699
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6637757438859006705}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 219cd991c33a5314d830212941fbe87d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7048993140989675020
 GameObject:
   m_ObjectHideFlags: 0
