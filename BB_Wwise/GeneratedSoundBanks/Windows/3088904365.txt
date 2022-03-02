@@ -1,0 +1,103 @@
+Event	ID	Name			Wwise Object Path	Notes
+	202194903	Music_Play			\Default Work Unit\Music\Music_Play	
+	964174141	SFX_P_Glide			\Player_Events\SFX_P_Glide	
+	3227181061	Music_Stop			\Default Work Unit\Music\Music_Stop	
+	3989905542	SFX_P_Attack			\Player_Events\SFX_P_Attack	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2520683736	Is_Gameplay_On			\Default Work Unit\Is_Gameplay_On	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Is_Gameplay_On			
+	2452206122	False	Is_Gameplay_On			
+	3053630529	True	Is_Gameplay_On			
+
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	316360460	Modulator LFO (Custom)				
+	713181913	Modulator LFO (Custom)				
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	19540392	SFX_P_Attack_Cloth_01	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\PlayerSFX\Player_Attack_Cloth\SFX_P_Attack_Cloth_01_9557A22B.wem		\Actor-Mixer Hierarchy\Player\Player\Player_Attack\Player_Attack\SFX_Player_Attack_Cloth\SFX_P_Attack_Cloth_01		64516
+	34855606	MUS_L4B_G4_LOOP	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L4\MUS_L4B_G4_LOOP_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L4_LOOP_B\MUS_L4B_G4_LOOP		4246676
+	37682505	MUS_L1_PianoLow	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L1\MUS_L1_G3_LOOP_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L1_LOOP_B\MUS_L1_PianoLow		2123320
+	102554903	MUS_L4B_G2_LOOP	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L4\MUS_L4B_G2_LOOP_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L4_LOOP_B\MUS_L4B_G2_LOOP		4247588
+	122837807	MUS_L1_G1_LOOP	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L1\MUS_L1_G1_LOOP_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L1_LOOP_A\MUS_L1_G1_LOOP		2123320
+	122841113	MUS_L3_G2	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L3\MUS_L3_G2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L3_LOOP\MUS_L3_G2		12629828
+	139120101	MUS_L1_Horns	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L1\MUS_L1_Horns_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L1_LOOP_A\MUS_L1_Horns		1061692
+	158883551	MUS_L2_Drums_LOOP	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L2\MUS_L2_Drums_LOOP_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L2_LOOP_A\MUS_L2_Drums_LOOP		4261932
+	175291472	SFX_P_Attack_Cloth_03	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\PlayerSFX\Player_Attack_Cloth\SFX_P_Attack_Cloth_03_9C8B34C8.wem		\Actor-Mixer Hierarchy\Player\Player\Player_Attack\Player_Attack\SFX_Player_Attack_Cloth\SFX_P_Attack_Cloth_03		37784
+	183620529	MUS_L3_Drums	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L3\MUS_L3_Drums_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L3_LOOP\MUS_L3_Drums		13161040
+	197848812	MUS_L3_Fill	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L3\MUS_L3_Fill2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L3_LOOP\MUS_L3_Fill		12629828
+	216772978	SFX_P_Attack_Whoosh_cm-03	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\PlayerSFX\Player_Attack_Whoosh\SFX_P_Attack_Whoosh.cm-03_B8637BD2.wem		\Actor-Mixer Hierarchy\Player\Player\Player_Attack\Player_Attack\SFX_Player_Attack_Whoosh\SFX_P_Attack_Whoosh_cm-03		22056
+	242217905	MUS_L4A_G1_LOOP	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L4\MUS_L4A_G1_LOOP_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L4_LOOP_A\MUS_L4A_G1_LOOP		4271768
+	251483576	MUS_L3_G3	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L3\MUS_L3_G3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L3_LOOP\MUS_L3_G3		12629828
+	261846002	SFX_P_Attack_Cloth_02	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\PlayerSFX\Player_Attack_Cloth\SFX_P_Attack_Cloth_02_CDE114C5.wem		\Actor-Mixer Hierarchy\Player\Player\Player_Attack\Player_Attack\SFX_Player_Attack_Cloth\SFX_P_Attack_Cloth_02		55240
+	270741695	MUS_L4A_G3_LOOP	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L4\MUS_L4A_G3_LOOP_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L4_LOOP_A\MUS_L4A_G3_LOOP		4271768
+	299856838	MUS_L4B_Drums_LOOP	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L4\MUS_L4B_Drums_LOOP_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L4_LOOP_B\MUS_L4B_Drums_LOOP		4273084
+	300459676	MUS_Stinger_Swell	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\STs\MUS_Stinger_Swell_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L1_Trans\MUS_Stinger_Swell		390320
+	324026438	MUS_L1_DrumsA	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L1\MUS_L1_Drums.cm1-03Drums_LOOP_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L1_LOOP_A\MUS_L1_DrumsA		2123320
+	325377571	MUS_L3_BassStinger	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\STs\MUS_L3_BassStinger_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\ST_BassStinger\MUS_L3_BassStinger		530880
+	345651688	MUS_L2_G1_LOOP	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L2\MUS_L2_G1_LOOP_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L2_LOOP_A\MUS_L2_G1_LOOP		4261932
+	350697357	SFX_P_Attack_Whoosh_cm-09	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\PlayerSFX\Player_Attack_Whoosh\SFX_P_Attack_Whoosh.cm-09_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player_Attack\Player_Attack\SFX_Player_Attack_Whoosh\SFX_P_Attack_Whoosh_cm-09		23796
+	409944387	MUS_Intro_StingersB-06	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\Int\MUS_Intro_StingersB-06_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_Stingers\MUS_Intro_StingersB-06		1393452
+	410124088	MUS_Intro_StingersB-04	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\Int\MUS_Intro_StingersB-04_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_Stingers\MUS_Intro_StingersB-04		1459804
+	438941341	SFX_P_Attack_Whoosh_cm-07	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\PlayerSFX\Player_Attack_Whoosh\SFX_P_Attack_Whoosh.cm-07_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player_Attack\Player_Attack\SFX_Player_Attack_Whoosh\SFX_P_Attack_Whoosh_cm-07		21964
+	460316041	MUS_L1_G1_cm-05G1	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L1\MUS_L1_G1.cm-05G1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L1_Trans\MUS_L1_G1_cm-05G1		4266028
+	473022820	MUS_L3_Fill	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L3\MUS_L3_Fill_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L3_LOOP\MUS_L3_Fill		12629828
+	476104927	ORgan Verb	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L1\MUS_L1_G1.cm-05G1_A142916C.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L1_Trans\ORgan Verb		5124160
+	542175701	SFX_P_Attack_Whoosh_cm-10	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\PlayerSFX\Player_Attack_Whoosh\SFX_P_Attack_Whoosh.cm-10_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player_Attack\Player_Attack\SFX_Player_Attack_Whoosh\SFX_P_Attack_Whoosh_cm-10		50780
+	550656693	SFX_P_Attack_Whoosh_cm-01	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\PlayerSFX\Player_Attack_Whoosh\SFX_P_Attack_Whoosh.cm-01_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player_Attack\Player_Attack\SFX_Player_Attack_Whoosh\SFX_P_Attack_Whoosh_cm-01		26872
+	565887152	MUS_Stinger_Swell	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\STs\MUS_Stinger_Swell_6BB009E2.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\ST_L1L2\MUS_Stinger_Swell		2293824
+	568997536	MUS_Intro_StingersB-11	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\Int\MUS_Intro_StingersB-11_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_Stingers\MUS_Intro_StingersB-11		1137192
+	569263550	MUS_L4B_G1_LOOP	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L4\MUS_L4B_G1_LOOP_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L4_LOOP_B\MUS_L4B_G1_LOOP		4255868
+	587871892	SFX_P_Attack_Cloth_04	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\PlayerSFX\Player_Attack_Cloth\SFX_P_Attack_Cloth_04_A14D83EB.wem		\Actor-Mixer Hierarchy\Player\Player\Player_Attack\Player_Attack\SFX_Player_Attack_Cloth\SFX_P_Attack_Cloth_04		68226
+	629603720	SFX_P_Glide1	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\PlayerSFX\Player_Glide\SFX_P_Glide1_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player_Jump\SFX_P_Glide\SFX_P_Glide1		533296
+	636624426	MUS_L2_G2_LOOP	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L2\MUS_L2_G2_LOOP_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L2_LOOP_A\MUS_L2_G2_LOOP		4261932
+	645708023	MUS_L1_G3_cm-05G3	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L1\MUS_L1_G3.cm-05G3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L1_Trans\MUS_L1_G3_cm-05G3		4266028
+	657717614	MUS_L4B_G3_LOOP	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L4\MUS_L4B_G3_LOOP_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L4_LOOP_B\MUS_L4B_G3_LOOP		4246676
+	682391455	Leads	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L1\MUS_L1_LEad1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L1_LOOP_D_Leads\Leads		2123320
+	687263280	MUS_L1_Drums_cm1-05Drums	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L1\MUS_L1_Drums.cm1-05Drums_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L1_Trans\MUS_L1_Drums_cm1-05Drums		4266028
+	728293870	MUS_L4A_Drums_LOOP	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L4\MUS_L4A_Drums_LOOP_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L4_LOOP_A\MUS_L4A_Drums_LOOP		4271768
+	730676470	SFX_P_Attack_Cloth_06	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\PlayerSFX\Player_Attack_Cloth\SFX_P_Attack_Cloth_06_075672C2.wem		\Actor-Mixer Hierarchy\Player\Player\Player_Attack\Player_Attack\SFX_Player_Attack_Cloth\SFX_P_Attack_Cloth_06		89812
+	747492836	MUS_L2_Guitar	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L2\MUS_L2_Guitar_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L2_LOOP_C_Guitar\MUS_L2_Guitar		4261932
+	789717312	MUS_L3_G1	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L3\MUS_L3_G1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L3_LOOP\MUS_L3_G1		12629828
+	791020545	MUS_Stinger_Swell	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\STs\MUS_Stinger_Swell_492B4AC8.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\ST_IntroGP\MUS_Stinger_Swell		2293824
+	796924544	MUS_L1_G2_LOOP	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L1\MUS_L1_G2_LOOP_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L1_LOOP_A\MUS_L1_G2_LOOP		2123320
+	812702004	SFX_P_Attack_Cloth_05	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\PlayerSFX\Player_Attack_Cloth\SFX_P_Attack_Cloth_05_5C76B6C5.wem		\Actor-Mixer Hierarchy\Player\Player\Player_Attack\Player_Attack\SFX_Player_Attack_Cloth\SFX_P_Attack_Cloth_05		73058
+	836716787	MUS_L1_G2_cm-05G2	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L1\MUS_L1_G2.cm-05G2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L1_Trans\MUS_L1_G2_cm-05G2		4266028
+	841185806	MUS_L2__LOOP	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L2\MUS_L2__LOOP_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L2_LOOP_D_PiGuit\MUS_L2__LOOP		4261932
+	871967303	MUS_L2_G4_LOOP	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L2\MUS_L2_G4_LOOP_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L2_LOOP_A\MUS_L2_G4_LOOP		4261932
+	887626790	MUS_Intro_StingersB-10	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\Int\MUS_Intro_StingersB-10_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_Stingers\MUS_Intro_StingersB-10		1061696
+	902111646	MUS_L1_PianoHigh	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L1\MUS_L1_G4_LOOP_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L1_LOOP_C\MUS_L1_PianoHigh		2123320
+	923032601	MUS_Intro_SynthIntro	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\Int\MUS_Intro_SynthIntro_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthIntro\MUS_Intro_SynthIntro		17880
+	954892180	SFX_P_Attack_Whoosh_cm-05	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\PlayerSFX\Player_Attack_Whoosh\SFX_P_Attack_Whoosh.cm-05_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player_Attack\Player_Attack\SFX_Player_Attack_Whoosh\SFX_P_Attack_Whoosh_cm-05		23756
+	962662061	MUS_L4A_SynthLead	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L4\MUS_L4A_SynthLead_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L4_LOOP_A2\MUS_L4A_SynthLead		4246696
+	976635606	MUS_L4A_G2_LOOP	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L4\MUS_L4A_G2_LOOP_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L4_LOOP_A\MUS_L4A_G2_LOOP		4271768
+	992293287	MUS_L3_G4	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L3\MUS_L3_G4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L3_LOOP\MUS_L3_G4		12629828
+	1001287853	MUS_L4A_BassLegato	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L4\MUS_L4A_BassStec_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L4_LOOP_A\MUS_L4A_BassLegato		4246696
+	1020855890	Leads	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L1\MUS_L1_Lead2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L1_LOOP_D_Leads\Leads		2123320
+	1021742625	MUS_L4A_G3_LOOP	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\L4\MUS_L4A_G3_LOOP_73B2B761.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Gameplay\L4_LOOP_A2\MUS_L4A_G3_LOOP		4735040
+	1037528241	MUS_Intro_StingersB-12	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\Int\MUS_Intro_StingersB-12_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_Stingers\MUS_Intro_StingersB-12		1526152
+	1051350117	MUS_Intro_StingersB-02	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\Int\MUS_Intro_StingersB-02_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_Stingers\MUS_Intro_StingersB-02		1327100
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	22673577	MUS_Intro_SynthLOOP-05	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\Int\MUS_Intro_SynthLOOP-05_D79FB2B7.wem	22673577.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_SynthLOOP-05	
+	94179057	MUS_Intro_Organs	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\Int\MUS_Intro_StingersA-07_D79FB2B7.wem	94179057.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Organs	
+	155567002	MUS_Intro_Organs	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\Int\MUS_Intro_StingersC-02_D79FB2B7.wem	155567002.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Organs	
+	166904772	MUS_Intro_Organs	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\Int\MUS_Intro_StingersA-03_D79FB2B7.wem	166904772.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Organs	
+	182712367	MUS_Intro_Organs	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\Int\MUS_Intro_StingersA-08_D79FB2B7.wem	182712367.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Organs	
+	216946014	MUS_Intro_Organs	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\Int\MUS_Intro_StingersA-05_D79FB2B7.wem	216946014.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Organs	
+	409944387	MUS_Intro_Bells	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\Int\MUS_Intro_StingersB-06_D79FB2B7.wem	409944387.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Bells	
+	410124088	MUS_Intro_Bells	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\Int\MUS_Intro_StingersB-04_D79FB2B7.wem	410124088.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Bells	
+	421760723	MUS_Intro_Organs	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\Int\MUS_Intro_StingersC-07_D79FB2B7.wem	421760723.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Organs	
+	483620085	MUS_Intro_Organs	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\Int\MUS_Intro_StingersC-10_D79FB2B7.wem	483620085.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Organs	
+	568997536	MUS_Intro_Bells	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\Int\MUS_Intro_StingersB-11_D79FB2B7.wem	568997536.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Bells	
+	684096853	MUS_Intro_Organs	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\Int\MUS_Intro_StingersA-01_D79FB2B7.wem	684096853.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Organs	
+	781943167	MUS_Intro_Organs	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\Int\MUS_Intro_StingersC-09_D79FB2B7.wem	781943167.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Organs	
+	835601413	MUS_Intro_Organs	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\Int\MUS_Intro_StingersC-04_D79FB2B7.wem	835601413.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Organs	
+	867842996	MUS_Intro_Organs	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\Int\MUS_Intro_StingersC-05_D79FB2B7.wem	867842996.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Organs	
+	887626790	MUS_Intro_Bells	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\Int\MUS_Intro_StingersB-10_D79FB2B7.wem	887626790.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Bells	
+	923032601	MUS_Intro_SynthIntro	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\Int\MUS_Intro_SynthIntro_D79FB2B7.wem	923032601.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthIntro\MUS_Intro_SynthIntro	
+	1037528241	MUS_Intro_Bells	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\Int\MUS_Intro_StingersB-12_D79FB2B7.wem	1037528241.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Bells	
+	1051350117	MUS_Intro_Bells	Y:\Projects\UBC Game Dev\GIT\BB_Wwise\.cache\Windows\SFX\MUS\Int\MUS_Intro_StingersB-02_D79FB2B7.wem	1051350117.wem	\Interactive Music Hierarchy\Default Work Unit\MUS\MUS_Intro1\MUS_Intro_SynthLOOP\MUS_Intro_Bells	
+

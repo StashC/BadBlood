@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{911AFAE7-196B-4034-AB80-F3187D4A8F1D}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Player_Events" ID="{911AFAE7-196B-4034-AB80-F3187D4A8F1D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="SFX_P_Attack" ID="{DBA5F956-39CC-461A-BDD7-2CE44846CE89}">
+					<ChildrenList>
+						<Action Name="" ID="{BAA24292-DB36-48DD-B7D6-C2166CC9924B}" ShortID="827997175">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Attack" ID="{BDF979D3-51BD-49DB-A0B3-3313EF85E7FA}" WorkUnitID="{FDDC3DFD-116E-4E7F-8BA1-28C88CB18162}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_P_Glide" ID="{9F4B3A5C-5CC7-4057-8B78-A8A5996F8408}">
+					<ChildrenList>
+						<Action Name="" ID="{BE0B3E09-926C-416C-860F-4066342E79A0}" ShortID="314524389">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_P_Glide" ID="{A9FD0251-796D-49EA-8CDE-87644D388BDC}" WorkUnitID="{FDDC3DFD-116E-4E7F-8BA1-28C88CB18162}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
