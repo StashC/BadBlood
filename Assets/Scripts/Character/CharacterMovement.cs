@@ -6,6 +6,7 @@ using UnityEngine.Events;
 public class CharacterMovement : MonoBehaviour
 {
     [Header("Component References")]
+    [SerializeField] private PlayerCharacterAnimController _animController;
     [SerializeField] private Rigidbody2D _rigidBody;
     [SerializeField] private GroundCheck _groundCheck;
     [SerializeField] private BatMode _batMode;
@@ -30,11 +31,13 @@ public class CharacterMovement : MonoBehaviour
         _rigidBody = GetComponent<Rigidbody2D>();
         _groundCheck = GetComponentInChildren<GroundCheck>();
         _batMode = GetComponentInChildren<BatMode>();
+        _animController = GetComponent<PlayerCharacterAnimController>();
     }
 
     private void Update()
     {
         UpdateIsGrounded();
+        UpdateAnimation();
     }
     private void FixedUpdate()
     {
@@ -78,5 +81,11 @@ public class CharacterMovement : MonoBehaviour
             return;
         }
         _rigidBody.AddForce(new Vector2(0, _jumpForce));
+    }
+
+    private void UpdateAnimation()
+    {
+        _animController.SetIsGrounded(_isGrounded);
+        _animController.SetVelocity(_movementInput);
     }
 }

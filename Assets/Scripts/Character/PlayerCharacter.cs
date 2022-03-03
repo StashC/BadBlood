@@ -7,6 +7,7 @@ public class PlayerCharacter : MonoBehaviour
 {
     [Header("Component References")]
     [SerializeField] private CharacterMovement _characterMovement;
+    [SerializeField] private PlayerCharacterAnimController _animController;
     [SerializeField] private projectileLauncher _projectileLauncher;
     [SerializeField] private GameObject _timerPrefab;
 
@@ -20,6 +21,7 @@ public class PlayerCharacter : MonoBehaviour
     {
         _characterMovement = GetComponent<CharacterMovement>();
         _projectileLauncher = GetComponentInChildren<projectileLauncher>();
+        _animController = GetComponent<PlayerCharacterAnimController>();
     }
 
     //MOVEMENT __________________________________________________
@@ -30,6 +32,7 @@ public class PlayerCharacter : MonoBehaviour
     public void Jump()
     {
         _characterMovement.Jump();
+        _animController.Jump();
     }
 
     //FIRE __________________________________________
@@ -61,5 +64,6 @@ public class PlayerCharacter : MonoBehaviour
     public void OnDeath()
     {
         Debug.Log("Player died");
+        _animController.OnDeath();
     }
 }
