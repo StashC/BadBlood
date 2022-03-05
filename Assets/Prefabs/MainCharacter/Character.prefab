@@ -398,6 +398,7 @@ GameObject:
   - component: {fileID: 6637757438859006708}
   - component: {fileID: 6637757437613343205}
   - component: {fileID: -4158180158923316699}
+  - component: {fileID: 9017501612548979597}
   m_Layer: 10
   m_Name: Character
   m_TagString: Player
@@ -524,6 +525,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _characterMovement: {fileID: 0}
+  _animController: {fileID: 0}
   _projectileLauncher: {fileID: 0}
   _timerPrefab: {fileID: 4511182641823426351, guid: 8fe6f2f2c42a05b488ec7e10ea1fb8ba, type: 3}
   _shootingCooldown: 1
@@ -539,6 +541,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 975afa276a139b2408e4ae12cf48e2a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animController: {fileID: 0}
   _rigidBody: {fileID: 0}
   _groundCheck: {fileID: 0}
   _batMode: {fileID: 0}
@@ -596,6 +599,23 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &9017501612548979597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6637757438859006705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 154b6e83764027045b7ad23650c44489, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 0}
+  _jumpParameterName: Jump
+  _onDeathParameterName: OnDeath
+  _velocityXParameterName: VelocityX
+  _isGroundedParameterName: IsGrounded
 --- !u!1 &7048993140989675020
 GameObject:
   m_ObjectHideFlags: 0
