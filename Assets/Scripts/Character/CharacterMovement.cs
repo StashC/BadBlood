@@ -57,9 +57,10 @@ public class CharacterMovement : MonoBehaviour
 
     private void ApplyMovementPhysics()
     {
-        if(Mathf.Abs(_rigidBody.velocity.x) < _maxSpeed)
-        {
-            Vector2 horizontalMoveInput = new Vector2(_movementInput.x, 0f);
+        Vector2 horizontalMoveInput = new Vector2(_movementInput.x, 0f);
+        Vector2 moveForce = horizontalMoveInput * _acceleration;
+
+        if (Mathf.Abs(_rigidBody.velocity.x + moveForce.x*Time.fixedDeltaTime) < _maxSpeed){
             _rigidBody.AddForce(horizontalMoveInput * _acceleration);
         }
     }

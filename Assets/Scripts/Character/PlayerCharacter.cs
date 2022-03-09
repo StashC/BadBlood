@@ -33,6 +33,9 @@ public class PlayerCharacter : MonoBehaviour
         _characterMovement.Jump();
     }
 
+    //FACE MOUSE
+
+
     //FIRE __________________________________________
     public void TryFire()
     {

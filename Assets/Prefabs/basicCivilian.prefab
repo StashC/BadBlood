@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc6c13e532b427440b1245c074c5045d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _timerPrefab: {fileID: 0}
+  _timerPrefab: {fileID: 4511182641823426351, guid: 8fe6f2f2c42a05b488ec7e10ea1fb8ba, type: 3}
   _activationRange: 10
   _stopFleeDist: 20
   _idleSpeed: 2
@@ -153,3 +153,4 @@ MonoBehaviour:
   _idleRate: 5
   _idleMoveDur: 1
   _playerScanRate: 120
+  debug: 0

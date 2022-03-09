@@ -5,6 +5,7 @@ using UnityEngine.Events;
 
 public abstract class rangedEnemy : MonoBehaviour
 {
+    [SerializeField] private bool debug = false;
     [Header("Component References")]
     [SerializeField] private GameObject _timerPrefab;
 
@@ -28,6 +29,7 @@ public abstract class rangedEnemy : MonoBehaviour
     private GameObject _player;
     private enum State { Idle, Seeking, Attacking };
     private float _xScale;
+    private int _raymask;
 
 
     //changing
@@ -54,13 +56,12 @@ public abstract class rangedEnemy : MonoBehaviour
         currState = State.Idle;
         canIdleMove = true;
         canAttack = true;
-        Debug.Log(transform.localScale.x);
-        Debug.Log(_xScale);
+        _raymask = ~(1 << LayerMask.NameToLayer("NPCs") | 1 << LayerMask.NameToLayer("Ignore Raycast"));
     }
 
     void Update() //make sure to delete the update method from the class which extends this class
     {
-        drawDebugLines();
+        if(debug) drawDebugLines();
         if (currSpeed != 0 && currState != State.Attacking)
         {            
             transform.Translate(moveDir * Time.deltaTime * currSpeed);
@@ -82,7 +83,7 @@ public abstract class rangedEnemy : MonoBehaviour
     void UpdateState()
     {
         //creates layermask which ignores NPCs layer, enemies can see through enemies.
-        RaycastHit2D hit = Physics2D.Linecast(transform.position, _player.transform.position, ~(1 << LayerMask.NameToLayer("NPCs"))); 
+        RaycastHit2D hit = Physics2D.Linecast(transform.position, _player.transform.position, _raymask); 
         //if player is not in LOS
         if (!hit.collider.gameObject.CompareTag("Player"))
         {
@@ -215,7 +216,7 @@ public abstract class rangedEnemy : MonoBehaviour
         //red if in Attacking Range
         //black sightline obstructed
 
-        RaycastHit2D hit = Physics2D.Linecast(transform.position, _player.transform.position, ~(1 << LayerMask.NameToLayer("NPCs"))); //creates layermask which ignores NPCs layer.
+        RaycastHit2D hit = Physics2D.Linecast(transform.position, _player.transform.position, _raymask); //creates layermask which ignores NPCs layer.
         if (hit.collider != null)
         {
             if (hit.collider.gameObject.CompareTag("Player"))

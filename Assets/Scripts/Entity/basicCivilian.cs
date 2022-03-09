@@ -24,10 +24,12 @@ public class basicCivilian : MonoBehaviour
     [Header("Performance")]
     [Tooltip("how often playerscan will be called per minute")]
     [SerializeField] private float _playerScanRate;
+    [SerializeField] private bool debug = false;
 
 
     //constants
     private GameObject _player;
+    private int _raymask;
 
     //changing
     private float currSpeed;
@@ -43,41 +45,40 @@ public class basicCivilian : MonoBehaviour
         InstantiateTimer(2f, true, DoIdleMove);
         currState = State.Idle;
         playerScan();
+        _raymask = ~(1 << LayerMask.NameToLayer("NPCs") | 1 << LayerMask.NameToLayer("Ignore Raycast"));
+
     }
 
-    void Update()
+void Update()
     {
-        drawDebugLines();
+       if(debug) drawDebugLines();
 
-        //if we want to move
-        if (currSpeed != 0)
+       if (currSpeed == 0) return;
+
+       if(currState == State.Idle)
         {
-            //
-            if(currState == State.Fleeing)
-            {
-                distanceToPlayer = Vector3.Distance(_player.transform.position, gameObject.transform.position);
-                //make faster if closer to player
-                float fleeMultiplier = 1.8f;
-                if (distanceToPlayer >= _maxFleeSpeedDist) {                
-                    //fleeing and we are not super close yet, flee slowly.
-                    transform.Translate(moveDir * Time.deltaTime * currSpeed);
-                    //Debug.Log(distanceToPlayer);
-                } else
-            {
-                    //fleeing but close, player should run;
-                    transform.Translate(moveDir * Time.deltaTime * currSpeed * fleeMultiplier);
-            }
+            transform.Translate(moveDir * Time.deltaTime * currSpeed);
         }
-            //idle movement
-            if (currState != State.Fleeing)
+
+       if(currState == State.Fleeing)
+        {
+            distanceToPlayer = Vector3.Distance(_player.transform.position, gameObject.transform.position);
+            //make faster if closer to player
+            float fleeMultiplier = 1.8f;
+            if (distanceToPlayer >= _maxFleeSpeedDist)
             {
+                //fleeing and we are not super close yet, flee slowly.
                 transform.Translate(moveDir * Time.deltaTime * currSpeed);
+            }
+            else
+            {
+                //fleeing but close, player should run;
+                transform.Translate(moveDir * Time.deltaTime * currSpeed * fleeMultiplier);
             }
         }
     }
     void DoIdleMove()
     {
-        Debug.Log("Start idle move");
         //Every x seconds, move either left or right for y seconds  If fleeing do nothing
         if (currState == State.Idle)
         {
@@ -97,14 +98,12 @@ public class basicCivilian : MonoBehaviour
     {
         if (currState == State.Idle)
         {
-            Debug.Log("Stopped idle moving");
             currSpeed = 0; //stop moving
             InstantiateTimer(60 / _idleRate, true, DoIdleMove); //move again after correct delay
         }
     }
     private void DoFleeing()
     {
-        Debug.Log("fleeing from player");
         //run away from player.
         currState = State.Fleeing;
         if(_player.transform.position.x > transform.position.x) //player to the right -> move left
@@ -120,7 +119,6 @@ public class basicCivilian : MonoBehaviour
 
     private void stopFleeing()
     {
-        Debug.Log("Stopped fleeing");
         currState = State.Idle;
         currSpeed = 0;
         InstantiateTimer(60 / _idleRate, true, DoIdleMove); //start idle movement
@@ -128,9 +126,10 @@ public class basicCivilian : MonoBehaviour
     private bool CanSeePlayer()
     {
         bool returnValue = false;
-        RaycastHit2D hit = Physics2D.Linecast(transform.position, _player.transform.position, ~(1 << LayerMask.NameToLayer("NPCs")) ); //creates layermask which ignores NPCs layer.
+        RaycastHit2D hit = Physics2D.Linecast(transform.position, _player.transform.position, _raymask); //creates layermask which ignores NPCs layer.
         if (hit.collider != null)
         {
+            Debug.Log(hit.transform.name);
             if (hit.collider.gameObject.CompareTag("Player")) //if we hit the playeer
             {
                 returnValue = true;
@@ -142,11 +141,12 @@ public class basicCivilian : MonoBehaviour
     private void UpdateState()
     {
         distanceToPlayer = Vector3.Distance(_player.transform.position, gameObject.transform.position);
-
+        //if close enough and has sightline, run away
         if (distanceToPlayer <= _activationRange && CanSeePlayer())
         {
             DoFleeing();
         }
+        //if too far away or can not see the player, stop fleeing.
         if ((distanceToPlayer >= _stopFleeDist || !CanSeePlayer()) && currState == State.Fleeing)
         {
             stopFleeing();
@@ -155,10 +155,13 @@ public class basicCivilian : MonoBehaviour
     }
     private void playerScan()
     {
-        //Debug.Log("scanned for player");
         UpdateState();
         InstantiateTimer(60/_playerScanRate, true, playerScan);
     }
+
+
+
+
 
     private void drawDebugLines()
     {
