@@ -41,13 +41,13 @@ public class PlayerCharacterAnimController : MonoBehaviour
 
     public void OnAttack()
     {
-        Debug.Log("Firing Attack");
         _animator.SetTrigger(_attackParameterName);
     }
 
-    public void SetProjectileDirection(Vector2 velocity)
+    public void SetProjectileDirection(float Angle)
     {
-        _animator.SetFloat(_projectileDirectionXParameterName, velocity.x);
+        Debug.Log(Angle);
+        _animator.SetFloat(_projectileDirectionXParameterName, Angle);
     }
 
 
