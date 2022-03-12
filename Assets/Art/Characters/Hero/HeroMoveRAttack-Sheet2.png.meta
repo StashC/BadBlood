@@ -1,22 +1,25 @@
 fileFormatVersion: 2
-guid: 676d841ba72af4e98865d80156d88650
+guid: a334a8fe859b6884eb2e81c4abd3034e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7664574184147486757
-    second: HeroMoveRAttack-Sheet_0
+      213: 8698508289555657874
+    second: HeroMoveRAttack-Sheet2_0
   - first:
-      213: -3159009170774353589
-    second: HeroMoveRAttack-Sheet_1
+      213: 8772018409609647500
+    second: HeroMoveRAttack-Sheet2_1
   - first:
-      213: 5038906315466490244
-    second: HeroMoveRAttack-Sheet_2
+      213: -2815376701258045242
+    second: HeroMoveRAttack-Sheet2_2
   - first:
-      213: -6177938650639133999
-    second: HeroMoveRAttack-Sheet_3
+      213: 6480196881360003140
+    second: HeroMoveRAttack-Sheet2_3
   - first:
-      213: 7873825664205123553
-    second: HeroMoveRAttack-Sheet_4
+      213: 2936068937334245733
+    second: HeroMoveRAttack-Sheet2_4
+  - first:
+      213: -7452940004251531915
+    second: HeroMoveRAttack-Sheet2_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -106,7 +109,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HeroMoveRAttack-Sheet_0
+      name: HeroMoveRAttack-Sheet2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,14 +123,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5288db0ac990e5a60800000000000000
-      internalID: 7664574184147486757
+      spriteID: 29471c2e33f47b870800000000000000
+      internalID: 8698508289555657874
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroMoveRAttack-Sheet_1
+      name: HeroMoveRAttack-Sheet2_1
       rect:
         serializedVersion: 2
         x: 64
@@ -141,14 +144,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b491bc575e1f824d0800000000000000
-      internalID: -3159009170774353589
+      spriteID: c8558f374487cb970800000000000000
+      internalID: 8772018409609647500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroMoveRAttack-Sheet_2
+      name: HeroMoveRAttack-Sheet2_2
       rect:
         serializedVersion: 2
         x: 128
@@ -162,14 +165,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4814addb89acde540800000000000000
-      internalID: 5038906315466490244
+      spriteID: 6c86a948ec5cde8d0800000000000000
+      internalID: -2815376701258045242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroMoveRAttack-Sheet_3
+      name: HeroMoveRAttack-Sheet2_3
       rect:
         serializedVersion: 2
         x: 192
@@ -183,14 +186,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d29f74878d834aa0800000000000000
-      internalID: -6177938650639133999
+      spriteID: 440ae04eab84ee950800000000000000
+      internalID: 6480196881360003140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroMoveRAttack-Sheet_4
+      name: HeroMoveRAttack-Sheet2_4
       rect:
         serializedVersion: 2
         x: 256
@@ -204,8 +207,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1efec4a69b2754d60800000000000000
-      internalID: 7873825664205123553
+      spriteID: 569cddd74230fb820800000000000000
+      internalID: 2936068937334245733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroMoveRAttack-Sheet2_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5750a42bd86d19890800000000000000
+      internalID: -7452940004251531915
       vertices: []
       indices: 
       edges: []

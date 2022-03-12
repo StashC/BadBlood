@@ -1,22 +1,25 @@
 fileFormatVersion: 2
-guid: 33c0658a80f814de4ac9ce3bf269e4a5
+guid: 9a760e2b62a4d5144b949bdeeaa7d1eb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8020869170822688011
-    second: HeroMoveLAttack-Sheet_0
+      213: -3824201164470771802
+    second: HeroMoveLAttack-Sheet2_0
   - first:
-      213: -9114330618093829227
-    second: HeroMoveLAttack-Sheet_1
+      213: -5901246769534723088
+    second: HeroMoveLAttack-Sheet2_1
   - first:
-      213: 2403516447668207765
-    second: HeroMoveLAttack-Sheet_2
+      213: 6319921199268008608
+    second: HeroMoveLAttack-Sheet2_2
   - first:
-      213: -6753208230371565318
-    second: HeroMoveLAttack-Sheet_3
+      213: -9094994513410153985
+    second: HeroMoveLAttack-Sheet2_3
   - first:
-      213: -5981035346532997768
-    second: HeroMoveLAttack-Sheet_4
+      213: 3758482584015184234
+    second: HeroMoveLAttack-Sheet2_4
+  - first:
+      213: -854232780851832863
+    second: HeroMoveLAttack-Sheet2_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -106,7 +109,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HeroMoveLAttack-Sheet_0
+      name: HeroMoveLAttack-Sheet2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,14 +123,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f25b3b4cf520b090800000000000000
-      internalID: -8020869170822688011
+      spriteID: 6af951a6d45bdeac0800000000000000
+      internalID: -3824201164470771802
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroMoveLAttack-Sheet_1
+      name: HeroMoveLAttack-Sheet2_1
       rect:
         serializedVersion: 2
         x: 64
@@ -141,14 +144,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5930d07b794638180800000000000000
-      internalID: -9114330618093829227
+      spriteID: 0fb16f9445f8a1ea0800000000000000
+      internalID: -5901246769534723088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroMoveLAttack-Sheet_2
+      name: HeroMoveLAttack-Sheet2_2
       rect:
         serializedVersion: 2
         x: 128
@@ -162,14 +165,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 590821b89710b5120800000000000000
-      internalID: 2403516447668207765
+      spriteID: 0a294daa8ded4b750800000000000000
+      internalID: 6319921199268008608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroMoveLAttack-Sheet_3
+      name: HeroMoveLAttack-Sheet2_3
       rect:
         serializedVersion: 2
         x: 192
@@ -183,14 +186,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af0657ef4e8c742a0800000000000000
-      internalID: -6753208230371565318
+      spriteID: ff1af0a6da618c180800000000000000
+      internalID: -9094994513410153985
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroMoveLAttack-Sheet_4
+      name: HeroMoveLAttack-Sheet2_4
       rect:
         serializedVersion: 2
         x: 256
@@ -204,8 +207,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87568dc8a081ffca0800000000000000
-      internalID: -5981035346532997768
+      spriteID: a61a7b23fffc82430800000000000000
+      internalID: 3758482584015184234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroMoveLAttack-Sheet2_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e715ddcfc72524f0800000000000000
+      internalID: -854232780851832863
       vertices: []
       indices: 
       edges: []
