@@ -10,6 +10,8 @@ public class PlayerCharacterAnimController : MonoBehaviour
     [SerializeField] private string _onDeathParameterName = "OnDeath";
     [SerializeField] private string _velocityXParameterName = "VelocityX";
     [SerializeField] private string _isGroundedParameterName = "IsGrounded";
+    [SerializeField] private string _projectileDirectionXParameterName = "ProjectileDirectionX";
+    [SerializeField] private string _attackParameterName = "Attack";
 
 
     private void Awake()
@@ -36,4 +38,17 @@ public class PlayerCharacterAnimController : MonoBehaviour
     {
         _animator.SetTrigger(_onDeathParameterName);
     }
+
+    public void OnAttack()
+    {
+        Debug.Log("Firing Attack");
+        _animator.SetTrigger(_attackParameterName);
+    }
+
+    public void SetProjectileDirection(Vector2 velocity)
+    {
+        _animator.SetFloat(_projectileDirectionXParameterName, velocity.x);
+    }
+
+
 }

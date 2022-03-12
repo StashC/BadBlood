@@ -39,6 +39,7 @@ public class PlayerCharacter : MonoBehaviour
     public void TryFire()
     {
         if (!_canFire) return;
+        _animController.OnAttack();
         _projectileLauncher.Shoot();
         _canFire = false;
 
