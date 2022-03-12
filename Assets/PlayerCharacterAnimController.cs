@@ -46,7 +46,6 @@ public class PlayerCharacterAnimController : MonoBehaviour
 
     public void SetProjectileDirection(float Angle)
     {
-        Debug.Log(Angle);
         _animator.SetFloat(_projectileDirectionXParameterName, Angle);
     }
 
