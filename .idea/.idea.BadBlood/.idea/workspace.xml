@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45699429-ced0-4ff6-928d-d946876adeef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BadBlood/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BadBlood/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Characters/Hero/HeroMoveAttackL.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Characters/Hero/HeroMoveAttackL.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Characters/Hero/HeroMoveAttackR.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Characters/Hero/HeroMoveAttackR.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerCharacterAnimController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerCharacterAnimController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MainCharacter/HeroAnimController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MainCharacter/HeroAnimController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Items/pointTowards.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Items/pointTowards.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/PlayerCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character/PlayerCharacter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Items/projectileLauncher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Items/projectileLauncher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/Profile/AkSoundEngine.bundle.dSYM/Contents/Resources/DWARF/AkSoundEngine" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/Profile/AkSoundEngine.bundle.dSYM/Contents/Resources/DWARF/AkSoundEngine" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,16 +14,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/Character/PlayerCharacter.cs" />
       <option value="$PROJECT_DIR$/Assets/PlayerCharacterAnimController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Items/projectileLauncher.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Items/pointTowards.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Items/projectileLauncher.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Character/PlayerCharacter.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="25ocAQaICOceNPhAYJoBVI44KRa" />
@@ -79,6 +71,7 @@
       <workItem from="1646276464151" duration="624000" />
       <workItem from="1647064921602" duration="4264000" />
       <workItem from="1647101720515" duration="2562000" />
+      <workItem from="1647105266807" duration="367000" />
     </task>
     <servers />
   </component>

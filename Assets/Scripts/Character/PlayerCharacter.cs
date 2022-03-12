@@ -41,6 +41,7 @@ public class PlayerCharacter : MonoBehaviour
         if (!_canFire) return;
         _animController.OnAttack();
         _projectileLauncher.Shoot();
+        _animController.SetProjectileDirection(Mathf.Cos(_projectileLauncher.GetFirePoint().eulerAngles.z));
         _canFire = false;
 
         InstantiateTimer(_shootingCooldown, true, ResetCanFire);

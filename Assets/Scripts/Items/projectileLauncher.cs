@@ -28,4 +28,9 @@ public class projectileLauncher : MonoBehaviour
         projectileScript._team = _team;
 
     }
+
+    public Transform GetFirePoint()
+    {
+        return _firePoint;
+    }
 }
