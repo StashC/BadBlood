@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>/Users/Gui/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Projects/UBC Game Dev/GIT/BB_Wwise/</ProjectRoot>
+		<SourceFilesRoot>/Users/Gui/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Projects/UBC Game Dev/GIT/BB_Wwise/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/Gui/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Projects/UBC Game Dev/GIT/BB_Wwise/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/Gui/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Projects/UBC Game Dev/GIT/BB_Wwise/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="22673577" Language="SFX">
+			<ShortName>MUS\Int\MUS_Intro_SynthLOOP-05.wav</ShortName>
+			<Path>SFX/MUS/Int/MUS_Intro_SynthLOOP-05_D79FB2B7.wem</Path>
+		</File>
+		<File Id="34855606" Language="SFX">
+			<ShortName>MUS\L4\MUS_L4B_G4_LOOP.wav</ShortName>
+			<Path>SFX/MUS/L4/MUS_L4B_G4_LOOP_D79FB2B7.wem</Path>
+		</File>
+		<File Id="37682505" Language="SFX">
+			<ShortName>MUS\L1\MUS_L1_G3_LOOP.wav</ShortName>
+			<Path>SFX/MUS/L1/MUS_L1_G3_LOOP_D79FB2B7.wem</Path>
+		</File>
+		<File Id="94179057" Language="SFX">
+			<ShortName>MUS\Int\MUS_Intro_StingersA-07.wav</ShortName>
+			<Path>SFX/MUS/Int/MUS_Intro_StingersA-07_D79FB2B7.wem</Path>
+		</File>
+		<File Id="102554903" Language="SFX">
+			<ShortName>MUS\L4\MUS_L4B_G2_LOOP.wav</ShortName>
+			<Path>SFX/MUS/L4/MUS_L4B_G2_LOOP_D79FB2B7.wem</Path>
+		</File>
+		<File Id="122837807" Language="SFX">
+			<ShortName>MUS\L1\MUS_L1_G1_LOOP.wav</ShortName>
+			<Path>SFX/MUS/L1/MUS_L1_G1_LOOP_D79FB2B7.wem</Path>
+		</File>
+		<File Id="122841113" Language="SFX">
+			<ShortName>MUS\L3\MUS_L3_G2.wav</ShortName>
+			<Path>SFX/MUS/L3/MUS_L3_G2_D79FB2B7.wem</Path>
+		</File>
+		<File Id="139120101" Language="SFX">
+			<ShortName>MUS\L1\MUS_L1_Horns.wav</ShortName>
+			<Path>SFX/MUS/L1/MUS_L1_Horns_D79FB2B7.wem</Path>
+		</File>
+		<File Id="155567002" Language="SFX">
+			<ShortName>MUS\Int\MUS_Intro_StingersC-02.wav</ShortName>
+			<Path>SFX/MUS/Int/MUS_Intro_StingersC-02_D79FB2B7.wem</Path>
+		</File>
+		<File Id="158883551" Language="SFX">
+			<ShortName>MUS\L2\MUS_L2_Drums_LOOP.wav</ShortName>
+			<Path>SFX/MUS/L2/MUS_L2_Drums_LOOP_D79FB2B7.wem</Path>
+		</File>
+		<File Id="166904772" Language="SFX">
+			<ShortName>MUS\Int\MUS_Intro_StingersA-03.wav</ShortName>
+			<Path>SFX/MUS/Int/MUS_Intro_StingersA-03_D79FB2B7.wem</Path>
+		</File>
+		<File Id="183620529" Language="SFX">
+			<ShortName>MUS\L3\MUS_L3_Drums.wav</ShortName>
+			<Path>SFX/MUS/L3/MUS_L3_Drums_D79FB2B7.wem</Path>
+		</File>
+		<File Id="197848812" Language="SFX">
+			<ShortName>MUS\L3\MUS_L3_Fill2.wav</ShortName>
+			<Path>SFX/MUS/L3/MUS_L3_Fill2_D79FB2B7.wem</Path>
+		</File>
+		<File Id="242217905" Language="SFX">
+			<ShortName>MUS\L4\MUS_L4A_G1_LOOP.wav</ShortName>
+			<Path>SFX/MUS/L4/MUS_L4A_G1_LOOP_D79FB2B7.wem</Path>
+		</File>
+		<File Id="251483576" Language="SFX">
+			<ShortName>MUS\L3\MUS_L3_G3.wav</ShortName>
+			<Path>SFX/MUS/L3/MUS_L3_G3_D79FB2B7.wem</Path>
+		</File>
+		<File Id="270741695" Language="SFX">
+			<ShortName>MUS\L4\MUS_L4A_G3_LOOP.wav</ShortName>
+			<Path>SFX/MUS/L4/MUS_L4A_G3_LOOP_D79FB2B7.wem</Path>
+		</File>
+		<File Id="299856838" Language="SFX">
+			<ShortName>MUS\L4\MUS_L4B_Drums_LOOP.wav</ShortName>
+			<Path>SFX/MUS/L4/MUS_L4B_Drums_LOOP_D79FB2B7.wem</Path>
+		</File>
+		<File Id="300459676" Language="SFX">
+			<ShortName>MUS\STs\MUS_Stinger_Swell.wav</ShortName>
+			<Path>SFX/MUS/STs/MUS_Stinger_Swell_D79FB2B7.wem</Path>
+		</File>
+		<File Id="324026438" Language="SFX">
+			<ShortName>MUS\L1\MUS_L1_Drums.cm1-03Drums_LOOP.wav</ShortName>
+			<Path>SFX/MUS/L1/MUS_L1_Drums.cm1-03Drums_LOOP_D79FB2B7.wem</Path>
+		</File>
+		<File Id="325377571" Language="SFX">
+			<ShortName>MUS\STs\MUS_L3_BassStinger.wav</ShortName>
+			<Path>SFX/MUS/STs/MUS_L3_BassStinger_D79FB2B7.wem</Path>
+		</File>
+		<File Id="345651688" Language="SFX">
+			<ShortName>MUS\L2\MUS_L2_G1_LOOP.wav</ShortName>
+			<Path>SFX/MUS/L2/MUS_L2_G1_LOOP_D79FB2B7.wem</Path>
+		</File>
+		<File Id="409944387" Language="SFX">
+			<ShortName>MUS\Int\MUS_Intro_StingersB-06.wav</ShortName>
+			<Path>SFX/MUS/Int/MUS_Intro_StingersB-06_D79FB2B7.wem</Path>
+		</File>
+		<File Id="410124088" Language="SFX">
+			<ShortName>MUS\Int\MUS_Intro_StingersB-04.wav</ShortName>
+			<Path>SFX/MUS/Int/MUS_Intro_StingersB-04_D79FB2B7.wem</Path>
+		</File>
+		<File Id="421760723" Language="SFX">
+			<ShortName>MUS\Int\MUS_Intro_StingersC-07.wav</ShortName>
+			<Path>SFX/MUS/Int/MUS_Intro_StingersC-07_D79FB2B7.wem</Path>
+		</File>
+		<File Id="460316041" Language="SFX">
+			<ShortName>MUS\L1\MUS_L1_G1.cm-05G1.wav</ShortName>
+			<Path>SFX/MUS/L1/MUS_L1_G1.cm-05G1_D79FB2B7.wem</Path>
+		</File>
+		<File Id="473022820" Language="SFX">
+			<ShortName>MUS\L3\MUS_L3_Fill.wav</ShortName>
+			<Path>SFX/MUS/L3/MUS_L3_Fill_D79FB2B7.wem</Path>
+		</File>
+		<File Id="476104927" Language="SFX">
+			<ShortName>MUS\L1\MUS_L1_G1.cm-05G1.wav</ShortName>
+			<Path>SFX/MUS/L1/MUS_L1_G1.cm-05G1_A142916C.wem</Path>
+		</File>
+		<File Id="483620085" Language="SFX">
+			<ShortName>MUS\Int\MUS_Intro_StingersC-10.wav</ShortName>
+			<Path>SFX/MUS/Int/MUS_Intro_StingersC-10_D79FB2B7.wem</Path>
+		</File>
+		<File Id="568997536" Language="SFX">
+			<ShortName>MUS\Int\MUS_Intro_StingersB-11.wav</ShortName>
+			<Path>SFX/MUS/Int/MUS_Intro_StingersB-11_D79FB2B7.wem</Path>
+		</File>
+		<File Id="569263550" Language="SFX">
+			<ShortName>MUS\L4\MUS_L4B_G1_LOOP.wav</ShortName>
+			<Path>SFX/MUS/L4/MUS_L4B_G1_LOOP_D79FB2B7.wem</Path>
+		</File>
+		<File Id="636624426" Language="SFX">
+			<ShortName>MUS\L2\MUS_L2_G2_LOOP.wav</ShortName>
+			<Path>SFX/MUS/L2/MUS_L2_G2_LOOP_D79FB2B7.wem</Path>
+		</File>
+		<File Id="645708023" Language="SFX">
+			<ShortName>MUS\L1\MUS_L1_G3.cm-05G3.wav</ShortName>
+			<Path>SFX/MUS/L1/MUS_L1_G3.cm-05G3_D79FB2B7.wem</Path>
+		</File>
+		<File Id="657717614" Language="SFX">
+			<ShortName>MUS\L4\MUS_L4B_G3_LOOP.wav</ShortName>
+			<Path>SFX/MUS/L4/MUS_L4B_G3_LOOP_D79FB2B7.wem</Path>
+		</File>
+		<File Id="682391455" Language="SFX">
+			<ShortName>MUS\L1\MUS_L1_LEad1.wav</ShortName>
+			<Path>SFX/MUS/L1/MUS_L1_LEad1_D79FB2B7.wem</Path>
+		</File>
+		<File Id="684096853" Language="SFX">
+			<ShortName>MUS\Int\MUS_Intro_StingersA-01.wav</ShortName>
+			<Path>SFX/MUS/Int/MUS_Intro_StingersA-01_D79FB2B7.wem</Path>
+		</File>
+		<File Id="687263280" Language="SFX">
+			<ShortName>MUS\L1\MUS_L1_Drums.cm1-05Drums.wav</ShortName>
+			<Path>SFX/MUS/L1/MUS_L1_Drums.cm1-05Drums_D79FB2B7.wem</Path>
+		</File>
+		<File Id="728293870" Language="SFX">
+			<ShortName>MUS\L4\MUS_L4A_Drums_LOOP.wav</ShortName>
+			<Path>SFX/MUS/L4/MUS_L4A_Drums_LOOP_D79FB2B7.wem</Path>
+		</File>
+		<File Id="747492836" Language="SFX">
+			<ShortName>MUS\L2\MUS_L2_Guitar.wav</ShortName>
+			<Path>SFX/MUS/L2/MUS_L2_Guitar_D79FB2B7.wem</Path>
+		</File>
+		<File Id="789717312" Language="SFX">
+			<ShortName>MUS\L3\MUS_L3_G1.wav</ShortName>
+			<Path>SFX/MUS/L3/MUS_L3_G1_D79FB2B7.wem</Path>
+		</File>
+		<File Id="796924544" Language="SFX">
+			<ShortName>MUS\L1\MUS_L1_G2_LOOP.wav</ShortName>
+			<Path>SFX/MUS/L1/MUS_L1_G2_LOOP_D79FB2B7.wem</Path>
+		</File>
+		<File Id="835601413" Language="SFX">
+			<ShortName>MUS\Int\MUS_Intro_StingersC-04.wav</ShortName>
+			<Path>SFX/MUS/Int/MUS_Intro_StingersC-04_D79FB2B7.wem</Path>
+		</File>
+		<File Id="836716787" Language="SFX">
+			<ShortName>MUS\L1\MUS_L1_G2.cm-05G2.wav</ShortName>
+			<Path>SFX/MUS/L1/MUS_L1_G2.cm-05G2_D79FB2B7.wem</Path>
+		</File>
+		<File Id="841185806" Language="SFX">
+			<ShortName>MUS\L2\MUS_L2__LOOP.wav</ShortName>
+			<Path>SFX/MUS/L2/MUS_L2__LOOP_D79FB2B7.wem</Path>
+		</File>
+		<File Id="867842996" Language="SFX">
+			<ShortName>MUS\Int\MUS_Intro_StingersC-05.wav</ShortName>
+			<Path>SFX/MUS/Int/MUS_Intro_StingersC-05_D79FB2B7.wem</Path>
+		</File>
+		<File Id="871967303" Language="SFX">
+			<ShortName>MUS\L2\MUS_L2_G4_LOOP.wav</ShortName>
+			<Path>SFX/MUS/L2/MUS_L2_G4_LOOP_D79FB2B7.wem</Path>
+		</File>
+		<File Id="887626790" Language="SFX">
+			<ShortName>MUS\Int\MUS_Intro_StingersB-10.wav</ShortName>
+			<Path>SFX/MUS/Int/MUS_Intro_StingersB-10_D79FB2B7.wem</Path>
+		</File>
+		<File Id="902111646" Language="SFX">
+			<ShortName>MUS\L1\MUS_L1_G4_LOOP.wav</ShortName>
+			<Path>SFX/MUS/L1/MUS_L1_G4_LOOP_D79FB2B7.wem</Path>
+		</File>
+		<File Id="923032601" Language="SFX">
+			<ShortName>MUS\Int\MUS_Intro_SynthIntro.wav</ShortName>
+			<Path>SFX/MUS/Int/MUS_Intro_SynthIntro_D79FB2B7.wem</Path>
+		</File>
+		<File Id="962662061" Language="SFX">
+			<ShortName>MUS\L4\MUS_L4A_SynthLead.wav</ShortName>
+			<Path>SFX/MUS/L4/MUS_L4A_SynthLead_D79FB2B7.wem</Path>
+		</File>
+		<File Id="976635606" Language="SFX">
+			<ShortName>MUS\L4\MUS_L4A_G2_LOOP.wav</ShortName>
+			<Path>SFX/MUS/L4/MUS_L4A_G2_LOOP_D79FB2B7.wem</Path>
+		</File>
+		<File Id="992293287" Language="SFX">
+			<ShortName>MUS\L3\MUS_L3_G4.wav</ShortName>
+			<Path>SFX/MUS/L3/MUS_L3_G4_D79FB2B7.wem</Path>
+		</File>
+		<File Id="1001287853" Language="SFX">
+			<ShortName>MUS\L4\MUS_L4A_BassStec.wav</ShortName>
+			<Path>SFX/MUS/L4/MUS_L4A_BassStec_D79FB2B7.wem</Path>
+		</File>
+		<File Id="1020855890" Language="SFX">
+			<ShortName>MUS\L1\MUS_L1_Lead2.wav</ShortName>
+			<Path>SFX/MUS/L1/MUS_L1_Lead2_D79FB2B7.wem</Path>
+		</File>
+		<File Id="1021742625" Language="SFX">
+			<ShortName>MUS\L4\MUS_L4A_G3_LOOP.wav</ShortName>
+			<Path>SFX/MUS/L4/MUS_L4A_G3_LOOP_73B2B761.wem</Path>
+		</File>
+		<File Id="1037528241" Language="SFX">
+			<ShortName>MUS\Int\MUS_Intro_StingersB-12.wav</ShortName>
+			<Path>SFX/MUS/Int/MUS_Intro_StingersB-12_D79FB2B7.wem</Path>
+		</File>
+		<File Id="1051350117" Language="SFX">
+			<ShortName>MUS\Int\MUS_Intro_StingersB-02.wav</ShortName>
+			<Path>SFX/MUS/Int/MUS_Intro_StingersB-02_D79FB2B7.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="62324315">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3088904365" Language="SFX" Hash="2379793130">
+			<ObjectPath>\SoundBanks\Default Work Unit\WW_Soundback_BB</ObjectPath>
+			<ShortName>WW_Soundback_BB</ShortName>
+			<Path>WW_Soundback_BB.bnk</Path>
+			<IncludedEvents>
+				<Event Id="202194903" Name="Music_Play" ObjectPath="\Events\Music\Music_Play" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="22673577" Language="SFX">
+							<ShortName>MUS\Int\MUS_Intro_SynthLOOP-05.wav</ShortName>
+							<Path>SFX/MUS/Int/MUS_Intro_SynthLOOP-05_D79FB2B7.wem</Path>
+						</File>
+						<File Id="34855606" Language="SFX">
+							<ShortName>MUS\L4\MUS_L4B_G4_LOOP.wav</ShortName>
+							<Path>SFX/MUS/L4/MUS_L4B_G4_LOOP_D79FB2B7.wem</Path>
+						</File>
+						<File Id="37682505" Language="SFX">
+							<ShortName>MUS\L1\MUS_L1_G3_LOOP.wav</ShortName>
+							<Path>SFX/MUS/L1/MUS_L1_G3_LOOP_D79FB2B7.wem</Path>
+						</File>
+						<File Id="94179057" Language="SFX">
+							<ShortName>MUS\Int\MUS_Intro_StingersA-07.wav</ShortName>
+							<Path>SFX/MUS/Int/MUS_Intro_StingersA-07_D79FB2B7.wem</Path>
+						</File>
+						<File Id="102554903" Language="SFX">
+							<ShortName>MUS\L4\MUS_L4B_G2_LOOP.wav</ShortName>
+							<Path>SFX/MUS/L4/MUS_L4B_G2_LOOP_D79FB2B7.wem</Path>
+						</File>
+						<File Id="122837807" Language="SFX">
+							<ShortName>MUS\L1\MUS_L1_G1_LOOP.wav</ShortName>
+							<Path>SFX/MUS/L1/MUS_L1_G1_LOOP_D79FB2B7.wem</Path>
+						</File>
+						<File Id="122841113" Language="SFX">
+							<ShortName>MUS\L3\MUS_L3_G2.wav</ShortName>
+							<Path>SFX/MUS/L3/MUS_L3_G2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="139120101" Language="SFX">
+							<ShortName>MUS\L1\MUS_L1_Horns.wav</ShortName>
+							<Path>SFX/MUS/L1/MUS_L1_Horns_D79FB2B7.wem</Path>
+						</File>
+						<File Id="155567002" Language="SFX">
+							<ShortName>MUS\Int\MUS_Intro_StingersC-02.wav</ShortName>
+							<Path>SFX/MUS/Int/MUS_Intro_StingersC-02_D79FB2B7.wem</Path>
+						</File>
+						<File Id="158883551" Language="SFX">
+							<ShortName>MUS\L2\MUS_L2_Drums_LOOP.wav</ShortName>
+							<Path>SFX/MUS/L2/MUS_L2_Drums_LOOP_D79FB2B7.wem</Path>
+						</File>
+						<File Id="166904772" Language="SFX">
+							<ShortName>MUS\Int\MUS_Intro_StingersA-03.wav</ShortName>
+							<Path>SFX/MUS/Int/MUS_Intro_StingersA-03_D79FB2B7.wem</Path>
+						</File>
+						<File Id="183620529" Language="SFX">
+							<ShortName>MUS\L3\MUS_L3_Drums.wav</ShortName>
+							<Path>SFX/MUS/L3/MUS_L3_Drums_D79FB2B7.wem</Path>
+						</File>
+						<File Id="197848812" Language="SFX">
+							<ShortName>MUS\L3\MUS_L3_Fill2.wav</ShortName>
+							<Path>SFX/MUS/L3/MUS_L3_Fill2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="242217905" Language="SFX">
+							<ShortName>MUS\L4\MUS_L4A_G1_LOOP.wav</ShortName>
+							<Path>SFX/MUS/L4/MUS_L4A_G1_LOOP_D79FB2B7.wem</Path>
+						</File>
+						<File Id="251483576" Language="SFX">
+							<ShortName>MUS\L3\MUS_L3_G3.wav</ShortName>
+							<Path>SFX/MUS/L3/MUS_L3_G3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="270741695" Language="SFX">
+							<ShortName>MUS\L4\MUS_L4A_G3_LOOP.wav</ShortName>
+							<Path>SFX/MUS/L4/MUS_L4A_G3_LOOP_D79FB2B7.wem</Path>
+						</File>
+						<File Id="299856838" Language="SFX">
+							<ShortName>MUS\L4\MUS_L4B_Drums_LOOP.wav</ShortName>
+							<Path>SFX/MUS/L4/MUS_L4B_Drums_LOOP_D79FB2B7.wem</Path>
+						</File>
+						<File Id="300459676" Language="SFX">
+							<ShortName>MUS\STs\MUS_Stinger_Swell.wav</ShortName>
+							<Path>SFX/MUS/STs/MUS_Stinger_Swell_D79FB2B7.wem</Path>
+						</File>
+						<File Id="324026438" Language="SFX">
+							<ShortName>MUS\L1\MUS_L1_Drums.cm1-03Drums_LOOP.wav</ShortName>
+							<Path>SFX/MUS/L1/MUS_L1_Drums.cm1-03Drums_LOOP_D79FB2B7.wem</Path>
+						</File>
+						<File Id="325377571" Language="SFX">
+							<ShortName>MUS\STs\MUS_L3_BassStinger.wav</ShortName>
+							<Path>SFX/MUS/STs/MUS_L3_BassStinger_D79FB2B7.wem</Path>
+						</File>
+						<File Id="345651688" Language="SFX">
+							<ShortName>MUS\L2\MUS_L2_G1_LOOP.wav</ShortName>
+							<Path>SFX/MUS/L2/MUS_L2_G1_LOOP_D79FB2B7.wem</Path>
+						</File>
+						<File Id="409944387" Language="SFX">
+							<ShortName>MUS\Int\MUS_Intro_StingersB-06.wav</ShortName>
+							<Path>SFX/MUS/Int/MUS_Intro_StingersB-06_D79FB2B7.wem</Path>
+						</File>
+						<File Id="410124088" Language="SFX">
+							<ShortName>MUS\Int\MUS_Intro_StingersB-04.wav</ShortName>
+							<Path>SFX/MUS/Int/MUS_Intro_StingersB-04_D79FB2B7.wem</Path>
+						</File>
+						<File Id="421760723" Language="SFX">
+							<ShortName>MUS\Int\MUS_Intro_StingersC-07.wav</ShortName>
+							<Path>SFX/MUS/Int/MUS_Intro_StingersC-07_D79FB2B7.wem</Path>
+						</File>
+						<File Id="460316041" Language="SFX">
+							<ShortName>MUS\L1\MUS_L1_G1.cm-05G1.wav</ShortName>
+							<Path>SFX/MUS/L1/MUS_L1_G1.cm-05G1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="473022820" Language="SFX">
+							<ShortName>MUS\L3\MUS_L3_Fill.wav</ShortName>
+							<Path>SFX/MUS/L3/MUS_L3_Fill_D79FB2B7.wem</Path>
+						</File>
+						<File Id="476104927" Language="SFX">
+							<ShortName>MUS\L1\MUS_L1_G1.cm-05G1.wav</ShortName>
+							<Path>SFX/MUS/L1/MUS_L1_G1.cm-05G1_A142916C.wem</Path>
+						</File>
+						<File Id="483620085" Language="SFX">
+							<ShortName>MUS\Int\MUS_Intro_StingersC-10.wav</ShortName>
+							<Path>SFX/MUS/Int/MUS_Intro_StingersC-10_D79FB2B7.wem</Path>
+						</File>
+						<File Id="568997536" Language="SFX">
+							<ShortName>MUS\Int\MUS_Intro_StingersB-11.wav</ShortName>
+							<Path>SFX/MUS/Int/MUS_Intro_StingersB-11_D79FB2B7.wem</Path>
+						</File>
+						<File Id="569263550" Language="SFX">
+							<ShortName>MUS\L4\MUS_L4B_G1_LOOP.wav</ShortName>
+							<Path>SFX/MUS/L4/MUS_L4B_G1_LOOP_D79FB2B7.wem</Path>
+						</File>
+						<File Id="636624426" Language="SFX">
+							<ShortName>MUS\L2\MUS_L2_G2_LOOP.wav</ShortName>
+							<Path>SFX/MUS/L2/MUS_L2_G2_LOOP_D79FB2B7.wem</Path>
+						</File>
+						<File Id="645708023" Language="SFX">
+							<ShortName>MUS\L1\MUS_L1_G3.cm-05G3.wav</ShortName>
+							<Path>SFX/MUS/L1/MUS_L1_G3.cm-05G3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="657717614" Language="SFX">
+							<ShortName>MUS\L4\MUS_L4B_G3_LOOP.wav</ShortName>
+							<Path>SFX/MUS/L4/MUS_L4B_G3_LOOP_D79FB2B7.wem</Path>
+						</File>
+						<File Id="682391455" Language="SFX">
+							<ShortName>MUS\L1\MUS_L1_LEad1.wav</ShortName>
+							<Path>SFX/MUS/L1/MUS_L1_LEad1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="684096853" Language="SFX">
+							<ShortName>MUS\Int\MUS_Intro_StingersA-01.wav</ShortName>
+							<Path>SFX/MUS/Int/MUS_Intro_StingersA-01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="687263280" Language="SFX">
+							<ShortName>MUS\L1\MUS_L1_Drums.cm1-05Drums.wav</ShortName>
+							<Path>SFX/MUS/L1/MUS_L1_Drums.cm1-05Drums_D79FB2B7.wem</Path>
+						</File>
+						<File Id="728293870" Language="SFX">
+							<ShortName>MUS\L4\MUS_L4A_Drums_LOOP.wav</ShortName>
+							<Path>SFX/MUS/L4/MUS_L4A_Drums_LOOP_D79FB2B7.wem</Path>
+						</File>
+						<File Id="747492836" Language="SFX">
+							<ShortName>MUS\L2\MUS_L2_Guitar.wav</ShortName>
+							<Path>SFX/MUS/L2/MUS_L2_Guitar_D79FB2B7.wem</Path>
+						</File>
+						<File Id="789717312" Language="SFX">
+							<ShortName>MUS\L3\MUS_L3_G1.wav</ShortName>
+							<Path>SFX/MUS/L3/MUS_L3_G1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="796924544" Language="SFX">
+							<ShortName>MUS\L1\MUS_L1_G2_LOOP.wav</ShortName>
+							<Path>SFX/MUS/L1/MUS_L1_G2_LOOP_D79FB2B7.wem</Path>
+						</File>
+						<File Id="835601413" Language="SFX">
+							<ShortName>MUS\Int\MUS_Intro_StingersC-04.wav</ShortName>
+							<Path>SFX/MUS/Int/MUS_Intro_StingersC-04_D79FB2B7.wem</Path>
+						</File>
+						<File Id="836716787" Language="SFX">
+							<ShortName>MUS\L1\MUS_L1_G2.cm-05G2.wav</ShortName>
+							<Path>SFX/MUS/L1/MUS_L1_G2.cm-05G2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="841185806" Language="SFX">
+							<ShortName>MUS\L2\MUS_L2__LOOP.wav</ShortName>
+							<Path>SFX/MUS/L2/MUS_L2__LOOP_D79FB2B7.wem</Path>
+						</File>
+						<File Id="867842996" Language="SFX">
+							<ShortName>MUS\Int\MUS_Intro_StingersC-05.wav</ShortName>
+							<Path>SFX/MUS/Int/MUS_Intro_StingersC-05_D79FB2B7.wem</Path>
+						</File>
+						<File Id="871967303" Language="SFX">
+							<ShortName>MUS\L2\MUS_L2_G4_LOOP.wav</ShortName>
+							<Path>SFX/MUS/L2/MUS_L2_G4_LOOP_D79FB2B7.wem</Path>
+						</File>
+						<File Id="887626790" Language="SFX">
+							<ShortName>MUS\Int\MUS_Intro_StingersB-10.wav</ShortName>
+							<Path>SFX/MUS/Int/MUS_Intro_StingersB-10_D79FB2B7.wem</Path>
+						</File>
+						<File Id="902111646" Language="SFX">
+							<ShortName>MUS\L1\MUS_L1_G4_LOOP.wav</ShortName>
+							<Path>SFX/MUS/L1/MUS_L1_G4_LOOP_D79FB2B7.wem</Path>
+						</File>
+						<File Id="923032601" Language="SFX">
+							<ShortName>MUS\Int\MUS_Intro_SynthIntro.wav</ShortName>
+							<Path>SFX/MUS/Int/MUS_Intro_SynthIntro_D79FB2B7.wem</Path>
+						</File>
+						<File Id="962662061" Language="SFX">
+							<ShortName>MUS\L4\MUS_L4A_SynthLead.wav</ShortName>
+							<Path>SFX/MUS/L4/MUS_L4A_SynthLead_D79FB2B7.wem</Path>
+						</File>
+						<File Id="976635606" Language="SFX">
+							<ShortName>MUS\L4\MUS_L4A_G2_LOOP.wav</ShortName>
+							<Path>SFX/MUS/L4/MUS_L4A_G2_LOOP_D79FB2B7.wem</Path>
+						</File>
+						<File Id="992293287" Language="SFX">
+							<ShortName>MUS\L3\MUS_L3_G4.wav</ShortName>
+							<Path>SFX/MUS/L3/MUS_L3_G4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1001287853" Language="SFX">
+							<ShortName>MUS\L4\MUS_L4A_BassStec.wav</ShortName>
+							<Path>SFX/MUS/L4/MUS_L4A_BassStec_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1020855890" Language="SFX">
+							<ShortName>MUS\L1\MUS_L1_Lead2.wav</ShortName>
+							<Path>SFX/MUS/L1/MUS_L1_Lead2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1021742625" Language="SFX">
+							<ShortName>MUS\L4\MUS_L4A_G3_LOOP.wav</ShortName>
+							<Path>SFX/MUS/L4/MUS_L4A_G3_LOOP_73B2B761.wem</Path>
+						</File>
+						<File Id="1037528241" Language="SFX">
+							<ShortName>MUS\Int\MUS_Intro_StingersB-12.wav</ShortName>
+							<Path>SFX/MUS/Int/MUS_Intro_StingersB-12_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1051350117" Language="SFX">
+							<ShortName>MUS\Int\MUS_Intro_StingersB-02.wav</ShortName>
+							<Path>SFX/MUS/Int/MUS_Intro_StingersB-02_D79FB2B7.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<IncludedMemoryFiles>
+						<File Id="923032601" Language="SFX">
+							<ShortName>MUS\Int\MUS_Intro_SynthIntro.wav</ShortName>
+							<Path>SFX/MUS/Int/MUS_Intro_SynthIntro_D79FB2B7.wem</Path>
+							<PrefetchSize>17880</PrefetchSize>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{B2988B49-E35C-4A35-951C-380FDA5391D3}">
+							<Media>
+								<File Id="22673577"/>
+								<File Id="94179057"/>
+								<File Id="155567002"/>
+								<File Id="166904772"/>
+								<File Id="409944387"/>
+								<File Id="410124088"/>
+								<File Id="421760723"/>
+								<File Id="483620085"/>
+								<File Id="568997536"/>
+								<File Id="684096853"/>
+								<File Id="835601413"/>
+								<File Id="867842996"/>
+								<File Id="887626790"/>
+								<File Id="923032601"/>
+								<File Id="1037528241"/>
+								<File Id="1051350117"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{C964BDDC-1F63-4A8D-B88F-49FD5236308D}">
+							<Media>
+								<File Id="34855606"/>
+								<File Id="37682505"/>
+								<File Id="102554903"/>
+								<File Id="122837807"/>
+								<File Id="122841113"/>
+								<File Id="139120101"/>
+								<File Id="158883551"/>
+								<File Id="183620529"/>
+								<File Id="197848812"/>
+								<File Id="242217905"/>
+								<File Id="251483576"/>
+								<File Id="270741695"/>
+								<File Id="299856838"/>
+								<File Id="300459676"/>
+								<File Id="324026438"/>
+								<File Id="325377571"/>
+								<File Id="345651688"/>
+								<File Id="460316041"/>
+								<File Id="473022820"/>
+								<File Id="476104927"/>
+								<File Id="569263550"/>
+								<File Id="636624426"/>
+								<File Id="645708023"/>
+								<File Id="657717614"/>
+								<File Id="682391455"/>
+								<File Id="687263280"/>
+								<File Id="728293870"/>
+								<File Id="747492836"/>
+								<File Id="789717312"/>
+								<File Id="796924544"/>
+								<File Id="836716787"/>
+								<File Id="841185806"/>
+								<File Id="871967303"/>
+								<File Id="902111646"/>
+								<File Id="962662061"/>
+								<File Id="976635606"/>
+								<File Id="992293287"/>
+								<File Id="1001287853"/>
+								<File Id="1020855890"/>
+								<File Id="1021742625"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{90C5DEE8-F65D-495F-9A44-BFAED6B6A61E}">
+							<Media>
+								<File Id="22673577"/>
+								<File Id="94179057"/>
+								<File Id="155567002"/>
+								<File Id="166904772"/>
+								<File Id="409944387"/>
+								<File Id="410124088"/>
+								<File Id="421760723"/>
+								<File Id="483620085"/>
+								<File Id="568997536"/>
+								<File Id="684096853"/>
+								<File Id="835601413"/>
+								<File Id="867842996"/>
+								<File Id="887626790"/>
+								<File Id="923032601"/>
+								<File Id="1037528241"/>
+								<File Id="1051350117"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry Id="2452206122" Name="False" ObjectPath="\States\Default Work Unit\Is_Gameplay_On\False"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3227181061" Name="Music_Stop" ObjectPath="\Events\Music\Music_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3989905542" Name="SFX_P_Attack" ObjectPath="\Events\Player_Events\SFX_P_Attack" DurationType="OneShot" DurationMin="0.417337" DurationMax="1.247570">
+					<IncludedMemoryFiles>
+						<File Id="19540392" Language="SFX">
+							<ShortName>PlayerSFX\Player_Attack_Cloth\SFX_P_Attack_Cloth_01.wav</ShortName>
+							<Path>SFX/PlayerSFX/Player_Attack_Cloth/SFX_P_Attack_Cloth_01_9557A22B.wem</Path>
+						</File>
+						<File Id="175291472" Language="SFX">
+							<ShortName>PlayerSFX\Player_Attack_Cloth\SFX_P_Attack_Cloth_03.wav</ShortName>
+							<Path>SFX/PlayerSFX/Player_Attack_Cloth/SFX_P_Attack_Cloth_03_9C8B34C8.wem</Path>
+						</File>
+						<File Id="216772978" Language="SFX">
+							<ShortName>PlayerSFX\Player_Attack_Whoosh\SFX_P_Attack_Whoosh.cm-03.wav</ShortName>
+							<Path>SFX/PlayerSFX/Player_Attack_Whoosh/SFX_P_Attack_Whoosh.cm-03_B8637BD2.wem</Path>
+						</File>
+						<File Id="261846002" Language="SFX">
+							<ShortName>PlayerSFX\Player_Attack_Cloth\SFX_P_Attack_Cloth_02.wav</ShortName>
+							<Path>SFX/PlayerSFX/Player_Attack_Cloth/SFX_P_Attack_Cloth_02_CDE114C5.wem</Path>
+						</File>
+						<File Id="350697357" Language="SFX">
+							<ShortName>PlayerSFX\Player_Attack_Whoosh\SFX_P_Attack_Whoosh.cm-09.wav</ShortName>
+							<Path>SFX/PlayerSFX/Player_Attack_Whoosh/SFX_P_Attack_Whoosh.cm-09_10C4C929.wem</Path>
+						</File>
+						<File Id="438941341" Language="SFX">
+							<ShortName>PlayerSFX\Player_Attack_Whoosh\SFX_P_Attack_Whoosh.cm-07.wav</ShortName>
+							<Path>SFX/PlayerSFX/Player_Attack_Whoosh/SFX_P_Attack_Whoosh.cm-07_10C4C929.wem</Path>
+						</File>
+						<File Id="542175701" Language="SFX">
+							<ShortName>PlayerSFX\Player_Attack_Whoosh\SFX_P_Attack_Whoosh.cm-10.wav</ShortName>
+							<Path>SFX/PlayerSFX/Player_Attack_Whoosh/SFX_P_Attack_Whoosh.cm-10_10C4C929.wem</Path>
+						</File>
+						<File Id="550656693" Language="SFX">
+							<ShortName>PlayerSFX\Player_Attack_Whoosh\SFX_P_Attack_Whoosh.cm-01.wav</ShortName>
+							<Path>SFX/PlayerSFX/Player_Attack_Whoosh/SFX_P_Attack_Whoosh.cm-01_10C4C929.wem</Path>
+						</File>
+						<File Id="587871892" Language="SFX">
+							<ShortName>PlayerSFX\Player_Attack_Cloth\SFX_P_Attack_Cloth_04.wav</ShortName>
+							<Path>SFX/PlayerSFX/Player_Attack_Cloth/SFX_P_Attack_Cloth_04_A14D83EB.wem</Path>
+						</File>
+						<File Id="730676470" Language="SFX">
+							<ShortName>PlayerSFX\Player_Attack_Cloth\SFX_P_Attack_Cloth_06.wav</ShortName>
+							<Path>SFX/PlayerSFX/Player_Attack_Cloth/SFX_P_Attack_Cloth_06_075672C2.wem</Path>
+						</File>
+						<File Id="812702004" Language="SFX">
+							<ShortName>PlayerSFX\Player_Attack_Cloth\SFX_P_Attack_Cloth_05.wav</ShortName>
+							<Path>SFX/PlayerSFX/Player_Attack_Cloth/SFX_P_Attack_Cloth_05_5C76B6C5.wem</Path>
+						</File>
+						<File Id="954892180" Language="SFX">
+							<ShortName>PlayerSFX\Player_Attack_Whoosh\SFX_P_Attack_Whoosh.cm-05.wav</ShortName>
+							<Path>SFX/PlayerSFX/Player_Attack_Whoosh/SFX_P_Attack_Whoosh.cm-05_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="964174141" Name="SFX_P_Glide" ObjectPath="\Events\Player_Events\SFX_P_Glide" DurationType="OneShot" DurationMin="2.825796" DurationMax="2.825796">
+					<IncludedMemoryFiles>
+						<File Id="629603720" Language="SFX">
+							<ShortName>PlayerSFX\Player_Glide\SFX_P_Glide1.wav</ShortName>
+							<Path>SFX/PlayerSFX/Player_Glide/SFX_P_Glide1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="2452206122" Name="False" ObjectPath="\States\Default Work Unit\Is_Gameplay_On\False" GUID="{90C5DEE8-F65D-495F-9A44-BFAED6B6A61E}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2520683736" Name="Is_Gameplay_On" ObjectPath="\States\Default Work Unit\Is_Gameplay_On" GUID="{55E1CB27-3123-4980-9AAF-4BD425935C17}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Is_Gameplay_On\None" GUID="{B2988B49-E35C-4A35-951C-380FDA5391D3}"/>
+						<State Id="3053630529" Name="True" ObjectPath="\States\Default Work Unit\Is_Gameplay_On\True" GUID="{C964BDDC-1F63-4A8D-B88F-49FD5236308D}"/>
+						<State Id="2452206122" Name="False" ObjectPath="\States\Default Work Unit\Is_Gameplay_On\False" GUID="{90C5DEE8-F65D-495F-9A44-BFAED6B6A61E}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

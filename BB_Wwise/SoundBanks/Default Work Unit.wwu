@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4BFA3215-4148-4390-8A66-F41A370EF347}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{4BFA3215-4148-4390-8A66-F41A370EF347}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="WW_Soundback_BB" ID="{4F4FFAD4-CAB1-4ACB-A9E4-8D029466E1F6}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Player_Events" ID="{911AFAE7-196B-4034-AB80-F3187D4A8F1D}" WorkUnitID="{911AFAE7-196B-4034-AB80-F3187D4A8F1D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music" ID="{605644BB-B8F3-42C7-8E9A-78B8DA1F9344}" WorkUnitID="{605644BB-B8F3-42C7-8E9A-78B8DA1F9344}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
